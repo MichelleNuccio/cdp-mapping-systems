@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "cdptools"
 version = "0.1.0"
 description = "Shared helper functions for the CDP mapping course"
-requires-python = ">=3.11,<=3.14.4"
+requires-python = ">=3.11,<=3.15"
 dependencies = [
     "geopandas",
     "shapely",

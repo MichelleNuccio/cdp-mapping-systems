@@ -1,14 +1,22 @@
 {
   "markdown-pdf.displayHeaderFooter": false,
   "jupyter.widgetScriptSources": ["jsdelivr.com", "unpkg.com"],
+
   "[python]": {
     "editor.formatOnType": true,
     "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.formatOnSave": true
   },
-  "black-formatter.showNotifications": "always",
+
+  "[jupyter]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+
+  "notebook.lineNumbers": "on",
+  "ruff.importStrategy": "useBundled",
+  "black-formatter.importStrategy": "fromEnvironment",
   "notebook.formatOnSave.enabled": true,
+  "black-formatter.showNotifications": "always",
   "notebook.formatOnCellExecution": true,
-  // this is extra but will help
   "notebook.diff.ignoreMetadata": true
 }
