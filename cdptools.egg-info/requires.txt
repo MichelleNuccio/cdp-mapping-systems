@@ -1,0 +1,12 @@
+geopandas
+shapely
+pyproj
+rasterio
+fiona
+numpy
+pandas
+matplotlib
+jupyterlab
+requests
+contextily
+folium

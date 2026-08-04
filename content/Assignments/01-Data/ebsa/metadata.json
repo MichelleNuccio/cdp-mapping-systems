@@ -1,0 +1,490 @@
+{
+  "title": "CBD EBSA Repository export",
+  "source_repository": "https://www.cbd.int/ebsa/repository",
+  "source_api": "https://api.cbd.int/api/v2013/index?q=realm_ss%3ACHM+AND+schema_s%3AmarineEbsa+AND+NOT+version_s%3A%2A&fl=createdDate_dt%2Cidentifier_s%2Curl_ss%2Cregion_s%2Ctitle_t%2Ctitle_EN_t%2Cdescription_EN_t%2CshapeUrl_ss%2CsimplifiedShape_txt&sort=updatedDate_dt+desc&start=0&rows=999999",
+  "retrieved_utc": "2026-08-04T14:42:29.815696+00:00",
+  "license_note": "Consult CBD terms and each record's source information before redistribution.",
+  "record_count": 338,
+  "api_num_found": 338,
+  "geometry_feature_count": 275,
+  "geometry_types": {
+    "MultiPolygon": 26,
+    "Polygon": 249
+  },
+  "invalid_geometry_count": 17,
+  "unparseable_geometry_count": 78,
+  "unparseable_geometry_records": [
+    {
+      "ebsa_id": "DB7F5B2B-9D11-A6EF-44BE-9E77FE7ABEEA",
+      "title": "Mid-North-Atlantic Frontal System",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "351833F4-DD6B-FF70-9298-490E7FF3A6AC",
+      "title": "Graciosa",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "1E03E3E2-7613-34A5-9CFA-7F41F9AE6E49",
+      "title": "Oceanic Islands and Seamounts of the Canary Region",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "FD50BED0-440A-0F36-F918-EFD3A5F984DD",
+      "title": "Desertas",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "A658DE7D-4EE7-F668-2CAB-5D36C12A56BB",
+      "title": "Gulf of Cádiz",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "33F52036-F00C-42D7-ABD2-6BB86760C928",
+      "title": "West Iberian Canyons and Banks",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "C94BB8C5-AFA8-91DA-DA12-76DCEFA7A853",
+      "title": "Cantabrian Sea (Southern Bay of Biscay)",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "46C7AB07-8BBC-83D4-844A-148EF48A719C",
+      "title": "Danish Kattegat",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "5A6D9622-5204-8296-63B4-3773F191BCAA",
+      "title": "Southern Gotland Harbour Porpoise Area",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "443C0B59-5D22-6AED-FA1C-CE1C5CCA7219",
+      "title": "Southeastern Baltic Sea Shallows",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "9F8375B8-999E-B862-4024-45E3E1F10083",
+      "title": "Eastern Gulf of Finland",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "42D3FA64-D4E2-4FED-BD88-3ABCBA347671",
+      "title": "Fehmarn Belt",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "81CB3648-998A-11C1-DE2D-30A97C9A5C67",
+      "title": "Inner Sea of West Estonian Archipelago",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "AA389D58-1B5E-26BB-54BF-8F92F50D379D",
+      "title": "Åland Sea, Åland Islands and the Archipelago Sea of Finland",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "53DDF381-F2FE-15F4-A91F-B08B2D9D8A09",
+      "title": "Kvarken Archipelago",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "E3BDE2FC-6132-C823-8324-BC818E8DD232",
+      "title": "Northern Bothnian Bay",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "8C458778-0205-F7EC-6F67-FC31C2BB7E29",
+      "title": "Taman Bay and the Kerch Strait",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "1693ECD9-01FC-CD65-DE57-4B348B83FAA9",
+      "title": "Ropotamo",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "8A5CAA23-D31A-FFFA-937F-60FE49B817BF",
+      "title": "North Aegean",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "0BB21D56-B364-37EB-A5D6-764C80DC0502",
+      "title": "Bluefin Spawning Area",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "31EDFADA-8500-1B78-58FF-C13D1B3F1B2D",
+      "title": "Northeastern Honshu",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "204D44FA-6596-F868-8B53-4D8372447AB3",
+      "title": "Kuroshio Current South of Honshu",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "1FFDC119-BB95-B933-2961-6820F7FE2DFF",
+      "title": "Sagami Trough and Island and Seamount Chain of Izu-Ogasawara",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "C434BDA5-F66B-21F3-C875-23760A90092F",
+      "title": "Northern Coast of Hyogo, Kyoto, Fukui, Ishikawa and Toyama Prefectures",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "B499E8AA-0C1D-D1A6-016F-B88E3B26F444",
+      "title": "Ogasawara Islands",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "4C5A8CF7-72EE-75B0-906B-48B48E1D515C",
+      "title": "South Kyushu including Yakushima and Tanegashima Islands",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "7B3E7E56-47AB-A918-65EA-2359F53B54D9",
+      "title": "Southern Coastal Areas of Shikoku and Honshu Islands",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "080C45C1-F577-52CD-ED1F-1B68E515910D",
+      "title": "Inland Sea Areas of Western Kyushu",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "528BAC4D-5828-F6DE-4263-6DB2C43159EA",
+      "title": "Southwest Islands",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "10E35D5D-FD38-5391-A9FD-2B7BAA8330A8",
+      "title": "Eastern Hokkaido",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "0474485D-D86C-4F09-7B17-1461CF505964",
+      "title": "Southern Straits of Malacca",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "776087E9-B4A6-F9FF-931A-86D17A48B5E9",
+      "title": "Intertidal Areas of East Asian Shallow Seas",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "DE754677-3759-1183-1158-EE8823F691B6",
+      "title": "Muan Tidal Flat",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "265EA0E3-35FE-D4BD-E092-D5AFD4524D2F",
+      "title": "Shatt Al-Arab Delta",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "2C65A275-104C-2EBF-3B31-093116D20049",
+      "title": "Daymaniyat Islands",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "9C21117D-FB44-9B07-8E51-1B8016B0EC2F",
+      "title": "Oman Arabian Sea",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "79143D57-CBC6-D2B0-DE13-CF4D03EB6F56",
+      "title": "Wadi El-Gemal Elba",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "71C334B5-7180-CB74-FE2A-B1E63E13F8A3",
+      "title": "Suakin Archipelago and Sudanese Southern Red Sea",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "6D9E8FB5-5377-D285-7328-D5EDF0E87A4B",
+      "title": "Dungonab Bay/Mukawar Island Area",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "F570A6B4-359D-10F8-E919-61BE3E6BD33F",
+      "title": "Southern Red Sea Pelagic Ecosystems",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "3FEABE05-5E9C-966C-25DB-EEF8375F920D",
+      "title": "Southern Red Sea Islands",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "BF925080-25D1-021F-6CB8-4C1764C9B59B",
+      "title": "Îles des Sept Frères et Godorya (Seven Brothers Islands and Godorya)",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "5057834C-4E55-F28F-4519-489605A71F4E",
+      "title": "The Great Whirl and Gulf of Aden Upwelling Ecosystem",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "F518E53F-B690-C039-B4F4-E9797B5CC5FE",
+      "title": "Indus Estuarine Area and Associated Creeks",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "30856BDA-07E4-6107-81F2-E912170D24A1",
+      "title": "Miani Hor",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "284A2039-64C9-6E1C-DA20-43328CAD456D",
+      "title": "Arabian Sea Oxygen Minimum Zone",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "2929D365-8CD8-5C2C-8AF1-BE60C121CA5C",
+      "title": "Malan-Gwader Bank",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "40964633-E913-BA45-49D8-A3AD138E15E0",
+      "title": "Khori Great Bank",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "4479FE49-7638-2322-3896-CF3FC9FCC20C",
+      "title": "Churna-Kaio Island Complex",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "B4EBFD23-DDC3-2AD6-C09B-232FC7D0B868",
+      "title": "Qeshm Island and adjacent marine and coastal areas",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "06FB5086-BC3B-6D04-87E2-E069E18C04A8",
+      "title": "Qaro and Umm Al-Maradem",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "970B1225-1EA6-5AE6-6499-0200B47C29D5",
+      "title": "Marawah",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "1C73A3CC-C777-F7A6-4075-860ED44719A1",
+      "title": "South-west Waters of Abu Dhabi",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "38A567DE-497D-1406-7657-8D3194232093",
+      "title": "Upwelling Zone of the Sumatra-Java Coast",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "D2D075D3-8CA9-C708-DC22-195D9086C48E",
+      "title": "Northern Adriatic",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "EF777B3B-573B-BF41-0BED-22748920B53A",
+      "title": "Sicilian Channel",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "9A96A24A-2253-9E50-EFD1-5D5B41148847",
+      "title": "Akamas and Chrysochou Bay",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "8E7B00BB-998D-88C9-E69C-E4A9B60F935A",
+      "title": "East Levantine Canyons (ELCA)",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "31EEBD7F-344E-01A6-27B8-618409A55DBA",
+      "title": "Gulf of Sirte",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "249302F3-C07A-113B-BE4E-1E41FA4989B0",
+      "title": "Nile Delta Fan",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "0A69549C-05E5-3DAD-CFF5-6A3D8D6C69A2",
+      "title": "Hellenic Trench",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "1EC26BE6-494A-D77B-4D03-2492B7EC9977",
+      "title": "North-East Levantine Sea",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "4ABB796F-9C41-0B56-8DF1-E6AC4CF4084E",
+      "title": "Le Golfe de Gabès",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "91DFDBCB-1B5B-DF92-0442-1DDE8A90F217",
+      "title": "North-western Mediterranean Benthic Ecosystems",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "70C6CF27-CBC8-78ED-FBE6-42183B9D9DA5",
+      "title": "Jabuka/Pomo Pit",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "5255D7C2-D802-9837-AD0F-A0527ED8BCEB",
+      "title": "North-western Mediterranean Pelagic Ecosystems",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "61C7A886-287A-EEC9-9B80-12B198D63518",
+      "title": "Central Aegean Sea",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "580A48EA-382F-7F42-A2D9-F7A039C7939E",
+      "title": "South Tasman Sea",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "ABEE0D2D-BBEA-616B-2371-5EC07C3C121F",
+      "title": "Banks Chain of Northern Brazil and Fernando de Noronha",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "D26F3D9C-A547-21DA-C863-28C338FA2DA9",
+      "title": "Marine Mammal Sanctuary Banco de la Plata y Banco de la Navidad",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "0DFD6460-6519-625B-40EA-FB9B9075557E",
+      "title": "Coastal Waters of Chukotka",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "E5957BA7-0AEB-14FF-C293-D2F078A7BBCA",
+      "title": "Wrangel-Gerald Shallows and Ratmanov Gyre",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "46758344-129A-3E49-BE7C-D26A99F3D24D",
+      "title": "Subtropical Convergence Zone (STCZ)",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "68C36EF7-54F4-575F-9C31-9B1718DA7457",
+      "title": "Canyon et mont sous-marin de Tabou",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "0EDA2A5A-D2C2-A702-88D7-C45479BD3339",
+      "title": "Yawri Complex",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "67862940-55FB-9F33-7191-9E1A2A6A610B",
+      "title": "Archipel des Bijagos",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "B516F4B4-8F29-FCF0-7682-BD72B3966292",
+      "title": "Southern Madagascar (part of the Mozambique Channel)",
+      "error": "A linearring requires at least 4 coordinates."
+    },
+    {
+      "ebsa_id": "D6A59DB9-968B-DD1E-604E-F25992BCB774",
+      "title": "Mozambique Channel",
+      "error": "A linearring requires at least 4 coordinates."
+    }
+  ],
+  "records_without_simplified_geometry": [
+    "B91FB56E-DE54-230A-0438-AF7A5A1C3E53",
+    "DB7F5B2B-9D11-A6EF-44BE-9E77FE7ABEEA",
+    "351833F4-DD6B-FF70-9298-490E7FF3A6AC",
+    "1E03E3E2-7613-34A5-9CFA-7F41F9AE6E49",
+    "FD50BED0-440A-0F36-F918-EFD3A5F984DD",
+    "A658DE7D-4EE7-F668-2CAB-5D36C12A56BB",
+    "33F52036-F00C-42D7-ABD2-6BB86760C928",
+    "C94BB8C5-AFA8-91DA-DA12-76DCEFA7A853",
+    "46C7AB07-8BBC-83D4-844A-148EF48A719C",
+    "5A6D9622-5204-8296-63B4-3773F191BCAA",
+    "443C0B59-5D22-6AED-FA1C-CE1C5CCA7219",
+    "9F8375B8-999E-B862-4024-45E3E1F10083",
+    "42D3FA64-D4E2-4FED-BD88-3ABCBA347671",
+    "81CB3648-998A-11C1-DE2D-30A97C9A5C67",
+    "AA389D58-1B5E-26BB-54BF-8F92F50D379D",
+    "53DDF381-F2FE-15F4-A91F-B08B2D9D8A09",
+    "E3BDE2FC-6132-C823-8324-BC818E8DD232",
+    "8C458778-0205-F7EC-6F67-FC31C2BB7E29",
+    "1693ECD9-01FC-CD65-DE57-4B348B83FAA9",
+    "8A5CAA23-D31A-FFFA-937F-60FE49B817BF",
+    "0BB21D56-B364-37EB-A5D6-764C80DC0502",
+    "31EDFADA-8500-1B78-58FF-C13D1B3F1B2D",
+    "204D44FA-6596-F868-8B53-4D8372447AB3",
+    "1FFDC119-BB95-B933-2961-6820F7FE2DFF",
+    "C434BDA5-F66B-21F3-C875-23760A90092F",
+    "B499E8AA-0C1D-D1A6-016F-B88E3B26F444",
+    "4C5A8CF7-72EE-75B0-906B-48B48E1D515C",
+    "7B3E7E56-47AB-A918-65EA-2359F53B54D9",
+    "080C45C1-F577-52CD-ED1F-1B68E515910D",
+    "528BAC4D-5828-F6DE-4263-6DB2C43159EA",
+    "10E35D5D-FD38-5391-A9FD-2B7BAA8330A8",
+    "0474485D-D86C-4F09-7B17-1461CF505964",
+    "776087E9-B4A6-F9FF-931A-86D17A48B5E9",
+    "DE754677-3759-1183-1158-EE8823F691B6",
+    "265EA0E3-35FE-D4BD-E092-D5AFD4524D2F",
+    "2C65A275-104C-2EBF-3B31-093116D20049",
+    "9C21117D-FB44-9B07-8E51-1B8016B0EC2F",
+    "79143D57-CBC6-D2B0-DE13-CF4D03EB6F56",
+    "71C334B5-7180-CB74-FE2A-B1E63E13F8A3",
+    "6D9E8FB5-5377-D285-7328-D5EDF0E87A4B",
+    "F570A6B4-359D-10F8-E919-61BE3E6BD33F",
+    "3FEABE05-5E9C-966C-25DB-EEF8375F920D",
+    "BF925080-25D1-021F-6CB8-4C1764C9B59B",
+    "5057834C-4E55-F28F-4519-489605A71F4E",
+    "F518E53F-B690-C039-B4F4-E9797B5CC5FE",
+    "30856BDA-07E4-6107-81F2-E912170D24A1",
+    "284A2039-64C9-6E1C-DA20-43328CAD456D",
+    "2929D365-8CD8-5C2C-8AF1-BE60C121CA5C",
+    "40964633-E913-BA45-49D8-A3AD138E15E0",
+    "4479FE49-7638-2322-3896-CF3FC9FCC20C",
+    "B4EBFD23-DDC3-2AD6-C09B-232FC7D0B868",
+    "06FB5086-BC3B-6D04-87E2-E069E18C04A8",
+    "970B1225-1EA6-5AE6-6499-0200B47C29D5",
+    "1C73A3CC-C777-F7A6-4075-860ED44719A1",
+    "38A567DE-497D-1406-7657-8D3194232093",
+    "D2D075D3-8CA9-C708-DC22-195D9086C48E",
+    "EF777B3B-573B-BF41-0BED-22748920B53A",
+    "9A96A24A-2253-9E50-EFD1-5D5B41148847",
+    "8E7B00BB-998D-88C9-E69C-E4A9B60F935A",
+    "31EEBD7F-344E-01A6-27B8-618409A55DBA",
+    "249302F3-C07A-113B-BE4E-1E41FA4989B0",
+    "0A69549C-05E5-3DAD-CFF5-6A3D8D6C69A2",
+    "1EC26BE6-494A-D77B-4D03-2492B7EC9977",
+    "4ABB796F-9C41-0B56-8DF1-E6AC4CF4084E",
+    "91DFDBCB-1B5B-DF92-0442-1DDE8A90F217",
+    "70C6CF27-CBC8-78ED-FBE6-42183B9D9DA5",
+    "5255D7C2-D802-9837-AD0F-A0527ED8BCEB",
+    "61C7A886-287A-EEC9-9B80-12B198D63518",
+    "421A43DD-FB2A-4372-99D0-3C21A477CECA",
+    "ABEE0D2D-BBEA-616B-2371-5EC07C3C121F",
+    "D26F3D9C-A547-21DA-C863-28C338FA2DA9",
+    "0DFD6460-6519-625B-40EA-FB9B9075557E",
+    "E5957BA7-0AEB-14FF-C293-D2F078A7BBCA",
+    "46758344-129A-3E49-BE7C-D26A99F3D24D",
+    "68C36EF7-54F4-575F-9C31-9B1718DA7457",
+    "0EDA2A5A-D2C2-A702-88D7-C45479BD3339",
+    "67862940-55FB-9F33-7191-9E1A2A6A610B",
+    "B516F4B4-8F29-FCF0-7682-BD72B3966292",
+    "D6A59DB9-968B-DD1E-604E-F25992BCB774"
+  ],
+  "coordinate_reference_system": "OGC:CRS84 (longitude, latitude)"
+}

@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+cdptools/utils.py
+cdptools.egg-info/PKG-INFO
+cdptools.egg-info/SOURCES.txt
+cdptools.egg-info/dependency_links.txt
+cdptools.egg-info/requires.txt
+cdptools.egg-info/top_level.txt
