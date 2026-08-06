@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "name": "michelle_milano_affettiva",
+  "metadata": {
+    "title": "My Affective Milan",
+    "crs": "EPSG:4326",
+    "privacy": "Residential locations are represented with approximate coordinates and without addresses.",
+    "created": "2026-08-05"
+  },
+  "features": [
+    {"type":"Feature","properties":{"name":"Home — relational origin","category":"casa_riferimento","privacy":"approximate_location","precision":"neighborhood"},"geometry":{"type":"Point","coordinates":[9.2362,45.4792]}},
+    {"type":"Feature","properties":{"name":"Friend's home 1","category":"casa_amici","privacy":"approximate_location","precision":"neighborhood"},"geometry":{"type":"Point","coordinates":[9.2322,45.4689]}},
+    {"type":"Feature","properties":{"name":"Friend's home 2","category":"casa_amici","privacy":"approximate_location","precision":"neighborhood"},"geometry":{"type":"Point","coordinates":[9.2251,45.4652]}},
+    {"type":"Feature","properties":{"name":"Friend's home 3","category":"casa_amici","privacy":"approximate_location","precision":"neighborhood"},"geometry":{"type":"Point","coordinates":[9.2167,45.4840]}},
+    {"type":"Feature","properties":{"name":"Friend's home 4","category":"casa_amici","privacy":"approximate_location","precision":"neighborhood"},"geometry":{"type":"Point","coordinates":[9.2232,45.4704]}},
+    {"type":"Feature","properties":{"name":"Friend's home 5","category":"casa_amici","privacy":"approximate_location","precision":"neighborhood"},"geometry":{"type":"Point","coordinates":[9.2115,45.4947]}},
+
+    {"type":"Feature","properties":{"name":"Bar Picchio","category":"posto_del_cuore","subcategory":"bar","address_public":"Via Melzo 11","source":"sito ufficiale"},"geometry":{"type":"Point","coordinates":[9.2085,45.4733]}},
+    {"type":"Feature","properties":{"name":"Caffè degli Artisti","category":"posto_del_cuore","subcategory":"bar"},"geometry":{"type":"Point","coordinates":[9.2168219,45.4771465]}},
+    {"type":"Feature","properties":{"name":"La Belle Aurore","category":"posto_del_cuore","subcategory":"bar"},"geometry":{"type":"Point","coordinates":[9.2145132,45.4719252]}},
+    {"type":"Feature","properties":{"name":"Giardini Indro Montanelli","category":"posto_del_cuore","subcategory":"parco"},"geometry":{"type":"Point","coordinates":[9.2003479,45.4745724]}},
+    {"type":"Feature","properties":{"name":"La Balera dell'Ortica","category":"posto_del_cuore","subcategory":"musica_e_socialità"},"geometry":{"type":"Point","coordinates":[9.2403004,45.4700413]}},
+    {"type":"Feature","properties":{"name":"MOM Café","category":"posto_del_cuore","subcategory":"bar","address_public":"Viale Monte Nero 53"},"geometry":{"type":"Point","coordinates":[9.2054,45.4596]}},
+    {"type":"Feature","properties":{"name":"Viale Molise 69","category":"posto_del_cuore","subcategory":"ex_luogo_di_lavoro"},"geometry":{"type":"Point","coordinates":[9.2243043,45.4567161]}},
+    {"type":"Feature","properties":{"name":"Politecnico — Patio","category":"posto_del_cuore","subcategory":"università"},"geometry":{"type":"Point","coordinates":[9.2268098,45.4795274]}},
+    {"type":"Feature","properties":{"name":"Magazzini Generali","category":"posto_del_cuore","subcategory":"musica"},"geometry":{"type":"Point","coordinates":[9.1952615,45.4440969]}},
+    {"type":"Feature","properties":{"name":"Tunnel Club","category":"posto_del_cuore","subcategory":"musica"},"geometry":{"type":"Point","coordinates":[9.2090130,45.4922254]}},
+    {"type":"Feature","properties":{"name":"Consorzio Stoppani","category":"posto_del_cuore","subcategory":"ristorante"},"geometry":{"type":"Point","coordinates":[9.2139828,45.4750283]}},
+    {"type":"Feature","properties":{"name":"Circolo Magnolia","category":"posto_del_cuore","subcategory":"musica"},"geometry":{"type":"Point","coordinates":[9.2860760,45.4637036]}},
+    {"type":"Feature","properties":{"name":"Aeroporto di Milano Linate","category":"posto_del_cuore","subcategory":"mobilità"},"geometry":{"type":"Point","coordinates":[9.2778329,45.4442050]}},
+    {"type":"Feature","properties":{"name":"Il Bancale","category":"posto_del_cuore","subcategory":"bar"},"geometry":{"type":"Point","coordinates":[9.2341738,45.4805141]}},
+    {"type":"Feature","properties":{"name":"Piazza Leonardo da Vinci","category":"posto_del_cuore","subcategory":"spazio_pubblico"},"geometry":{"type":"Point","coordinates":[9.2248047,45.4781421]}},
+    {"type":"Feature","properties":{"name":"Égalité","category":"posto_del_cuore","subcategory":"caffè_panetteria"},"geometry":{"type":"Point","coordinates":[9.2092562,45.4740600]}},
+    {"type":"Feature","properties":{"name":"Colonne di San Lorenzo","category":"posto_del_cuore","subcategory":"spazio_pubblico"},"geometry":{"type":"Point","coordinates":[9.1810449,45.4582265]}},
+    {"type":"Feature","properties":{"name":"Bar L'Angolo","category":"posto_del_cuore","subcategory":"bar"},"geometry":{"type":"Point","coordinates":[9.2105790,45.4891041]}},
+    {"type":"Feature","properties":{"name":"Bar Basso","category":"posto_del_cuore","subcategory":"bar"},"geometry":{"type":"Point","coordinates":[9.2175792,45.4767746]}},
+    {"type":"Feature","properties":{"name":"Magutt","category":"posto_del_cuore","subcategory":"bar"},"geometry":{"type":"Point","coordinates":[9.2096768,45.4743441]}},
+    {"type":"Feature","properties":{"name":"Parco Sempione","category":"posto_del_cuore","subcategory":"parco"},"geometry":{"type":"Point","coordinates":[9.1769672,45.4729964]}},
+    {"type":"Feature","properties":{"name":"Castello Sforzesco","category":"posto_del_cuore","subcategory":"cultura"},"geometry":{"type":"Point","coordinates":[9.1780912,45.4703009]}},
+    {"type":"Feature","properties":{"name":"Triennale Milano","category":"posto_del_cuore","subcategory":"cultura"},"geometry":{"type":"Point","coordinates":[9.1735438,45.4717818]}},
+    {"type":"Feature","properties":{"name":"Via Mauro Macchi 6","category":"posto_del_cuore","subcategory":"luogo_personale"},"geometry":{"type":"Point","coordinates":[9.2042796,45.4814140]}},
+    {"type":"Feature","properties":{"name":"Pacino Café","category":"posto_del_cuore","subcategory":"bar","address_public":"Piazza Bacone 9"},"geometry":{"type":"Point","coordinates":[9.2180,45.4804]}},
+    {"type":"Feature","properties":{"name":"Pizzeria Santa Maria","category":"posto_del_cuore","subcategory":"ristorante","verification":"address_to_be_confirmed"},"geometry":{"type":"Point","coordinates":[9.2261419,45.5121363]}},
+    {"type":"Feature","properties":{"name":"Piccola Ischia","category":"posto_del_cuore","subcategory":"ristorante"},"geometry":{"type":"Point","coordinates":[9.2173437,45.4817289]}},
+
+    {"type":"Feature","properties":{"name":"M2 Piola–Garibaldi FS","category":"percorso_metro_preferito","line":"M2","stations":["Piola","Loreto","Caiazzo","Centrale FS","Gioia","Garibaldi FS"],"geometry_note":"schematic route between stations"},"geometry":{"type":"LineString","coordinates":[[9.2250,45.4802],[9.2151797,45.4845749],[9.2093,45.4850],[9.2025,45.4855],[9.1974,45.4841],[9.1877,45.4848]]}},
+    {"type":"Feature","properties":{"name":"M1 Loreto–Duomo","category":"percorso_metro_preferito","line":"M1","stations":["Loreto","Lima","Porta Venezia","Palestro","San Babila","Duomo"],"geometry_note":"schematic route between stations"},"geometry":{"type":"LineString","coordinates":[[9.2151797,45.4845749],[9.2110,45.4810],[9.2054,45.4750],[9.2023,45.4711],[9.1977,45.4667],[9.1896772,45.4645929]]}}
+  ]
+}
