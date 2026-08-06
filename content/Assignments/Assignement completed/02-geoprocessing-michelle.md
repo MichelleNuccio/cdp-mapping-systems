@@ -100,10 +100,3 @@ Destinations with a high percentage of dedicated or traffic-calmed cycling infra
 
 The personal locations would be displayed as points over a subdued street network. Calculated bicycle routes would connect the generalized home origin to each destination. A continuous color palette containing pink would represent either cycling distance or the percentage of each route supported by cycling infrastructure. Official cycling routes would appear as a separate line layer so that overlaps and missing connections remain visible.
 
-## Limitations and privacy
-
-- Residential locations are approximate and cannot be used to identify exact homes.
-- Route results would therefore represent neighborhood-level connections rather than exact door-to-door journeys.
-- The official cycling dataset may not include every street that is legally or practically usable by bicycle.
-- OpenStreetMap completeness and cycling-access attributes may vary between streets.
-- A shortest route is not necessarily the route I personally choose; perceived safety, traffic, lighting, and habit may influence actual movement.
