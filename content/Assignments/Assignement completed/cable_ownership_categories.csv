@@ -1,0 +1,698 @@
+id,name,rfs_year,status,length,ownership_category,big_tech_owners,owners,has_google,has_meta,has_microsoft,has_amazon
+anjana,Anjana,2026.0,In service,"7,121 km",big_tech,Meta,Meta,False,True,False,False
+bosun,Bosun,2029.0,Planned,,big_tech,Google,Google,True,False,False,False
+bulikula,Bulikula,2026.0,Planned,"21,600 km",big_tech,Google,Google,True,False,False,False
+curie,Curie,2020.0,In service,"10,476 km",big_tech,Google,Google,True,False,False,False
+dhivaru,Dhivaru,2028.0,Planned,,big_tech,Google,Google,True,False,False,False
+dunant,Dunant,2021.0,In service,"6,400 km",big_tech,Google,Google,True,False,False,False
+echo,Echo,2025.0,In service,"17,184 km",big_tech,"Google, Meta","Google, Meta",True,True,False,False
+equiano,Equiano,2023.0,In service,"15,000 km",big_tech,Google,Google,True,False,False,False
+fastnet,Fastnet,2028.0,Planned,,big_tech,Amazon Web Services,Amazon Web Services,False,False,False,True
+firmina,Firmina,2025.0,In service,"14,517 km",big_tech,Google,Google,True,False,False,False
+grace-hopper,Grace Hopper,2022.0,In service,"7,191 km",big_tech,Google,Google,True,False,False,False
+halaihai,Halaihai,2029.0,Planned,"17,483 km",big_tech,Google,Google,True,False,False,False
+honomoana,Honomoana,2026.0,Planned,"15,215 km",big_tech,Google,Google,True,False,False,False
+junior,Junior,2018.0,In service,390 km,big_tech,Google,Google,True,False,False,False
+nuvem,Nuvem,2026.0,Planned,"7,194 km",big_tech,Google,Google,True,False,False,False
+orca,ORCA,2027.0,Planned,"12,482 km",big_tech,Meta,Meta,False,True,False,False
+pacific-light-cable-network-plcn,Pacific Light Cable Network (PLCN),2022.0,In service,"11,806 km",big_tech,"Google, Meta","Google, Meta",True,True,False,False
+proa,Proa,2026.0,Planned,"2,891 km",big_tech,Google,Google,True,False,False,False
+project-waterworth,Project Waterworth,,Planned,"50,000 km",big_tech,Meta,Meta,False,True,False,False
+sol,Sol,2028.0,Planned,"8,153 km",big_tech,Google,Google,True,False,False,False
+tpu,TPU,2026.0,In service,"13,470 km",big_tech,Google,Google,True,False,False,False
+tabua,Tabua,2026.0,Planned,,big_tech,Google,Google,True,False,False,False
+taihei,Taihei,2029.0,Planned,"7,000 km",big_tech,Google,Google,True,False,False,False
+talaylink,TalayLink,2028.0,Planned,,big_tech,Google,Google,True,False,False,False
+topaz,Topaz,2023.0,In service,,big_tech,Google,Google,True,False,False,False
+umoja,Umoja,2028.0,Planned,,big_tech,Google,Google,True,False,False,False
+2africa,2Africa,2024.0,In service,"45,000 km",hybrid,Meta,"Bayobab, China Mobile, Meta, Orange, Telecom Egypt, Vodafone, WIOCC, center3",False,True,False,False
+amitie,Amitie,2023.0,In service,"6,792 km",hybrid,"Meta, Microsoft","EXA Infrastructure, Meta, Microsoft, Orange, Vodafone",False,True,True,False
+apricot,Apricot,2025.0,In service,"11,972 km",hybrid,"Google, Meta","Chunghwa Telecom, Google, Meta, NTT, PLDT",True,True,False,False
+asia-pacific-gateway-apg,Asia Pacific Gateway (APG),2016.0,In service,"10,400 km",hybrid,Meta,"China Mobile, China Telecom, China Unicom, Chunghwa Telecom, KT, LG Uplus, Meta, NTT, National Telecom, Starhub, TIME dotCom, VNPT International, Viettel Corporation",False,True,False,False
+asia-united-gateway-east-aug-east,Asia United Gateway East (AUG East),2029.0,Planned,"8,900 km",hybrid,"Amazon Web Services, Microsoft","Amazon Web Services, Arteria, Chunghwa Telecom, Dreamline, Globe Telecom, Microsoft, Singtel, Telekom Malaysia, Unified National Networks (UNN)",False,False,True,True
+beaufort,Beaufort,2027.0,Planned,158 km,hybrid,"Amazon Web Services, Microsoft","Amazon Web Services, Microsoft, Vodafone",False,False,True,True
+bifrost,Bifrost,2025.0,In service,"19,888 km",hybrid,Meta,"Keppel T&T, Meta, Telin",False,True,False,False
+blue,Blue,2023.0,In service,"5,055 km",hybrid,Google,"Google, Sparkle, Zain Omantel International",True,False,False,False
+candle,Candle,2028.0,Planned,"8,000 km",hybrid,Meta,"Globe Telecom, IPS, Inc., Meta, Softbank, Telekom Malaysia, XLSmart",False,True,False,False
+daraja,Daraja,2026.0,Planned,"4,108 km",hybrid,Meta,"Meta, Safaricom",False,True,False,False
+faster,FASTER,2016.0,In service,"11,629 km",hybrid,Google,"China Mobile, China Telecom, Google, KDDI, Singtel, TIME dotCom",True,False,False,False
+havfrueaec-2,Havfrue/AEC-2,2020.0,In service,"7,650 km",hybrid,"Google, Meta","Bulk Infrastructure, EXA Infrastructure, Google, Meta",True,True,False,False
+havhingstenceltixconnect-2-cc-2,Havhingsten/CeltixConnect-2 (CC-2),2022.0,In service,301 km,hybrid,Meta,"Bulk Infrastructure, EXA Infrastructure, Meta",False,True,False,False
+havhingstennorth-sea-connect-nsc,Havhingsten/North Sea Connect (NSC),2022.0,In service,661 km,hybrid,Meta,"Bulk Infrastructure, EXA Infrastructure, Meta",False,True,False,False
+i-2sea,I-2SEA,2029.0,Planned,"3,600 km",hybrid,Microsoft,"Lightstorm, Microsoft, Singtel, Tata Communications",False,False,True,False
+indigo-central,INDIGO-Central,2019.0,In service,"4,850 km",hybrid,Google,"Australia’s Academic and Research Network (AARNET), Google, Indosat Ooredoo, Singtel Optus, Superloop",True,False,False,False
+indigo-west,INDIGO-West,2019.0,In service,"4,600 km",hybrid,Google,"Australia’s Academic and Research Network (AARNET), Google, Indosat Ooredoo, Singtel, Superloop, Telstra",True,False,False,False
+jako,JAKO,2027.0,Planned,260 km,hybrid,"Amazon Web Services, Microsoft","Amazon Web Services, Arteria, Dreamline, Microsoft",False,False,True,True
+jupiter,JUPITER,2020.0,In service,"14,557 km",hybrid,"Amazon Web Services, Meta","Amazon Web Services, Meta, NTT, PCCW, PLDT, Softbank",False,True,False,True
+japan-guam-australia-south-jga-s,Japan-Guam-Australia South (JGA-S),2020.0,In service,"7,081 km",hybrid,Google,"Australia’s Academic and Research Network (AARNET), Google, Lightstorm",True,False,False,False
+marea,MAREA,2018.0,In service,"6,605 km",hybrid,"Meta, Microsoft","Meta, Microsoft, Telxius",False,True,True,False
+malbec,Malbec,2021.0,In service,"2,880 km",hybrid,Meta,"Meta, V.tal",False,True,False,False
+monet,Monet,2017.0,In service,"10,556 km",hybrid,Google,"Algar Telecom, Angola Cables, Antel Uruguay, Google",True,False,False,False
+new-cross-pacific-ncp-cable-system,New Cross Pacific (NCP) Cable System,2018.0,In service,"13,618 km",hybrid,Microsoft,"China Mobile, China Telecom, China Unicom, Chunghwa Telecom, KT, Microsoft, Softbank",False,False,True,False
+raman,Raman,2026.0,Planned,"7,376 km",hybrid,Google,"Google, Sparkle, Zain Omantel International",True,False,False,False
+seamewe-6,SeaMeWe-6,2027.0,Planned,"21,700 km",hybrid,Microsoft,"Bahrain Telecommunications Company (Batelco), Bangladesh Submarine Cable Company Limited (BSCCL), Bharti Airtel, China Unicom, Dhiraagu, Djibouti Telecom, Microsoft, Mobily, Orange, PCCW, Singtel, Sri Lanka Telecom, Telecom Egypt, Telekom Malaysia, Telin, Transworld",False,False,True,False
+southeast-asia-japan-cable-sjc,Southeast Asia-Japan Cable (SJC),2013.0,In service,"8,900 km",hybrid,Google,"China Mobile, China Telecom, Chunghwa Telecom, Globe Telecom, Google, KDDI, National Telecom, Singtel, Telkom Indonesia, Unified National Networks (UNN)",True,False,False,False
+southeast-asia-japan-cable-2-sjc2,Southeast Asia-Japan Cable 2 (SJC2),2025.0,In service,"10,500 km",hybrid,Meta,"China Mobile, Chunghwa Telecom, DongHwa Telecom, KDDI, Meta, SK Broadband, Singtel, Telin, True Corporation, VNPT International",False,True,False,False
+tannat,Tannat,2018.0,In service,"2,000 km",hybrid,Google,"Antel Uruguay, Google",True,False,False,False
+unity,Unity,2010.0,In service,"9,620 km",hybrid,Google,"Bharti Airtel, Google, KDDI, Singtel, TIME dotCom, Telstra",True,False,False,False
+5-villages-6-islands,5 Villages 6 Islands,2019.0,In service,355 km,telco_consortium,,Tokyo Metropolitan Government,False,False,False,False
+acs-alaska-oregon-network-akorn,ACS Alaska-Oregon Network (AKORN),2009.0,In service,"3,000 km",telco_consortium,,Alaska Communications,False,False,False,False
+aec-1,AEC-1,2016.0,In service,"5,521 km",telco_consortium,,EXA Infrastructure,False,False,False,False
+alba-1,ALBA-1,2012.0,In service,"1,860 km",telco_consortium,,"Telecom Venezuela, Transbit",False,False,False,False
+andromeda,ANDROMEDA,,Planned,,telco_consortium,,"Etisalat Group, Exelera, Grid Telecom",False,False,False,False
+apcn-2,APCN-2,2001.0,In service,"19,000 km",telco_consortium,,"AT&T, BT, China Telecom, China Unicom, Chunghwa Telecom, HKBN, KDDI, KT, LG Uplus, NTT, Orange, PCCW, PLDT, Singtel, Singtel Optus, Softbank, Starhub, Tata Communications, Telekom Malaysia, Telstra, Verizon, Vodafone",False,False,False,False
+apocs-1,APOCS 1,1991.0,In service,,telco_consortium,,Bell Canada,False,False,False,False
+apocs-2,APOCS 2,1995.0,In service,,telco_consortium,,Bell Canada,False,False,False,False
+apx-east,APX East,2028.0,Planned,"13,000 km",telco_consortium,,SUBCO,False,False,False,False
+arcos,ARCOS,2001.0,In service,"8,704 km",telco_consortium,,"AT&T, Alestra, Bahamas Telecommunications Company, Belize Telemedia, CANTV, Claro Dominicana (Codetel), Enitel, Hondutel, ICE (Kolbi), InterNexa, Liberty Networks, Orbinet Overseas, RACSA, Telecomunicaciones Ultramarinas de Puerto Rico, Telepuerto San Isidro, Tigo Colombia, Tricom USA, United Telecommunication Services (UTS), Verizon",False,False,False,False
+arimao,ARIMAO,2023.0,In service,"2,470 km",telco_consortium,,"Empresa de Telecomunicaciones de Cuba, Orange",False,False,False,False
+arsat-submarine-fiber-optic-cable,ARSAT Submarine Fiber Optic Cable,2012.0,In service,40 km,telco_consortium,,ARSAT,False,False,False,False
+au-aleutian,AU-Aleutian,2022.0,In service,"1,491 km",telco_consortium,,GCI Communication Corp,False,False,False,False
+adamasia-cable-system-1,Adamasia Cable System 1,2027.0,Planned,"1,015 km",telco_consortium,,Solomon Island Submarine Cable Company,False,False,False,False
+aden-djibouti,Aden-Djibouti,1994.0,In service,269 km,telco_consortium,,"Djibouti Telecom, Orange, Sparkle, Tata Communications, TeleYemen",False,False,False,False
+adria-1,Adria-1,1996.0,In service,440 km,telco_consortium,,"ALBtelecom, Hrvatski Telekom",False,False,False,False
+africa-coast-to-europe-ace,Africa Coast to Europe (ACE),2012.0,In service,"17,000 km",telco_consortium,,"Bayobab, Cable Consortium of Liberia, Canalink, Dolphin Telecom, GUILAB, Gambia Submarine Cable Company, International Mauritania Telecom, Orange, Orange Cameroun, Orange Cote d’Ivoire, Orange Mali, Republic of Cameroon, Republic of Equatorial Guinea, Republic of Gabon, Republic of Guinea Bissau, SBIN (Société Béninoise des Infrastructures Numériques du Bénin), STP Cabo, Sierra Leone Cable Company, Sonatel, Zamani Telecom",False,False,False,False
+africa-1,Africa-1,2027.0,Planned,"10,000 km",telco_consortium,,"G42, Mobily, Pakistan Telecommunications Company Ltd., TeleYemen, Telecom Egypt, Zain Omantel International, e&",False,False,False,False
+airraq,Airraq,2025.0,In service,840 km,telco_consortium,,"Unicom, Inc.",False,False,False,False
+alaska-united-east-au-east,Alaska United East (AU-East),1999.0,In service,"3,751 km",telco_consortium,,GCI Communication Corp,False,False,False,False
+alaska-united-southeast-au-se,Alaska United Southeast (AU-SE),2008.0,In service,626 km,telco_consortium,,GCI Communication Corp,False,False,False,False
+alaska-united-turnagain-arm-auta,Alaska United Turnagain Arm (AUTA),2012.0,In service,53 km,telco_consortium,,GCI Communication Corp,False,False,False,False
+alaska-united-west-au-west,Alaska United West (AU-West),2004.0,In service,"2,485 km",telco_consortium,,GCI Communication Corp,False,False,False,False
+aletar,Aletar,1997.0,In service,787 km,telco_consortium,,"Liban Telecom, Syrian Telecommunications Establishment, Telecom Egypt",False,False,False,False
+almera-melilla-alme,Almería-Melilla (ALME),1990.0,In service,198 km,telco_consortium,,Telefonica,False,False,False,False
+alonso-de-ojeda,Alonso de Ojeda,1999.0,In service,122 km,telco_consortium,,"SETAR, United Telecommunication Services (UTS)",False,False,False,False
+american-1,AmeriCan-1,1999.0,In service,140 km,telco_consortium,,"Bell Canada, Ledcor Industries Inc., Rogers Communications, Zayo",False,False,False,False
+america-movil-submarine-cable-system-1-amx-1,America Movil Submarine Cable System-1 (AMX-1),2014.0,In service,"17,800 km",telco_consortium,,América Móvil (Claro),False,False,False,False
+americas-i-north,Americas-I North,1994.0,In service,"2,012 km",telco_consortium,,AT&T,False,False,False,False
+americas-ii-west,Americas-II West,2000.0,In service,217 km,telco_consortium,,"AT&T, Liberty Networks, Sparkle",False,False,False,False
+amerigo-vespucci,Amerigo Vespucci,1999.0,In service,87 km,telco_consortium,,Antelecom,False,False,False,False
+antigua-st-kitts,Antigua-St.Kitts,1995.0,In service,141 km,telco_consortium,,Liberty Networks,False,False,False,False
+antillas-1,Antillas 1,1997.0,In service,601 km,telco_consortium,,"Altice Dominicana, Antelecom, Claro Dominicana (Codetel), Liberty Networks, SETAR",False,False,False,False
+apollo,Apollo,2003.0,In service,"13,000 km",telco_consortium,,Vodafone,False,False,False,False
+apollo-east-and-west,Apollo East and West,2025.0,In service,670 km,telco_consortium,,Grid Telecom,False,False,False,False
+aqualink,Aqualink,2001.0,In service,,telco_consortium,,One NZ,False,False,False,False
+arctic-way,Arctic Way,2028.0,Planned,"2,568 km",telco_consortium,,Space Norway,False,False,False,False
+asia-africa-europe-1-aae-1,Asia Africa Europe-1 (AAE-1),2017.0,In service,"25,000 km",telco_consortium,,"China Unicom, Djibouti Telecom, Hyalroute, Metfone, Mobily, National Telecom, OTEGLOBE, Ooredoo, PCCW, Pakistan Telecommunications Company Ltd., Reliance Jio Infocomm, Retelit, TIME dotCom, TeleYemen, Telecom Egypt, VNPT International, Viettel Corporation, Zain Omantel International, e&",False,False,False,False
+asia-connect-cable-1-acc-1,Asia Connect Cable-1 (ACC-1),2029.0,Planned,"19,000 km",telco_consortium,,Inligo Networks,False,False,False,False
+asia-direct-cable-adc,Asia Direct Cable (ADC),2024.0,In service,"9,988 km",telco_consortium,,"China Telecom, China Unicom, National Telecom, PLDT, Singtel, Softbank, Tata Communications, Viettel Corporation",False,False,False,False
+asia-link-cable-alc,Asia Link Cable (ALC),2027.0,Planned,"7,200 km",telco_consortium,,"China Telecom, China Unicom, DITO Telecommunity, FPT Telecom, Globe Telecom, Matrix NAP Info, Singtel, TIME dotCom, Telekom Malaysia, Unified National Networks (UNN), VNPT, Viettel Corporation",False,False,False,False
+asia-submarine-cable-express-asecahaya-malaysia,Asia Submarine-cable Express (ASE)/Cahaya Malaysia,2012.0,In service,"8,148 km",telco_consortium,,"NTT, PLDT, Starhub, Telekom Malaysia",False,False,False,False
+asia-america-gateway-aag-cable-system,Asia-America Gateway (AAG) Cable System,2009.0,In service,"20,000 km",telco_consortium,,"AT&T, BT, Bharti Airtel, Eastern Telecom, Ezecom, Globe Telecom, Indosat Ooredoo, National Telecom, PLDT, Saigon Postel Corporation, Spark New Zealand, Starhub, Telekom Malaysia, Telkom Indonesia, Telstra, Unified National Networks (UNN), VNPT International, Viettel Corporation",False,False,False,False
+atisa,Atisa,2017.0,In service,279 km,telco_consortium,,Docomo Pacific,False,False,False,False
+atlantic-crossing-1-ac-1,Atlantic Crossing-1 (AC-1),1998.0,In service,"14,301 km",telco_consortium,,Colt,False,False,False,False
+atlas-offshore,Atlas Offshore,2007.0,In service,"1,634 km",telco_consortium,,Maroc Telecom,False,False,False,False
+aurora,Aurora,2024.0,In service,500 km,telco_consortium,,GlobalConnect,False,False,False,False
+australia-japan-cable-ajc,Australia-Japan Cable (AJC),2001.0,In service,"12,700 km",telco_consortium,,"AT&T, NTT, Softbank, Telstra, Verizon",False,False,False,False
+australia-singapore-cable-asc,Australia-Singapore Cable (ASC),2018.0,In service,"4,600 km",telco_consortium,,Vocus Communications,False,False,False,False
+avassa,Avassa,2016.0,In service,260 km,telco_consortium,,"Comores Telecom, STOI",False,False,False,False
+awashima-murakami,Awashima-Murakami,2022.0,In service,66 km,telco_consortium,,Awashimaura Village,False,False,False,False
+azores-fiber-optic-system-afos,Azores Fiber Optic System (AFOS),1998.0,In service,"1,100 km",telco_consortium,,Altice Portugal,False,False,False,False
+balok,BALOK,2016.0,In service,60 km,telco_consortium,,XLSmart,False,False,False,False
+bcs-east,BCS East,1995.0,In service,97 km,telco_consortium,,Arelion,False,False,False,False
+bcs-east-west-interlink,BCS East-West Interlink,1997.0,In service,218 km,telco_consortium,,Arelion,False,False,False,False
+bcs-north---phase-1,BCS North - Phase 1,1998.0,In service,513 km,telco_consortium,,Arelion,False,False,False,False
+bcs-north---phase-2,BCS North - Phase 2,2000.0,In service,280 km,telco_consortium,,Arelion,False,False,False,False
+berytar,BERYTAR,1997.0,In service,134 km,telco_consortium,,"Lebanese Ministry of Telecommunications, Syrian Telecommunications Establishment",False,False,False,False
+brusa,BRUSA,2018.0,In service,"11,000 km",telco_consortium,,Telxius,False,False,False,False
+bt-highlands-and-islands-submarine-cable-system,BT Highlands and Islands Submarine Cable System,2014.0,In service,402 km,telco_consortium,,BT,False,False,False,False
+bt-mt-1,BT-MT-1,1990.0,In service,80 km,telco_consortium,,"BT, Manx Telecom",False,False,False,False
+bugio,BUGIO,1996.0,In service,73 km,telco_consortium,,Altice Portugal,False,False,False,False
+bahamas-2,Bahamas 2,1997.0,In service,476 km,telco_consortium,,Bermuda Telephone Company (BTC),False,False,False,False
+bahamas-domestic-submarine-network-bdsni,Bahamas Domestic Submarine Network (BDSNi),2006.0,In service,"2,735 km",telco_consortium,,Bahamas Telecommunications Company,False,False,False,False
+bahamas-internet-cable-system-bics,Bahamas Internet Cable System (BICS),2001.0,In service,"1,100 km",telco_consortium,,Caribbean Crossings,False,False,False,False
+balalink,Balalink,2001.0,In service,274 km,telco_consortium,,IslaLink,False,False,False,False
+baltic-sea-submarine-cable,Baltic Sea Submarine Cable,2000.0,In service,"1,042 km",telco_consortium,,CITIC Telecom International,False,False,False,False
+baltica,Baltica,1997.0,In service,437 km,telco_consortium,,"Arelion, Orange Polska, Slovak Telekom, TDC Group, Telenor, Ukrtelecom",False,False,False,False
+bangladesh-private-cable-system-bpcs,Bangladesh Private Cable System (BPCS),2027.0,Planned,"1,300 km",telco_consortium,,"CdNet Communications, Metacore Subcom, Summit Communications",False,False,False,False
+barat-timur-indonesia-1-bti-1,Barat Timur Indonesia-1 (BTI-1),2028.0,Planned,"4,500 km",telco_consortium,,Super Sistem (PT Super Sistem Data),False,False,False,False
+barat-timur-indonesia-2-bti-2,Barat Timur Indonesia-2 (BTI-2),,Planned,"11,600 km",telco_consortium,,Super Sistem (PT Super Sistem Data),False,False,False,False
+barracuda,Barracuda,2028.0,Planned,"1,050 km",telco_consortium,,Valencia Digital Port Connect,False,False,False,False
+bass-strait-1,Bass Strait-1,1995.0,In service,241 km,telco_consortium,,Telstra,False,False,False,False
+bass-strait-2,Bass Strait-2,2003.0,In service,239 km,telco_consortium,,Telstra,False,False,False,False
+basslink,Basslink,2005.0,In service,298 km,telco_consortium,,Basslink Telecoms,False,False,False,False
+batam-dumai-melaka-bdm,Batam Dumai Melaka (BDM),2009.0,In service,353 km,telco_consortium,,"Moratelindo, Telekom Malaysia",False,False,False,False
+batam-sarawak-internet-cable-system-basics,Batam Sarawak Internet Cable System (BaSICS),2021.0,In service,762 km,telco_consortium,,Irix Sdn Bhd,False,False,False,False
+batam-singapore-cable-system-bscs,Batam Singapore Cable System (BSCS),2009.0,In service,73 km,telco_consortium,,Telkom Indonesia,False,False,False,False
+batam-rengit-cable-system-brcs,Batam-Rengit Cable System (BRCS),2007.0,In service,64 km,telco_consortium,,XLSmart,False,False,False,False
+bay-of-bengal-gateway-bbg,Bay of Bengal Gateway (BBG),2016.0,In service,"8,100 km",telco_consortium,,"AT&T, China Telecom, Dialog Axiata, Reliance Jio Infocomm, Telekom Malaysia, Telstra, Vodafone, Zain Omantel International, e&",False,False,False,False
+bernacchi-1,Bernacchi-1,2027.0,Planned,,telco_consortium,,"Firmus, SUBCO",False,False,False,False
+besut-perhentian-islands,Besut-Perhentian Islands,2019.0,In service,21 km,telco_consortium,,Telekom Malaysia,False,False,False,False
+bharat-lanka-cable-system,Bharat Lanka Cable System,2006.0,In service,325 km,telco_consortium,,"Bharat Sanchar Nigam Ltd. (BSNL), Sri Lanka Telecom",False,False,False,False
+bicentenario,Bicentenario,2011.0,In service,250 km,telco_consortium,,"Antel Uruguay, Telecom Argentina",False,False,False,False
+biznet-nusantara-cable-system-1-bncs-1,Biznet Nusantara Cable System-1 (BNCS-1),2024.0,In service,105 km,telco_consortium,,Biznet,False,False,False,False
+bodo-rost-cable,Bodo-Rost Cable,2016.0,In service,109 km,telco_consortium,,Telenor,False,False,False,False
+boracay-palawan-submarine-cable-system-bpscs,Boracay-Palawan Submarine Cable System (BPSCS),2013.0,In service,332 km,telco_consortium,,Globe Telecom,False,False,False,False
+botnia,Botnia,1994.0,In service,93 km,telco_consortium,,Arelion,False,False,False,False
+brazilian-festoon,Brazilian Festoon,1996.0,In service,"2,552 km",telco_consortium,,Embratel,False,False,False,False
+c-lion1,C-Lion1,2016.0,In service,"1,172 km",telco_consortium,,Cinia Oy,False,False,False,False
+cadmos,CADMOS,1995.0,In service,230 km,telco_consortium,,"A1 Telekom Austria, AT&T, Cyta, Deutsche Telekom, Lebanese Ministry of Telecommunications, Orange, Sparkle, Syrian Telecommunications Establishment, Tata Communications",False,False,False,False
+cadmos-2,CADMOS-2,2026.0,Planned,250 km,telco_consortium,,"Cyta, Lebanese Ministry of Telecommunications",False,False,False,False
+cam-ring,CAM Ring,2003.0,In service,"1,120 km",telco_consortium,,Altice Portugal,False,False,False,False
+candalta,CANDALTA,1999.0,In service,110 km,telco_consortium,,Telefonica,False,False,False,False
+cantat-3,CANTAT-3,1994.0,In service,270 km,telco_consortium,,Shefa,False,False,False,False
+cat-submarine-network-csn,CAT Submarine Network (CSN),2013.0,In service,"1,240 km",telco_consortium,,National Telecom,False,False,False,False
+celia,CELIA,2027.0,Planned,"3,700 km",telco_consortium,,"APUA, Orange, SETAR, Telxius",False,False,False,False
+chi,CHI,2001.0,In service,"3,932 km",telco_consortium,,"Hawaiian Telcom, Verizon",False,False,False,False
+cobracable,COBRAcable,2019.0,In service,304 km,telco_consortium,,Relined,False,False,False,False
+cogim,COGIM,2005.0,In service,438 km,telco_consortium,,Télébec,False,False,False,False
+cabo-verde-telecom-domestic-submarine-cable-phase-1,Cabo Verde Telecom Domestic Submarine Cable Phase 1,1997.0,In service,,telco_consortium,,Cabo Verde Telecom (CVT),False,False,False,False
+cabo-verde-telecom-domestic-submarine-cable-phase-2,Cabo Verde Telecom Domestic Submarine Cable Phase 2,2002.0,In service,,telco_consortium,,Cabo Verde Telecom (CVT),False,False,False,False
+cabo-verde-telecom-domestic-submarine-cable-phase-3,Cabo Verde Telecom Domestic Submarine Cable Phase 3,2011.0,In service,,telco_consortium,,Cabo Verde Telecom (CVT),False,False,False,False
+calvi-st-florent,Calvi-St. Florent,1997.0,In service,64 km,telco_consortium,,Orange,False,False,False,False
+canalink,Canalink,2011.0,In service,"1,835 km",telco_consortium,,IT3,False,False,False,False
+caribbean-regional-communications-infrastructure-program-carcip,Caribbean Regional Communications Infrastructure Program (CARCIP),2019.0,In service,225 km,telco_consortium,,Digicel,False,False,False,False
+caribbean-bermuda-u-s-cbus,Caribbean-Bermuda U.S. (CBUS),2009.0,In service,"1,700 km",telco_consortium,,"Liberty Networks, Orange",False,False,False,False
+carnival-submarine-network-1-csn-1,Carnival Submarine Network-1 (CSN-1),2026.0,Planned,"4,670 km",telco_consortium,,Telconet,False,False,False,False
+caucasus-cable-system,Caucasus Cable System,2008.0,In service,"1,200 km",telco_consortium,,Caucasus Online,False,False,False,False
+cayman-jamaica-fiber-system-cjfs,Cayman-Jamaica Fiber System (CJFS),1997.0,In service,"1,197 km",telco_consortium,,"CW Cayman, CW Jamaica",False,False,False,False
+ceiba-1,Ceiba-1,2011.0,In service,287 km,telco_consortium,,GITGE (Gestor de Infraestructuras de Telecomunicaciones de Guinea Ecuatorial),False,False,False,False
+ceiba-2,Ceiba-2,2017.0,In service,290 km,telco_consortium,,GITGE (Gestor de Infraestructuras de Telecomunicaciones de Guinea Ecuatorial),False,False,False,False
+celtixconnect-1-cc-1,CeltixConnect-1 (CC-1),2012.0,In service,131 km,telco_consortium,,EXA Infrastructure,False,False,False,False
+challenger-one-bermuda,Challenger One Bermuda,2024.0,In service,,telco_consortium,,ATN International,False,False,False,False
+channel-islands-9-liberty-submarine-cable,Channel Islands-9 Liberty Submarine Cable,2008.0,In service,,telco_consortium,,JTGlobal,False,False,False,False
+chennai-andaman-nicobar-islands-cable-cani,Chennai-Andaman & Nicobar Islands Cable (CANI),2020.0,In service,"2,300 km",telco_consortium,,Bharat Sanchar Nigam Ltd. (BSNL),False,False,False,False
+chuuk-pohnpei-cable,Chuuk-Pohnpei Cable,2019.0,In service,"1,200 km",telco_consortium,,Federated States of Micronesia Telecommunications Cable Corporation (FSMTCC),False,False,False,False
+circe-north,Circe North,1999.0,In service,203 km,telco_consortium,,"Zayo, euNetworks",False,False,False,False
+circe-south,Circe South,1999.0,In service,115 km,telco_consortium,,"Zayo, euNetworks",False,False,False,False
+colombia-florida-express-cfx-1,Colombia-Florida Express (CFX-1),2008.0,In service,"2,438 km",telco_consortium,,Liberty Networks,False,False,False,False
+columbus-ii-b,Columbus-II b,1994.0,In service,"2,068 km",telco_consortium,,"AT&T, SETAR",False,False,False,False
+columbus-iii-azores-portugal,Columbus-III Azores-Portugal,1999.0,In service,,telco_consortium,,Altice Portugal,False,False,False,False
+comoros-domestic-cable-system,Comoros Domestic Cable System,2010.0,In service,,telco_consortium,,Comores Telecom,False,False,False,False
+concerto,Concerto,1999.0,In service,550 km,telco_consortium,,EXA Infrastructure,False,False,False,False
+connected-coast,Connected Coast,2024.0,In service,,telco_consortium,,Connected Coast Network Partnership,False,False,False,False
+continente-madeira,Continente-Madeira,2000.0,In service,"1,179 km",telco_consortium,,Altice Portugal,False,False,False,False
+converge-domestic-submarine-cable-network-cdscn,Converge Domestic Submarine Cable Network (CDSCN),2021.0,In service,"1,300 km",telco_consortium,,Converge ICT,False,False,False,False
+cook-strait,Cook Strait,2020.0,In service,40 km,telco_consortium,,Transpower NZ,False,False,False,False
+coral-bridge,Coral Bridge,2025.0,In service,,telco_consortium,,"NaiTel, Telecom Egypt",False,False,False,False
+coral-sea-cable-system-cs,Coral Sea Cable System (CS²),2020.0,In service,"4,700 km",telco_consortium,,"PNG DataCo Limited, Solomon Island Submarine Cable Company",False,False,False,False
+corse-continent-4-cc4,Corse-Continent 4 (CC4),1992.0,In service,190 km,telco_consortium,,Orange,False,False,False,False
+corse-continent-5-cc5,Corse-Continent 5 (CC5),1995.0,In service,299 km,telco_consortium,,Orange,False,False,False,False
+cowes-fawley-2,Cowes-Fawley 2,2018.0,In service,,telco_consortium,,BT,False,False,False,False
+cross-sound-cable,Cross Sound Cable,2003.0,In service,40 km,telco_consortium,,Cross Sound Cable Company,False,False,False,False
+cross-straits-cable-network-cscn,Cross-Straits Cable Network (CSCN),2012.0,In service,21 km,telco_consortium,,"China Mobile, China Telecom, China Unicom, Chunghwa Telecom",False,False,False,False
+crosschannel-fibre,CrossChannel Fibre,2021.0,In service,149 km,telco_consortium,,Crosslake Fibre,False,False,False,False
+crosslake-fibre,Crosslake Fibre,2019.0,In service,59 km,telco_consortium,,Crosslake Fibre,False,False,False,False
+cyclades-a,Cyclades A,2018.0,In service,222 km,telco_consortium,,Grid Telecom,False,False,False,False
+cyclades-b,Cyclades B,2020.0,In service,52 km,telco_consortium,,Grid Telecom,False,False,False,False
+damai-cable-system,DAMAI Cable System,2019.0,In service,575 km,telco_consortium,,Triasmitra,False,False,False,False
+danice,DANICE,2009.0,In service,"2,304 km",telco_consortium,,Farice,False,False,False,False
+dos-continentes-l-ll,DOS CONTINENTES l & ll,2020.0,In service,95 km,telco_consortium,,GTD España,False,False,False,False
+daito-loop,Daito Loop,2025.0,In service,18 km,telco_consortium,,Okinawa Prefecture,False,False,False,False
+dalian-yantai-cable,Dalian-Yantai Cable,1998.0,In service,146 km,telco_consortium,,China Telecom,False,False,False,False
+danica-north,Danica North,1998.0,In service,25 km,telco_consortium,,Colt,False,False,False,False
+darwin-jakarta-singapore-cable-djsc,Darwin-Jakarta-Singapore Cable (DJSC),2023.0,In service,"1,000 km",telco_consortium,,Vocus Communications,False,False,False,False
+deep-blue-one,Deep Blue One,2024.0,In service,"2,250 km",telco_consortium,,Digicel,False,False,False,False
+denmark-sweden-17,Denmark-Sweden 17,1994.0,In service,11 km,telco_consortium,,"TDC Group, Tele2",False,False,False,False
+denmark-sweden-18,Denmark-Sweden 18,1996.0,In service,,telco_consortium,,"TDC Group, Telenor",False,False,False,False
+denpasar-waingapu-cable-systems,Denpasar-Waingapu Cable Systems,2019.0,In service,814 km,telco_consortium,,Moratelindo,False,False,False,False
+dhiraagu-cable-network,Dhiraagu Cable Network,2012.0,In service,"1,253 km",telco_consortium,,Dhiraagu,False,False,False,False
+dhiraagu-slt-submarine-cable-network,Dhiraagu-SLT Submarine Cable Network,2007.0,In service,850 km,telco_consortium,,"Dhiraagu, Sri Lanka Telecom",False,False,False,False
+didon,Didon,2014.0,In service,170 km,telco_consortium,,"Ooredoo Tunisie, Orange Tunisie",False,False,False,False
+djibouti-africa-regional-express-1-dare-1,Djibouti Africa Regional Express 1 (DARE 1),2021.0,In service,"4,854 km",telco_consortium,,"Djibouti Telecom, Hormuud Telecom Somalia, Somtel International, Telkom Kenya",False,False,False,False
+domestic-submarine-cable-of-maldives-dscom,Domestic Submarine Cable of Maldives (DSCoM),2024.0,In service,286 km,telco_consortium,,"Dhiraagu, Ooredoo Maldives",False,False,False,False
+dumai-melaka-cable-system-dmcs,Dumai-Melaka Cable System (DMCS),2005.0,In service,159 km,telco_consortium,,"Telekom Malaysia, Telkom Indonesia",False,False,False,False
+e-finest,E-FINEST,2019.0,In service,,telco_consortium,,Elisa Corporation,False,False,False,False
+e-llan,E-LLAN,2007.0,In service,,telco_consortium,,Manx Electricity Authority,False,False,False,False
+e2a,E2A,2029.0,Planned,"12,500 km",telco_consortium,,"Chunghwa Telecom, SK Broadband, Softbank, Verizon",False,False,False,False
+eac-c2c,EAC-C2C,2002.0,In service,"36,500 km",telco_consortium,,Telstra,False,False,False,False
+eagle,EAGLE,2028.0,Planned,"1,900 km",telco_consortium,,"4iG Group, Telecom Egypt",False,False,False,False
+eaufon-1,EAUFON 1,2022.0,In service,"1,175 km",telco_consortium,,Tamaani Internet,False,False,False,False
+eaufon-2,EAUFON 2,2024.0,In service,675 km,telco_consortium,,Tamaani Internet,False,False,False,False
+eaufon-3,EAUFON 3,2027.0,Planned,900 km,telco_consortium,,Tamaani Internet,False,False,False,False
+ec-link,EC Link,2007.0,In service,"1,078 km",telco_consortium,,Liberty Networks,False,False,False,False
+emc-west-1,EMC West-1,2027.0,Planned,"3,639 km",telco_consortium,,EMC Subsea Cable Company Limited,False,False,False,False
+emc-west-2,EMC West-2,2027.0,Planned,"3,978 km",telco_consortium,,EMC Subsea Cable Company Limited,False,False,False,False
+esat-2,ESAT-2,2000.0,In service,245 km,telco_consortium,,Esat BT,False,False,False,False
+exa-express,EXA Express,2015.0,In service,"4,600 km",telco_consortium,,EXA Infrastructure,False,False,False,False
+exa-north-and-south,EXA North and South,2001.0,In service,"12,200 km",telco_consortium,,EXA Infrastructure,False,False,False,False
+east-micronesia-cable-system-emcs,East Micronesia Cable System (EMCS),2026.0,In service,"2,250 km",telco_consortium,,"BwebwerikiNET Limited (BNL), Federated States of Micronesia Telecommunications Cable Corporation (FSMTCC), Nauru Fibre Cable Corporation",False,False,False,False
+east-west-cable-ewc,East-West Cable (EWC),2011.0,In service,"1,705 km",telco_consortium,,Liberty Networks,False,False,False,False
+east-west-submarine-cable-system,East-West Submarine Cable System,2004.0,In service,950 km,telco_consortium,,Sacofa,False,False,False,False
+eastern-africa-submarine-system-eassy,Eastern Africa Submarine System (EASSy),2010.0,In service,"10,500 km",telco_consortium,,"BT, Bayobab, Bharti Airtel, Botswana Fibre Networks, Comores Telecom, Djibouti Telecom, Liquid Intelligent Technologies, Mauritius Telecom, Orange, Sudatel, Tanzania Telecommunication Corporation, Telkom Kenya, Telkom South Africa, Telma (Telecom Malagasy), Vodacom DRC, WIOCC, Zambia Telecom, center3, e&",False,False,False,False
+eastern-caribbean-fiber-system-ecfs,Eastern Caribbean Fiber System (ECFS),1995.0,In service,"1,335 km",telco_consortium,,"AT&T, Claro Dominicana (Codetel), Guyana Telephone and Telegraph (GT&T), Liberty Networks, Orange, Verizon",False,False,False,False
+eastern-light-sweden-finland-i,Eastern Light Sweden-Finland I,2019.0,In service,,telco_consortium,,Eastern Light,False,False,False,False
+eastern-light-sweden-finland-ii,Eastern Light Sweden-Finland II,2027.0,Planned,,telco_consortium,,Eastern Light,False,False,False,False
+elektra-globalconnect-1-gc1,Elektra-GlobalConnect 1 (GC1),2000.0,In service,44 km,telco_consortium,,GlobalConnect,False,False,False,False
+ellalink,EllaLink,2021.0,In service,"6,200 km",telco_consortium,,EllaLink,False,False,False,False
+emerald-bridge-fibres,Emerald Bridge Fibres,2012.0,In service,120 km,telco_consortium,,Zayo,False,False,False,False
+energinet-laeso-varberg,Energinet Laeso-Varberg,2011.0,In service,,telco_consortium,,Energinet,False,False,False,False
+energinet-lyngsa-laeso,Energinet Lyngsa-Laeso,2011.0,In service,,telco_consortium,,Energinet,False,False,False,False
+energy-bridge-cable,Energy Bridge Cable,2017.0,In service,13 km,telco_consortium,,Miranda Media,False,False,False,False
+epic-malta-sicily-cable-system-emscs,Epic Malta-Sicily Cable System (EMSCS),2004.0,In service,260 km,telco_consortium,,Epic,False,False,False,False
+est-tet,Est-Tet,1994.0,In service,113 km,telco_consortium,,"Maroc Telecom, Telxius",False,False,False,False
+europe-india-gateway-eig,Europe India Gateway (EIG),2011.0,In service,"15,000 km",telco_consortium,,"AT&T, Altice Portugal, BT, Bayobab, Bharat Sanchar Nigam Ltd. (BSNL), Bharti Airtel, Djibouti Telecom, Gibtelecom, Kalaam Telecom, Libya International Telecommunications Company, Telecom Egypt, Telkom South Africa, Verizon, Vodafone, Zain Omantel International, center3, du",False,False,False,False
+eviny-digital,Eviny Digital,2020.0,In service,210 km,telco_consortium,,Lyse Tele AS,False,False,False,False
+exelera-north,Exelera North,2012.0,In service,345 km,telco_consortium,,Exelera,False,False,False,False
+falcon,FALCON,2006.0,In service,"10,300 km",telco_consortium,,FLAG,False,False,False,False
+farice-1,FARICE-1,2004.0,In service,"1,205 km",telco_consortium,,Farice,False,False,False,False
+fea,FEA,1997.0,In service,,telco_consortium,,FLAG,False,False,False,False
+fish-north,FISH North,2011.0,In service,90 km,telco_consortium,,Cordova Telecom Cooperative,False,False,False,False
+fish-south,FISH South,2027.0,Planned,900 km,telco_consortium,,Cordova Telecom Cooperative,False,False,False,False
+fish-west,FISH West,2027.0,Planned,276 km,telco_consortium,,Cordova Telecom Cooperative,False,False,False,False
+flag-atlantic-1-fa-1,FLAG Atlantic-1 (FA-1),2001.0,In service,"14,500 km",telco_consortium,,FLAG,False,False,False,False
+flag-north-asia-loopreach-north-asia-loop,FLAG North Asia Loop/REACH North Asia Loop,2001.0,In service,"9,504 km",telco_consortium,,"FLAG, PCCW, Telstra",False,False,False,False
+fly-lion3,FLY-LION3,2019.0,In service,400 km,telco_consortium,,"Comoros Cables, Orange, Société Réunionnaise du Radiotéléphone",False,False,False,False
+fos-quellon-chacabuco,FOS Quellon-Chacabuco,2015.0,In service,350 km,telco_consortium,,Grupo Gtd,False,False,False,False
+far-east-submarine-cable-system,Far East Submarine Cable System,2016.0,In service,"1,855 km",telco_consortium,,Rostelecom,False,False,False,False
+farewell-change-fogo,Farewell-Change-Fogo,2025.0,In service,16 km,telco_consortium,,Bell Canada,False,False,False,False
+farland-north,Farland North,1998.0,In service,150 km,telco_consortium,,BT,False,False,False,False
+fehmarn-blt,Fehmarn Bält,2000.0,In service,20 km,telco_consortium,,Arelion,False,False,False,False
+fiber-optic-gulf-fog,Fiber Optic Gulf (FOG),1998.0,In service,"1,300 km",telco_consortium,,"Bahrain Telecommunications Company (Batelco), Kuwait Ministry of Communications, Ooredoo, e&",False,False,False,False
+fibra-optica-austral,Fibra Optica Austral,2020.0,In service,"2,800 km",telco_consortium,,Subtel,False,False,False,False
+fibra-optica-al-pacfico,Fibra Optica al Pacífico,2020.0,In service,"1,180 km",telco_consortium,,Entel Bolivia,False,False,False,False
+fibralink,Fibralink,2006.0,In service,"1,102 km",telco_consortium,,Liberty Networks,False,False,False,False
+fibre-in-gulf-fig,Fibre in Gulf (FIG),2027.0,Planned,"1,931 km",telco_consortium,,Ooredoo,False,False,False,False
+finland-estonia-connection-1-fec-1,Finland Estonia Connection 1 (FEC-1),2000.0,In service,,telco_consortium,,Elisa Corporation,False,False,False,False
+finland-estonia-connection-2-fec-2,Finland Estonia Connection 2 (FEC-2),2000.0,In service,,telco_consortium,,Elisa Corporation,False,False,False,False
+finland-estonia-2-eesf-2,Finland-Estonia 2 (EESF-2),1992.0,In service,98 km,telco_consortium,,"Arelion, Telia Eesti (formerly Eesti Telekom, EMT, Elion)",False,False,False,False
+finland-estonia-3-eesf-3,Finland-Estonia 3 (EESF-3),1994.0,In service,104 km,telco_consortium,,"Arelion, Telia Eesti (formerly Eesti Telekom, EMT, Elion)",False,False,False,False
+flores-corvo-cable-system,Flores-Corvo Cable System,2014.0,In service,685 km,telco_consortium,,Viatel,False,False,False,False
+gc-lnz-fu-ring,GC-LNZ-FU Ring,2028.0,Planned,553 km,telco_consortium,,Canalink,False,False,False,False
+go-1-mediterranean-cable-system,GO-1 Mediterranean Cable System,2008.0,In service,290 km,telco_consortium,,GO plc,False,False,False,False
+gtmo-1,GTMO-1,2016.0,In service,"1,528 km",telco_consortium,,U.S. Government,False,False,False,False
+gtmo-pr,GTMO-PR,2019.0,In service,"1,400 km",telco_consortium,,U.S. Government,False,False,False,False
+gemini-bermuda,Gemini Bermuda,2007.0,In service,"1,501 km",telco_consortium,,"Liberty Networks, Orange",False,False,False,False
+geo-eirgrid,Geo-Eirgrid,2012.0,In service,187 km,telco_consortium,,Eirgrid,False,False,False,False
+georgia-russia,Georgia-Russia,2000.0,In service,433 km,telco_consortium,,"FOPTNET, GEO-METRIA, Rostelecom",False,False,False,False
+germany-denmark-3,Germany-Denmark 3,2000.0,In service,,telco_consortium,,TDC Group,False,False,False,False
+glo-1,Glo-1,2010.0,In service,"9,800 km",telco_consortium,,Globacom Limited,False,False,False,False
+global-caribbean-network-gcn,Global Caribbean Network (GCN),2006.0,In service,890 km,telco_consortium,,Loret Group,False,False,False,False
+globalconnect-2-gc2,GlobalConnect 2 (GC2),2001.0,In service,95 km,telco_consortium,,GlobalConnect,False,False,False,False
+globalconnect-3-gc3,GlobalConnect 3 (GC3),2006.0,In service,19 km,telco_consortium,,GlobalConnect,False,False,False,False
+globalconnect-6-gc6,GlobalConnect 6 (GC6),2019.0,In service,,telco_consortium,,GlobalConnect,False,False,False,False
+globalconnect-denmark-sweden,GlobalConnect Denmark-Sweden,1994.0,In service,,telco_consortium,,GlobalConnect,False,False,False,False
+globalconnect-kpn,GlobalConnect-KPN,2006.0,In service,43 km,telco_consortium,,GlobalConnect,False,False,False,False
+globenet,GlobeNet,2000.0,In service,"23,500 km",telco_consortium,,V.tal,False,False,False,False
+gondwana-1,Gondwana-1,2008.0,In service,"2,151 km",telco_consortium,,OPT,False,False,False,False
+gondwana-2picot-2,Gondwana-2/Picot-2,2022.0,In service,"1,515 km",telco_consortium,,OPT,False,False,False,False
+grand-bahama-bimini-submarine-cable,Grand Bahama Bimini Submarine Cable,2005.0,In service,117 km,telco_consortium,,Bahamas Telecommunications Company,False,False,False,False
+greenland-connect,Greenland Connect,2009.0,In service,"4,580 km",telco_consortium,,Tusass A/S,False,False,False,False
+greenland-connect-north,Greenland Connect North,2017.0,In service,680 km,telco_consortium,,Tusass A/S,False,False,False,False
+groix-4,Groix 4,2022.0,In service,7 km,telco_consortium,,Orange,False,False,False,False
+groote-eylandt,Groote Eylandt,2011.0,In service,95 km,telco_consortium,,Telstra,False,False,False,False
+guadeloupe-cable-des-iles-du-sud-gcis,Guadeloupe Cable des Iles du Sud (GCIS),2020.0,In service,118 km,telco_consortium,,Regional Councel of Guadeloupe,False,False,False,False
+guam-okinawa-kyushu-incheon-goki,Guam Okinawa Kyushu Incheon (GOKI),2013.0,In service,"4,244 km",telco_consortium,,AT&T,False,False,False,False
+guernsey-jersey-4,Guernsey-Jersey-4,1994.0,In service,36 km,telco_consortium,,Sure,False,False,False,False
+gulf-bridge-international-cable-systemmiddle-east-north-africa-cable-system-gbicsmena,Gulf Bridge International Cable System/Middle East North Africa Cable System (GBICS/MENA),2012.0,In service,"5,270 km",telco_consortium,,Gulf Bridge International,False,False,False,False
+gulf-of-california-cable,Gulf of California Cable,2019.0,In service,250 km,telco_consortium,,Megacable,False,False,False,False
+gulf-of-mexico-fiber-optic-network,Gulf of Mexico Fiber Optic Network,2008.0,In service,"1,200 km",telco_consortium,,Tampnet,False,False,False,False
+gulf2africa-g2a,Gulf2Africa (G2A),2017.0,In service,"1,500 km",telco_consortium,,"Golis Telecommunications, Telesom, Zain Omantel International",False,False,False,False
+hannibal-system,HANNIBAL System,2009.0,In service,178 km,telco_consortium,,Tunisia Telecom,False,False,False,False
+hantru1-cable-system,HANTRU1 Cable System,2010.0,In service,"2,917 km",telco_consortium,,"Federated States of Micronesia Telecommunications Cable Corporation (FSMTCC), Hannon Armstrong, Marshall Islands Telecommunications Authority",False,False,False,False
+hachijojima-mainland,Hachijojima-Mainland,2008.0,In service,,telco_consortium,,NTT,False,False,False,False
+haikou-beihai-cable,Haikou-Beihai Cable,1999.0,In service,198 km,telco_consortium,,China Telecom,False,False,False,False
+hainan-to-hong-kong-express-h2he,Hainan to Hong Kong Express (H2HE),2021.0,In service,675 km,telco_consortium,,China Mobile,False,False,False,False
+havsil,Havsil,2022.0,In service,120 km,telco_consortium,,Bulk Infrastructure,False,False,False,False
+hawaii-inter-island-cable-system-hics,Hawaii Inter-Island Cable System (HICS),1994.0,In service,479 km,telco_consortium,,Hawaiian Telcom,False,False,False,False
+hawaii-island-fibre-network-hifn,Hawaii Island Fibre Network (HIFN),1997.0,In service,529 km,telco_consortium,,"Hawaiian Telcom, Lumen",False,False,False,False
+hawaiian-islands-fiber-link-hifl,Hawaiian Islands Fiber Link (HIFL),2026.0,Planned,740 km,telco_consortium,,"Ocean Networks, University of Hawai’i",False,False,False,False
+hawaiki,Hawaiki,2018.0,In service,"14,000 km",telco_consortium,,BW Digital,False,False,False,False
+hawaiki-nui-1,Hawaiki Nui 1,2027.0,Planned,"10,000 km",telco_consortium,,BW Digital,False,False,False,False
+hawk,Hawk,2011.0,In service,"3,400 km",telco_consortium,,FLAG,False,False,False,False
+high-capacity-undersea-guernsey-optical-fibre-hugo,High-capacity Undersea Guernsey Optical-fibre (HUGO),2007.0,In service,425 km,telco_consortium,,"Sure, Vodafone",False,False,False,False
+hokkaido-akita-cable,Hokkaido-Akita Cable,2023.0,In service,770 km,telco_consortium,,"KDDI, NTT, Rakuten, Softbank",False,False,False,False
+hokkaido-rebun-rishiri,Hokkaido-Rebun-Rishiri,2011.0,In service,64 km,telco_consortium,,NTT,False,False,False,False
+hokkaido-sakhalin-cable-system-hscs,Hokkaido-Sakhalin Cable System (HSCS),2008.0,In service,570 km,telco_consortium,,"NTT, TTK",False,False,False,False
+honotua,Honotua,2010.0,In service,"4,805 km",telco_consortium,,OPT French Polynesia,False,False,False,False
+hronn,Hronn,2022.0,In service,270 km,telco_consortium,,Shefa,False,False,False,False
+i-am-cable,I-AM Cable,2029.0,Planned,"8,100 km",telco_consortium,,"Intra‑Asia Marine Networks Co., Ltd.",False,False,False,False
+imewe,IMEWE,2010.0,In service,"12,091 km",telco_consortium,,"Bharti Airtel, Ogero, Orange, Pakistan Telecommunications Company Ltd., Sparkle, Tata Communications, Telecom Egypt, center3, e&",False,False,False,False
+ingrid,INGRID,2004.0,In service,64 km,telco_consortium,,CIEG,False,False,False,False
+insica,INSICA,2026.0,Planned,100 km,telco_consortium,,"Singtel, Telin",False,False,False,False
+ioema-1,IOEMA-1,2029.0,Planned,"1,667 km",telco_consortium,,IOEMA Fibre,False,False,False,False
+iokwe,IOKWE,2029.0,Planned,,telco_consortium,,Marshall Islands Telecommunications Authority,False,False,False,False
+ion-cable-system-1-ics1,ION Cable System-1 (ICS1),2027.0,Planned,"1,041 km",telco_consortium,,ION Network,False,False,False,False
+iris,IRIS,2023.0,In service,"1,770 km",telco_consortium,,Farice,False,False,False,False
+iceni,Iceni,2024.0,In service,,telco_consortium,,BT,False,False,False,False
+india-asia-xpress-iax,India Asia Xpress (IAX),2024.0,In service,"5,791 km",telco_consortium,,"China Mobile, Reliance Jio Infocomm",False,False,False,False
+india-europe-xpress-iex,India Europe Xpress (IEX),2026.0,Planned,"9,775 km",telco_consortium,,"China Mobile, Reliance Jio Infocomm",False,False,False,False
+indonesia-global-gateway-igg-system,Indonesia Global Gateway (IGG) System,2018.0,In service,"5,300 km",telco_consortium,,"Telin, Telkom Indonesia",False,False,False,False
+indonesia-tengah-cable-systems,Indonesia Tengah Cable Systems,2027.0,Planned,"2,641 km",telco_consortium,,"PT Jejaring Mitra Persada, Triasmitra",False,False,False,False
+interchange-cable-network-1-icn1,Interchange Cable Network 1 (ICN1),2014.0,In service,"1,259 km",telco_consortium,,Interchange,False,False,False,False
+ionian,Ionian,2023.0,In service,320 km,telco_consortium,,IslaLink,False,False,False,False
+isle-au-haut-cable,Isle Au Haut Cable,2024.0,In service,10 km,telco_consortium,,Axiom Technologies,False,False,False,False
+isles-of-scilly-cable,Isles of Scilly Cable,2014.0,In service,,telco_consortium,,BT,False,False,False,False
+israel-coasting-1-ic-1,Israel Coasting 1 (IC-1),2000.0,In service,340 km,telco_consortium,,Partner Communications Company,False,False,False,False
+italy-albania,Italy-Albania,1997.0,In service,240 km,telco_consortium,,"ALBtelecom, Sparkle",False,False,False,False
+italy-croatia,Italy-Croatia,1994.0,In service,230 km,telco_consortium,,"Hrvatski Telekom, Sparkle",False,False,False,False
+italy-greece-1-ig-1,Italy-Greece 1 (IG-1),1995.0,In service,169 km,telco_consortium,,WIS Telecom,False,False,False,False
+italy-libya,Italy-Libya,1998.0,In service,570 km,telco_consortium,,"Libya International Telecommunications Company, Sparkle",False,False,False,False
+italy-malta,Italy-Malta,1994.0,In service,238 km,telco_consortium,,"GO plc, Sparkle",False,False,False,False
+italy-monaco,Italy-Monaco,1995.0,In service,162 km,telco_consortium,,"Monaco Telecom, Sparkle",False,False,False,False
+ithaafushi-maafushi-hulhumale,Ithaafushi-Maafushi-Hulhumale,2025.0,In service,,telco_consortium,,Ooredoo Maldives,False,False,False,False
+ixchel,Ixchel,2007.0,In service,20 km,telco_consortium,,Telmex,False,False,False,False
+izu-islands-cable-system,Izu Islands Cable System,1996.0,In service,,telco_consortium,,NTT,False,False,False,False
+jakabare,JAKABARE,2009.0,In service,"1,330 km",telco_consortium,,Indosat Ooredoo,False,False,False,False
+javali,JAVALI,2011.0,In service,,telco_consortium,,Indosat Ooredoo,False,False,False,False
+juno,JUNO,2025.0,In service,"11,710 km",telco_consortium,,Seren Juno,False,False,False,False
+jaka2ladema,JaKa2LaDeMa,2010.0,In service,"1,700 km",telco_consortium,,Telkom Indonesia,False,False,False,False
+jasuka,JaSuKa,2006.0,In service,,telco_consortium,,Telkom Indonesia,False,False,False,False
+jakarta-surabaya-cable-system-jayabaya,Jakarta Surabaya Cable System (JAYABAYA),2018.0,In service,888 km,telco_consortium,,Triasmitra,False,False,False,False
+jakarta-bangka-batam-singapore-b2js,Jakarta-Bangka-Batam-Singapore (B2JS),2013.0,In service,759 km,telco_consortium,,Triasmitra,False,False,False,False
+jakarta-bangka-bintan-batam-singapore-b3js,Jakarta-Bangka-Bintan-Batam-Singapore (B3JS),2012.0,In service,"1,031 km",telco_consortium,,Moratelindo,False,False,False,False
+jalapati,Jalapati,2023.0,In service,45 km,telco_consortium,,CCSI,False,False,False,False
+jamaica-submarine-cable-festoon-system-jscfs,Jamaica Submarine Cable Festoon System (JSCFS),1997.0,In service,342 km,telco_consortium,,CW Jamaica,False,False,False,False
+jambi-batam-cable-system-jiba,Jambi-Batam Cable System (JIBA),2014.0,In service,267 km,telco_consortium,,"Indosat Ooredoo, Moratelindo, XLSmart",False,False,False,False
+janna,Janna,2005.0,In service,634 km,telco_consortium,,"EXA Infrastructure, Regione Sardegne, Tiscali, WINDTRE",False,False,False,False
+japan-information-highway-jih,Japan Information Highway (JIH),1999.0,In service,"5,150 km",telco_consortium,,KDDI,False,False,False,False
+japan-guam-australia-north-jga-n,Japan-Guam-Australia North (JGA-N),2020.0,In service,"2,600 km",telco_consortium,,Lightstorm,False,False,False,False
+java-bali-cable-system-jbcs,Java Bali Cable System (JBCS),2013.0,In service,,telco_consortium,,Triasmitra,False,False,False,False
+java-kalimantan-sulawesi-jakasusi,Java-Kalimantan-Sulawesi (JAKASUSI),2006.0,In service,"1,100 km",telco_consortium,,Indosat Ooredoo,False,False,False,False
+jeju-mainland-2,Jeju-Mainland 2,1996.0,In service,191 km,telco_consortium,,KT,False,False,False,False
+jeju-mainland-3,Jeju-Mainland 3,2000.0,In service,236 km,telco_consortium,,KT,False,False,False,False
+jeju-udo,Jeju-Udo,2023.0,In service,3 km,telco_consortium,,"KCTV Jeju Broadcasting, KT, LG Uplus, SK Telecom (SKT)",False,False,False,False
+jerry-newton,Jerry Newton,2007.0,In service,88 km,telco_consortium,,Liberty Networks,False,False,False,False
+jonah,Jonah,2012.0,In service,"2,297 km",telco_consortium,,Bezeq International Ltd.,False,False,False,False
+kafos,KAFOS,1997.0,In service,538 km,telco_consortium,,Turk Telekom International,False,False,False,False
+kanawa,Kanawa,2019.0,In service,"1,746 km",telco_consortium,,Orange,False,False,False,False
+kangaroo-island-2,Kangaroo Island 2,2024.0,In service,,telco_consortium,,SA Power Networks,False,False,False,False
+kardesa,Kardesa,2027.0,Planned,"1,385 km",telco_consortium,,"Neqsol Holding, Vodafone",False,False,False,False
+kattegat-2,Kattegat 2,2001.0,In service,75 km,telco_consortium,,TDC Group,False,False,False,False
+kattegat-cable,Kattegat Cable,2027.0,Planned,92 km,telco_consortium,,GlobalConnect,False,False,False,False
+kerch-strait-cable,Kerch Strait Cable,2014.0,In service,46 km,telco_consortium,,Miranda Media,False,False,False,False
+ketchcan1-submarine-fiber-cable-system,KetchCan1 Submarine Fiber Cable System,2020.0,In service,167 km,telco_consortium,,Ketchican Public Utilities,False,False,False,False
+kingisepp-kaliningrad-system-baltika,Kingisepp-Kaliningrad System (Baltika),2021.0,In service,"1,115 km",telco_consortium,,Rostelecom,False,False,False,False
+kitadaito-island,Kitadaito Island,2022.0,In service,410 km,telco_consortium,,Okinawa Prefecture,False,False,False,False
+kochi-lakshadweep-islands-kli-sofc,Kochi-Lakshadweep Islands (KLI-SOFC),2024.0,In service,"1,989 km",telco_consortium,,Bharat Sanchar Nigam Ltd. (BSNL),False,False,False,False
+kodiak-kenai-fiber-link-kkfl,Kodiak Kenai Fiber Link (KKFL),2007.0,In service,966 km,telco_consortium,,GCI Communication Corp,False,False,False,False
+konstanz-friedrichshafen,Konstanz-Friedrichshafen,2007.0,In service,26 km,telco_consortium,,Stadtwerke Konstanz,False,False,False,False
+konstanz-meersburg,Konstanz-Meersburg,2010.0,In service,5 km,telco_consortium,,Stadtwerke Konstanz,False,False,False,False
+korea-japan-cable-network-kjcn,Korea-Japan Cable Network (KJCN),2002.0,In service,500 km,telco_consortium,,"KT, NTT, QTNet, Softbank",False,False,False,False
+kumul-domestic-submarine-cable-system,Kumul Domestic Submarine Cable System,2019.0,In service,"5,457 km",telco_consortium,,PNG DataCo Limited,False,False,False,False
+kunoa-north,Kunoa North,2028.0,Planned,,telco_consortium,,Hawaiian Telcom,False,False,False,False
+kupang-alor-cable-systems,Kupang-Alor Cable Systems,2019.0,In service,273 km,telco_consortium,,Moratelindo,False,False,False,False
+kuwait-iran,Kuwait-Iran,2005.0,In service,380 km,telco_consortium,,"Kuwait Ministry of Communications, Telecommunication Infrastructure Company of Iran",False,False,False,False
+lfon-libyan-fiber-optic-network,LFON (Libyan Fiber Optic Network),1999.0,In service,"1,639 km",telco_consortium,,"Libyan Post, Telecommunications and Information Technology Company (LPTIC Holding)",False,False,False,False
+la-gomera-el-hierro,La Gomera-El Hierro,,In service,,telco_consortium,,Telefonica,False,False,False,False
+labuan-brunei-submarine-cable,Labuan-Brunei Submarine Cable,2017.0,In service,52 km,telco_consortium,,Common Tower Technologies Sdn Bhd,False,False,False,False
+lake-albert-1,Lake Albert 1,2019.0,In service,51 km,telco_consortium,,Bandwidth and Cloud Services (BCS),False,False,False,False
+lake-albert-2,Lake Albert 2,2020.0,In service,44 km,telco_consortium,,Bandwidth and Cloud Services (BCS),False,False,False,False
+lake-michigan-chicago-crossing,Lake Michigan Chicago Crossing,2028.0,Planned,,telco_consortium,,"123NET, Peninsula Fiber Network (PFN)",False,False,False,False
+lake-michigan-crossing-peninsula-and-island-connection,Lake Michigan Crossing Peninsula and Island Connection,2028.0,Planned,,telco_consortium,,"123NET, Peninsula Fiber Network (PFN)",False,False,False,False
+lake-tanganyika,Lake Tanganyika,2025.0,In service,370 km,telco_consortium,,Bandwidth and Cloud Services (BCS),False,False,False,False
+lanis-1,Lanis-1,1992.0,In service,113 km,telco_consortium,,Vodafone,False,False,False,False
+lanis-2,Lanis-2,1992.0,In service,67 km,telco_consortium,,Vodafone,False,False,False,False
+lanis-3,Lanis-3,1992.0,In service,122 km,telco_consortium,,Vodafone,False,False,False,False
+latvia-sweden-1-lv-se-1,Latvia-Sweden 1 (LV-SE 1),1994.0,In service,304 km,telco_consortium,,"Tele2, Tet",False,False,False,False
+lazaro-cardenas-manzanillo-santiago-submarine-cable-system-lcmsscs,Lazaro Cardenas-Manzanillo Santiago Submarine Cable System (LCMSSCS),2013.0,In service,322 km,telco_consortium,,Telmex,False,False,False,False
+le-vasa,Le Vasa,2027.0,Planned,,telco_consortium,,ASTCA,False,False,False,False
+libreville-port-gentil-cable,Libreville-Port Gentil Cable,2012.0,In service,198 km,telco_consortium,,Republic of Gabon,False,False,False,False
+lic-lin-lamp,Lic-Lin-Lamp,2000.0,In service,240 km,telco_consortium,,Sparkle,False,False,False,False
+link-1-phase-1,Link 1 Phase-1,2003.0,In service,368 km,telco_consortium,,XLSmart,False,False,False,False
+link-1-phase-2,Link 1 Phase-2,2005.0,In service,94 km,telco_consortium,,XLSmart,False,False,False,False
+link-2-phase-1,Link 2 Phase-1,2004.0,In service,281 km,telco_consortium,,XLSmart,False,False,False,False
+link-2-phase-2,Link 2 Phase-2,2005.0,In service,221 km,telco_consortium,,XLSmart,False,False,False,False
+link-3-phase-1,Link 3 Phase-1,2003.0,In service,275 km,telco_consortium,,XLSmart,False,False,False,False
+link-3-phase-2,Link 3 Phase-2,2005.0,In service,342 km,telco_consortium,,XLSmart,False,False,False,False
+link-4-phase-2,Link 4 Phase-2,2005.0,In service,300 km,telco_consortium,,XLSmart,False,False,False,False
+link-5-phase-2,Link 5 Phase-2,2005.0,In service,365 km,telco_consortium,,XLSmart,False,False,False,False
+longyearbyen-ny-lesund,Longyearbyen-Ny-Ålesund,2015.0,In service,540 km,telco_consortium,,Sikt,False,False,False,False
+lower-indian-ocean-network-lion,Lower Indian Ocean Network (LION),2009.0,In service,"1,060 km",telco_consortium,,"Mauritius Telecom, Orange, Orange Madagascar",False,False,False,False
+lower-indian-ocean-network-2-lion2,Lower Indian Ocean Network 2 (LION2),2012.0,In service,"2,700 km",telco_consortium,,"Emtel, Mauritius Telecom, Orange, Orange Madagascar, Société Réunionnaise du Radiotéléphone, Telkom Kenya",False,False,False,False
+lumut-pangkor-island,Lumut-Pangkor Island,2018.0,In service,4 km,telco_consortium,,Telekom Malaysia,False,False,False,False
+luwuk-tutuyan-cable-system-ltcs,Luwuk Tutuyan Cable System (LTCS),2015.0,In service,446 km,telco_consortium,,Telkom Indonesia,False,False,False,False
+lynn-canal-fiber,Lynn Canal Fiber,2016.0,In service,138 km,telco_consortium,,Alaska Power & Telephone Company (AP&T),False,False,False,False
+manta,MANTA,2028.0,Planned,"5,600 km",telco_consortium,,"Gold Data, Liberty Networks, Sparkle",False,False,False,False
+mist,MIST,2024.0,In service,"8,100 km",telco_consortium,,Orient Link,False,False,False,False
+mvista,MViSTA,2028.0,Planned,"2,400 km",telco_consortium,,AsiaHub1,False,False,False,False
+mainone,MainOne,2010.0,In service,"7,000 km",telco_consortium,,MainOne - An Equinix Company,False,False,False,False
+malaysia-cambodia-thailand-mct-cable,Malaysia-Cambodia-Thailand (MCT) Cable,2017.0,In service,"1,300 km",telco_consortium,,"Symphony, Telcotech, Telekom Malaysia",False,False,False,False
+maldives-sri-lanka-cable-msc,Maldives Sri Lanka Cable (MSC),2021.0,In service,863 km,telco_consortium,,"Dhiraagu, Dialog Axiata, Ooredoo Maldives",False,False,False,False
+malta-gozo-cable,Malta-Gozo Cable,2020.0,In service,13 km,telco_consortium,,Gozo Fibre Optic Cable Ltd.,False,False,False,False
+malta-italy-interconnector,Malta-Italy Interconnector,2015.0,In service,95 km,telco_consortium,,Government of Malta,False,False,False,False
+manatua,Manatua,2020.0,In service,"3,634 km",telco_consortium,,"Avaroa Cable Ltd., OPT French Polynesia, Samoa Submarine Cable Company, Telecom Niue",False,False,False,False
+manx-northern-ireland,Manx-Northern Ireland,2000.0,In service,59 km,telco_consortium,,BT,False,False,False,False
+mariana-guam-cable,Mariana-Guam Cable,1997.0,In service,268 km,telco_consortium,,PTI Pacifica,False,False,False,False
+maroc-telecom-west-africa,Maroc Telecom West Africa,2021.0,In service,"8,600 km",telco_consortium,,Maroc Telecom,False,False,False,False
+mataram-kupang-cable-system-mkcs,Mataram Kupang Cable System (MKCS),2011.0,In service,"1,318 km",telco_consortium,,Telkom Indonesia,False,False,False,False
+matrix-cable-system,Matrix Cable System,2008.0,In service,"1,055 km",telco_consortium,,"Matrix NAP Info, Matrix Networks",False,False,False,False
+mauritius-and-rodrigues-submarine-cable-system-mars,Mauritius and Rodrigues Submarine Cable System (MARS),2019.0,In service,677 km,telco_consortium,,Mauritius Telecom,False,False,False,False
+maya-1-2,Maya-1.2,2000.0,In service,"2,386 km",telco_consortium,,"Hondutel, Liberty Networks, Ufinet",False,False,False,False
+med-cable-network,Med Cable Network,2005.0,In service,"1,300 km",telco_consortium,,Orascom Telecom Holding,False,False,False,False
+mednautilus-submarine-system,MedNautilus Submarine System,2001.0,In service,"7,000 km",telco_consortium,,Sparkle,False,False,False,False
+medloop,Medloop,2023.0,In service,"1,360 km",telco_consortium,,SIPARTECH Sarl,False,False,False,False
+medusa-submarine-cable-system,Medusa Submarine Cable System,2026.0,In service,"8,760 km",telco_consortium,,AFRIX Telecom,False,False,False,False
+melita-1,Melita 1,2009.0,In service,97 km,telco_consortium,,Melita,False,False,False,False
+meltingpot-indianoceanic-submarine-system-metiss,Meltingpot Indianoceanic Submarine System (METISS),2021.0,In service,"3,200 km",telco_consortium,,"***Canal+ Telecom***, CEB Fibernet, Emtel, SFR, Telma (Telecom Malagasy), Zeop (incl. Reunicable)",False,False,False,False
+mercator,Mercator,2023.0,In service,,telco_consortium,,BT,False,False,False,False
+mid-atlantic-crossing-mac,Mid-Atlantic Crossing (MAC),2000.0,In service,"7,500 km",telco_consortium,,Cirion Technologies,False,False,False,False
+middle-east-north-africa-mena-cable-systemgulf-bridge-international,Middle East North Africa (MENA) Cable System/Gulf Bridge International,2014.0,In service,"8,000 km",telco_consortium,,"Gulf Bridge International, Telecom Egypt",False,False,False,False
+minamidaito-island,Minamidaito Island,2011.0,In service,410 km,telco_consortium,,Okinawa Prefecture,False,False,False,False
+minoas-east-and-west,Minoas East and West,2021.0,In service,270 km,telco_consortium,,Grid Telecom,False,False,False,False
+mishima-village,Mishima Village,2010.0,In service,192 km,telco_consortium,,Mishima Village,False,False,False,False
+miyazaki-okinawa-cable-moc,Miyazaki-Okinawa Cable (MOC),1997.0,In service,,telco_consortium,,KDDI,False,False,False,False
+mjolner-east,Mjolner East,2027.0,Planned,450 km,telco_consortium,,GlobalConnect,False,False,False,False
+mjolner-west,Mjolner West,2027.0,Planned,250 km,telco_consortium,,GlobalConnect,False,False,False,False
+mobily-red-sea-cable-mrsc,Mobily Red Sea Cable (MRSC),2027.0,Planned,,telco_consortium,,Mobily,False,False,False,False
+moratelindo-international-cable-system-1-mic-1,Moratelindo International Cable System-1 (MIC-1),2008.0,In service,70 km,telco_consortium,,Moratelindo,False,False,False,False
+muroran-hachinohe,Muroran-Hachinohe,2002.0,In service,280 km,telco_consortium,,Softbank,False,False,False,False
+n0r5ke-viking,N0r5ke Viking,2022.0,In service,810 km,telco_consortium,,NOR5KE Fibre AS,False,False,False,False
+no-uk,NO-UK,2021.0,In service,713 km,telco_consortium,,NO-UK COM AS,False,False,False,False
+national-digital-transmission-network-ndtn,National Digital Transmission Network (NDTN),1999.0,In service,"1,400 km",telco_consortium,,Telecoms Infrastructure Corporation of the Philippines (TelicPhil),False,False,False,False
+nationwide-submarine-cable-ooredoo-maldives-nascom,Nationwide Submarine Cable Ooredoo Maldives (NaSCOM),2016.0,In service,"1,136 km",telco_consortium,,Ooredoo Maldives,False,False,False,False
+natitua,Natitua,2018.0,In service,"2,680 km",telco_consortium,,OPT French Polynesia,False,False,False,False
+natitua-sud,Natitua Sud,2023.0,In service,820 km,telco_consortium,,OPT French Polynesia,False,False,False,False
+nelson-levin,Nelson-Levin,2001.0,In service,212 km,telco_consortium,,Spark New Zealand,False,False,False,False
+new-cam-ring,New CAM Ring,2026.0,Planned,"3,812 km",telco_consortium,,IP Telecom,False,False,False,False
+nigeria-cameroon-submarine-cable-system-ncscs,Nigeria Cameroon Submarine Cable System (NCSCS),2015.0,In service,"1,100 km",telco_consortium,,Camtel,False,False,False,False
+ningbo-zhoushan-cable,Ningbo-Zhoushan Cable,1999.0,In service,35 km,telco_consortium,,China Telecom,False,False,False,False
+nome-to-homer-express-nthe,Nome to Homer Express (NTHE),2027.0,Planned,"1,545 km",telco_consortium,,Quintillion,False,False,False,False
+nongsa-changi,Nongsa-Changi,2026.0,Planned,50 km,telco_consortium,,"BW Digital, Hawaiki Submarine Cable LP, Telin",False,False,False,False
+nordbalt,NordBalt,2016.0,In service,400 km,telco_consortium,,"Litgrid, Svenska Kraftnät",False,False,False,False
+norfest,Norfest,2023.0,In service,749 km,telco_consortium,,Tampnet,False,False,False,False
+norte-conectado-infovia-00,Norte Conectado (Infovia 00),2022.0,In service,770 km,telco_consortium,,"Aquamar Group, BR.Digital Telecom, ICOM Telecom, SEA Telecom, Telefonica, Wirelink",False,False,False,False
+norte-conectado-infovia-01,Norte Conectado (Infovia 01),2023.0,In service,"1,100 km",telco_consortium,,"Alloha Fibra, América Móvil (Claro), Aquamar Group, BR Fibra, ICOM Telecom, Ozônio Telecom, PPLink, SEA Telecom, TIM Brasil, Telefonica, V.tal, Você Telecom",False,False,False,False
+norte-conectado-infovia-02,Norte Conectado (Infovia 02),2026.0,In service,"1,796 km",telco_consortium,,Entidade Administradora da Faixa (EAF),False,False,False,False
+norte-conectado-infovia-03,Norte Conectado (Infovia 03),2025.0,In service,600 km,telco_consortium,,Entidade Administradora da Faixa (EAF),False,False,False,False
+norte-conectado-infovia-04,Norte Conectado (Infovia 04),2026.0,In service,515 km,telco_consortium,,Entidade Administradora da Faixa (EAF),False,False,False,False
+norte-conectado-infovia-05,Norte Conectado (Infovia 05),2028.0,Planned,"1,116 km",telco_consortium,,Entidade Administradora da Faixa (EAF),False,False,False,False
+norte-conectado-infovia-06,Norte Conectado (Infovia 06),2028.0,Planned,"2,847 km",telco_consortium,,Entidade Administradora da Faixa (EAF),False,False,False,False
+norte-conectado-infovia-08,Norte Conectado (Infovia 08),2028.0,Planned,"2,766 km",telco_consortium,,Entidade Administradora da Faixa (EAF),False,False,False,False
+north-west-cable-system,North-West Cable System,2016.0,In service,"2,100 km",telco_consortium,,Vocus Communications,False,False,False,False
+northstar,NorthStar,1999.0,In service,"3,229 km",telco_consortium,,Alaska Communications,False,False,False,False
+northern-lights,Northern Lights,2008.0,In service,67 km,telco_consortium,,BT,False,False,False,False
+omranepeg,OMRAN/EPEG,2013.0,In service,600 km,telco_consortium,,"Vodafone, Zain Omantel International",False,False,False,False
+oteglobe-kokkini-bari,OTEGLOBE Kokkini-Bari,2004.0,In service,700 km,telco_consortium,,OTEGLOBE,False,False,False,False
+oceanic-tatitlek-telecommunications-enhancement-route-otter,Oceanic Tatitlek Telecommunications Enhancement Route (OTTER),2027.0,Planned,50 km,telco_consortium,,Copper Valley Telecom,False,False,False,False
+ogasawara-cable-network,Ogasawara Cable Network,2011.0,In service,"1,038 km",telco_consortium,,Tokyo Metropolitan Government,False,False,False,False
+okinawa-cellular-cable,Okinawa Cellular Cable,2020.0,In service,780 km,telco_consortium,,Okinawa Cellular Telephone Company,False,False,False,False
+okinawa-remote-islands,Okinawa Remote Islands,2017.0,In service,915 km,telco_consortium,,Okinawa Prefecture,False,False,False,False
+okinawa-miyakojima-ishigaki,Okinawa-Miyakojima-Ishigaki,2004.0,In service,467 km,telco_consortium,,NTT,False,False,False,False
+olisipo,Olisipo,2026.0,Planned,110 km,telco_consortium,,EllaLink,False,False,False,False
+oman-australia-cable-oac,Oman Australia Cable (OAC),2022.0,In service,"11,000 km",telco_consortium,,SUBCO,False,False,False,False
+oran-valencia-orval,Oran-Valencia (ORVAL),2020.0,In service,770 km,telco_consortium,,Algerie Telecom,False,False,False,False
+oskarshamn-visby,Oskarshamn-Visby,2008.0,In service,,telco_consortium,,GlobalConnect,False,False,False,False
+pasela,PASELA,2027.0,Planned,"1,100 km",telco_consortium,,Telkom Indonesia,False,False,False,False
+pasuli,PASULI,2019.0,In service,40 km,telco_consortium,,"FiberStar, XLSmart",False,False,False,False
+peace-cable,PEACE Cable,2022.0,In service,"25,000 km",telco_consortium,,Peace Cable International Network Co. Ltd.,False,False,False,False
+pgascom,PGASCOM,2010.0,In service,264 km,telco_consortium,,PGASCOM,False,False,False,False
+pipe-pacific-cable-1-ppc-1,PIPE Pacific Cable-1 (PPC-1),2009.0,In service,"6,900 km",telco_consortium,,Vocus Communications,False,False,False,False
+pldt-domestic-fiber-optic-network-dfon,PLDT Domestic Fiber Optic Network (DFON),1997.0,In service,"11,100 km",telco_consortium,,PLDT,False,False,False,False
+png-lng,PNG LNG,2014.0,In service,200 km,telco_consortium,,Telikom Papua New Guinea,False,False,False,False
+poseidon,POSEIDON,2014.0,In service,800 km,telco_consortium,,"Ocean Specialists, Inc (OSI)",False,False,False,False
+pacific-caribbean-cable-system-pccs,Pacific Caribbean Cable System (PCCS),2015.0,In service,"6,163 km",telco_consortium,,"Liberty Networks, SETAR, Telconet, Telxius, United Telecommunication Services (UTS)",False,False,False,False
+pacific-crossing-1-pc-1,Pacific Crossing-1 (PC-1),1999.0,In service,"21,000 km",telco_consortium,,Pacific Crossing,False,False,False,False
+padang-tua-pejat,Padang-Tua Pejat,2019.0,In service,160 km,telco_consortium,,Telkom Indonesia,False,False,False,False
+palapa-ring-east,Palapa Ring East,2019.0,In service,,telco_consortium,,"Indonesian Government, Moratelindo, Telekom PT SmartFren",False,False,False,False
+palapa-ring-middle,Palapa Ring Middle,2018.0,In service,"2,100 km",telco_consortium,,Indonesian Government,False,False,False,False
+palapa-ring-west,Palapa Ring West,2018.0,In service,"1,980 km",telco_consortium,,Indonesian Government,False,False,False,False
+palawan-iloilo-cable-system,Palawan-Iloilo Cable System,2014.0,In service,300 km,telco_consortium,,PLDT,False,False,False,False
+pan-european-crossing-uk-belgium,Pan European Crossing (UK-Belgium),1999.0,In service,117 km,telco_consortium,,Colt,False,False,False,False
+pan-european-crossing-uk-ireland,Pan European Crossing (UK-Ireland),2000.0,In service,495 km,telco_consortium,,Colt,False,False,False,False
+pan-american-crossing-pac,Pan-American Crossing (PAC),2000.0,In service,"10,000 km",telco_consortium,,Cirion Technologies,False,False,False,False
+panam-south,PanAm South,1999.0,In service,"1,340 km",telco_consortium,,"Corporacion Nacional de Telecomunicaciones (CNT), Liberty Networks",False,False,False,False
+paniolo-cable-network,Paniolo Cable Network,2009.0,In service,576 km,telco_consortium,,Hawaiian Telcom,False,False,False,False
+patara-2,Patara-2,2023.0,In service,"1,200 km",telco_consortium,,Telin,False,False,False,False
+penbal-4,Penbal-4,1991.0,In service,317 km,telco_consortium,,Telefonica,False,False,False,False
+penbal-5,Penbal-5,1994.0,In service,315 km,telco_consortium,,Telefonica,False,False,False,False
+pencan-8,Pencan-8,2011.0,In service,"1,400 km",telco_consortium,,Telefonica,False,False,False,False
+pencan-9,Pencan-9,2016.0,In service,"1,398 km",telco_consortium,,Telefonica,False,False,False,False
+persona,Persona,2008.0,In service,800 km,telco_consortium,,Eastlink,False,False,False,False
+petropavlovsk-kamchatsky---anadyr,Petropavlovsk-Kamchatsky - Anadyr,2022.0,In service,"2,173 km",telco_consortium,,Rostelecom,False,False,False,False
+philippine-domestic-submarine-cable-network-pdscn,Philippine Domestic Submarine Cable Network (PDSCN),2023.0,In service,"2,500 km",telco_consortium,,"Eastern Telecom, Globe Telecom, Infinivan Inc.",False,False,False,False
+piano-isole-minori,Piano Isole Minori,2024.0,In service,830 km,telco_consortium,,Infratel Italia,False,False,False,False
+picot-1,Picot-1,2008.0,In service,,telco_consortium,,OPT,False,False,False,False
+pishgaman-oman-iran-poi-network,Pishgaman Oman Iran (POI) Network,2012.0,In service,400 km,telco_consortium,,Pishgaman Kavir,False,False,False,False
+polar-circle-cable,Polar Circle Cable,2007.0,In service,"1,004 km",telco_consortium,,KystTele,False,False,False,False
+polar-express,Polar Express,2022.0,In service,"12,650 km",telco_consortium,,Russian Government,False,False,False,False
+portsmouth-ryde-10,Portsmouth-Ryde 10,2015.0,In service,,telco_consortium,,BT,False,False,False,False
+portsmouth-ryde-11,Portsmouth-Ryde 11,2015.0,In service,,telco_consortium,,BT,False,False,False,False
+prat,Prat,2020.0,In service,"3,500 km",telco_consortium,,Grupo Gtd,False,False,False,False
+projeto-amaznia-conectada-pac-01,Projeto Amazônia Conectada (PAC 01),2017.0,In service,800 km,telco_consortium,,Government of Brazil,False,False,False,False
+projeto-amaznia-conectada-pac-02,Projeto Amazônia Conectada (PAC 02),2021.0,In service,"1,001 km",telco_consortium,,Government of Brazil,False,False,False,False
+pukpuk-1-cable-system,Pukpuk-1 Cable System,2026.0,In service,134 km,telco_consortium,,PNG DataCo Limited,False,False,False,False
+qe-north,Q&E North,2025.0,In service,112 km,telco_consortium,,EXA Infrastructure,False,False,False,False
+qe-south,Q&E South,2026.0,In service,141 km,telco_consortium,,euNetworks,False,False,False,False
+qatar-u-a-e-submarine-cable-system,Qatar-U.A.E. Submarine Cable System,2004.0,In service,100 km,telco_consortium,,"Ooredoo, e&",False,False,False,False
+quintillion-subsea-cable-network,Quintillion Subsea Cable Network,2017.0,In service,"1,900 km",telco_consortium,,Quintillion,False,False,False,False
+r100-north,R100 North,2023.0,In service,224 km,telco_consortium,,BT,False,False,False,False
+rising-8,RISING 8,2026.0,In service,"1,104 km",telco_consortium,,"Moratelindo, Triasmitra",False,False,False,False
+romsar-2,ROMSAR 2,1996.0,In service,,telco_consortium,,Sparkle,False,False,False,False
+red-hook-little-saint-james,Red Hook-Little Saint James,2005.0,In service,5 km,telco_consortium,,Virgin Islands Water and Power Authority,False,False,False,False
+red2med,Red2Med,2023.0,In service,420 km,telco_consortium,,Telecom Egypt,False,False,False,False
+rockabill,Rockabill,2019.0,In service,221 km,telco_consortium,,euNetworks,False,False,False,False
+rompin-tioman-island,Rompin-Tioman Island,2018.0,In service,75 km,telco_consortium,,Telekom Malaysia,False,False,False,False
+romulo,Romulo,2011.0,In service,237 km,telco_consortium,,Red Electrica,False,False,False,False
+roquetas-melilla-cam,Roquetas-Melilla (CAM),2014.0,In service,181 km,telco_consortium,,Telefonica,False,False,False,False
+ruppione-isolella,Ruppione-Isolella,2007.0,In service,62 km,telco_consortium,,Corsica Haut Débit,False,False,False,False
+russia-japan-cable-network-rjcn,Russia-Japan Cable Network (RJCN),2008.0,In service,"1,800 km",telco_consortium,,"KDDI, Rostelecom",False,False,False,False
+rnne-rdvig,Rønne-Rødvig,1989.0,In service,153 km,telco_consortium,,TDC Group,False,False,False,False
+s-u-b-cable-system,S-U-B Cable System,2008.0,In service,"2,009 km",telco_consortium,,Telkom Indonesia,False,False,False,False
+safe,SAFE,2002.0,In service,"13,500 km",telco_consortium,,"AT&T, Angola Telecom, BICS, Camtel, China Telecom, Chunghwa Telecom, Cogent, Ghana Telecommunications Company, KPN, Liquid Intelligent Technologies, Maroc Telecom, Mauritius Telecom, NATCOM (Nigeria), OPT, Orange, Orange Cote d’Ivoire, PCCW, Singtel, Sonatel, Sparkle, Tata Communications, Telecom Namibia, Telefonica, Telekom Malaysia, Telkom South Africa, Telstra, Verizon, Vodafone",False,False,False,False
+sarco,SARCO,2006.0,In service,,telco_consortium,,Free,False,False,False,False
+sat-3wasc,SAT-3/WASC,2002.0,In service,"14,350 km",telco_consortium,,"AT&T, Altice Portugal, Angola Telecom, BICS, BT, Camtel, China Telecom, Chunghwa Telecom, Cogent, Cyta, Deutsche Telekom, Ghana Telecommunications Company, KPN, KT, Liquid Intelligent Technologies, Maroc Telecom, Mauritius Telecom, NATCOM (Nigeria), OPT, Orange, Orange Cote d’Ivoire, PCCW, SBIN (La Société Béninoise d’Infrastructures Numériques), Singtel, Sparkle, Tata Communications, Telecom Namibia, Telekom Malaysia, Telkom South Africa, Telstra, Telxius, Verizon, Vodafone",False,False,False,False
+sea-h2x,SEA-H2X,2026.0,In service,"5,746 km",telco_consortium,,"China Mobile, China Unicom, Converge ICT",False,False,False,False
+sea-us,SEA-US,2017.0,In service,"14,500 km",telco_consortium,,"GTA TeleGuam, Globe Telecom, Hawaiian Telcom, Lightstorm, Telin",False,False,False,False
+seacomtata-tgn-eurasia,SEACOM/Tata TGN-Eurasia,2009.0,In service,"15,000 km",telco_consortium,,"SEACOM, Tata Communications",False,False,False,False
+sealink,SEALink,2023.0,In service,345 km,telco_consortium,,Alaska Power & Telephone Company Wireless (APTW),False,False,False,False
+sealink-south,SEALink South,2024.0,In service,159 km,telco_consortium,,Alaska Power & Telephone Company Wireless (APTW),False,False,False,False
+seax-1,SEAX-1,2018.0,In service,250 km,telco_consortium,,SEAX,False,False,False,False
+shefa-2,SHEFA-2,2008.0,In service,"1,000 km",telco_consortium,,Shefa,False,False,False,False
+sjjk,SJJK,2008.0,In service,543 km,telco_consortium,,XLSmart,False,False,False,False
+smpcs-packet-1,SMPCS Packet-1,2015.0,In service,"3,156 km",telco_consortium,,Telkom Indonesia,False,False,False,False
+smpcs-packet-2,SMPCS Packet-2,2015.0,In service,"3,498 km",telco_consortium,,Telkom Indonesia,False,False,False,False
+sto-hel-one,STO-HEL-One,2008.0,In service,560 km,telco_consortium,,GlobalConnect,False,False,False,False
+sx-tasman-express-sx-tx,SX Tasman Express (SX-TX),2028.0,Planned,"2,276 km",telco_consortium,,Southern Cross Cable Network,False,False,False,False
+saba-statia-cable-system-sscs,"Saba, Statia Cable System (SSCS)",2013.0,In service,198 km,telco_consortium,,Government of the Netherlands,False,False,False,False
+sagres,Sagres,1998.0,In service,302 km,telco_consortium,,Altice Portugal,False,False,False,False
+sakhalin-kuril-islands-cable,Sakhalin-Kuril Islands Cable,2019.0,In service,940 km,telco_consortium,,Rostelecom,False,False,False,False
+samoa-american-samoa-sas,Samoa-American Samoa (SAS),2009.0,In service,250 km,telco_consortium,,"American Samoa Government, Elandia",False,False,False,False
+san-andres-isla-tolu-submarine-cable-sait,San Andres Isla Tolu Submarine Cable (SAIT),2010.0,In service,826 km,telco_consortium,,Energía Integral Andina,False,False,False,False
+sape-labuan-bajo-ende-kupang,Sape-Labuan Bajo-Ende-Kupang,2021.0,In service,474 km,telco_consortium,,Moratelindo,False,False,False,False
+saudi-arabia-sudan-1-sas-1,Saudi Arabia-Sudan-1 (SAS-1),2003.0,In service,333 km,telco_consortium,,"Sudatel, The Arab Investment Company, center3",False,False,False,False
+saudi-arabia-sudan-2-sas-2,Saudi Arabia-Sudan-2 (SAS-2),2011.0,In service,330 km,telco_consortium,,"Sudatel, center3",False,False,False,False
+saudi-vision,Saudi Vision,2023.0,In service,"1,071 km",telco_consortium,,center3,False,False,False,False
+scandinavian-ring-north,Scandinavian Ring North,2000.0,In service,5 km,telco_consortium,,Arelion,False,False,False,False
+scandinavian-ring-south,Scandinavian Ring South,2000.0,In service,21 km,telco_consortium,,Arelion,False,False,False,False
+scotland-northern-ireland-3,Scotland-Northern Ireland 3,2022.0,In service,42 km,telco_consortium,,BT,False,False,False,False
+scotland-northern-ireland-4,Scotland-Northern Ireland 4,2022.0,In service,85 km,telco_consortium,,BT,False,False,False,False
+scylla,Scylla,2021.0,In service,204 km,telco_consortium,,euNetworks,False,False,False,False
+seamewe-4,SeaMeWe-4,2005.0,In service,"20,000 km",telco_consortium,,"Algerie Telecom, Bangladesh Submarine Cable Company Limited (BSCCL), Bharti Airtel, National Telecom, Orange, Pakistan Telecommunications Company Ltd., Singtel, Sparkle, Sri Lanka Telecom, Tata Communications, Telecom Egypt, Telekom Malaysia, Tunisia Telecom, Verizon, center3, e&",False,False,False,False
+seamewe-5,SeaMeWe-5,2016.0,In service,"20,000 km",telco_consortium,,"Bangladesh Submarine Cable Company Limited (BSCCL), China Mobile, China Telecom, China Unicom, Djibouti Telecom, Myanmar Post and Telecommunication (MPT), Ooredoo, Orange, Singtel, Sparkle, Sri Lanka Telecom, TeleYemen, Telecom Egypt, Telekom Malaysia, Telkom Indonesia, Transworld, center3, du",False,False,False,False
+seabras-1,Seabras-1,2017.0,In service,"10,800 km",telco_consortium,,"Seaborn Networks, Sparkle",False,False,False,False
+segunda-fos-canal-de-chacao,Segunda FOS Canal de Chacao,2015.0,In service,40 km,telco_consortium,,Grupo Gtd,False,False,False,False
+senegal-horn-of-africa-regional-express-share-cable,Senegal Horn of Africa Regional Express (SHARE) Cable,2023.0,In service,720 km,telco_consortium,,Sénégal Numérique SA,False,False,False,False
+seychelles-to-east-africa-system-seas,Seychelles to East Africa System (SEAS),2012.0,In service,"1,930 km",telco_consortium,,Seychelles Cable System Ltd.,False,False,False,False
+sihanoukville-hong-kong-shv-hk,Sihanoukville-Hong Kong (SHV-HK),2026.0,Planned,"2,938 km",telco_consortium,,Government of Cambodia,False,False,False,False
+silphium,Silphium,2013.0,In service,425 km,telco_consortium,,Libya International Telecommunications Company,False,False,False,False
+sint-maarten-puerto-rico-network-one-smpr-1,Sint Maarten Puerto Rico Network One (SMPR-1),2004.0,In service,375 km,telco_consortium,,"Dauphin Telecom, TelEm Group",False,False,False,False
+sir-abu-nuayr-cable,Sir Abu Nu’ayr Cable,2018.0,In service,84 km,telco_consortium,,e&,False,False,False,False
+sirius-north,Sirius North,1999.0,In service,147 km,telco_consortium,,Virgin Media Business,False,False,False,False
+sirius-south,Sirius South,1999.0,In service,219 km,telco_consortium,,Virgin Media Business,False,False,False,False
+sistem-kabel-rakyat-1malaysia-skr1m,Sistem Kabel Rakyat 1Malaysia (SKR1M),2017.0,In service,"3,800 km",telco_consortium,,"TIME dotCom, Telekom Malaysia",False,False,False,False
+skagenfiber-west,Skagenfiber West,2020.0,In service,170 km,telco_consortium,,Midgard Infra,False,False,False,False
+skagerrak-4,Skagerrak 4,2014.0,In service,137 km,telco_consortium,,Statnett,False,False,False,False
+solas,Solas,1999.0,In service,232 km,telco_consortium,,"Vodafone, eir",False,False,False,False
+sorsogon-samar-submarine-fiber-optical-interconnection-project-sssfoip,Sorsogon-Samar Submarine Fiber Optical Interconnection Project (SSSFOIP),2019.0,In service,21 km,telco_consortium,,National Grid Corporation of the Philippines,False,False,False,False
+south-america-1-sam-1,South America-1 (SAm-1),2001.0,In service,"25,000 km",telco_consortium,,Telxius,False,False,False,False
+south-american-crossing-sac,South American Crossing (SAC),2000.0,In service,"20,000 km",telco_consortium,,"Cirion Technologies, Sparkle",False,False,False,False
+south-atlantic-cable-system-sacs,South Atlantic Cable System (SACS),2018.0,In service,"6,165 km",telco_consortium,,Angola Cables,False,False,False,False
+south-atlantic-inter-link-sail,South Atlantic Inter Link (SAIL),2020.0,In service,"5,800 km",telco_consortium,,"Camtel, China Unicom",False,False,False,False
+south-pacific-cable-system-spcsmistral,South Pacific Cable System (SPCS)/Mistral,2021.0,In service,"7,300 km",telco_consortium,,"América Móvil (Claro), Telxius",False,False,False,False
+southern-caribbean-fiber,Southern Caribbean Fiber,2006.0,In service,"3,000 km",telco_consortium,,Digicel,False,False,False,False
+southern-cross-cable-network-sccn,Southern Cross Cable Network (SCCN),2000.0,In service,"30,500 km",telco_consortium,,Southern Cross Cable Network,False,False,False,False
+southern-cross-next,Southern Cross NEXT,2022.0,In service,"13,700 km",telco_consortium,,Southern Cross Cable Network,False,False,False,False
+sovetskaya-gavan-ilyinskoye,Sovetskaya Gavan-Ilyinskoye,2007.0,In service,214 km,telco_consortium,,TTK,False,False,False,False
+sovetskaya-gavan-uglegorsk,Sovetskaya Gavan-Uglegorsk,2019.0,In service,127 km,telco_consortium,,Rostelecom,False,False,False,False
+st-pierre-and-miquelon-cable,St. Pierre and Miquelon Cable,2018.0,In service,200 km,telco_consortium,,French Authority of St. Pierre and Miquelon,False,False,False,False
+st-thomas-st-croix-system,St. Thomas-St. Croix System,1997.0,In service,183 km,telco_consortium,,"Virgin Islands Next Generation Networks, Inc.",False,False,False,False
+strategic-evolution-underwater-link-seul,Strategic Evolution Underwater Link (SEUL),2017.0,In service,24 km,telco_consortium,,Belize Telemedia,False,False,False,False
+subcan-link-1,Subcan Link 1,2002.0,In service,143 km,telco_consortium,,Cable Submarine de Canarias,False,False,False,False
+subcan-link-2,Subcan Link 2,2002.0,In service,136 km,telco_consortium,,Cable Submarine de Canarias,False,False,False,False
+submarine-cable-in-the-philippines-scip,Submarine Cable in the Philippines (SCiP),2022.0,In service,"1,638 km",telco_consortium,,DITO Telecommunity,False,False,False,False
+sumatera-bangka-cable-system-sbcs,Sumatera Bangka Cable System (SBCS),2014.0,In service,57 km,telco_consortium,,Telkom Indonesia,False,False,False,False
+sunoque-i,Sunoque I,1999.0,In service,,telco_consortium,,"Hydro-Québec, Telus",False,False,False,False
+sunoque-ii,Sunoque II,1999.0,In service,,telco_consortium,,"Hydro-Québec, Telus",False,False,False,False
+sunoque-iii,Sunoque III,2027.0,Planned,125 km,telco_consortium,,"Hydro-Québec, Telus",False,False,False,False
+suriname-guyana-submarine-cable-system-sg-scs,Suriname-Guyana Submarine Cable System (SG-SCS),2010.0,In service,"1,249 km",telco_consortium,,"Guyana Telephone and Telegraph (GT&T), Telesur",False,False,False,False
+svalbard-undersea-cable-system,Svalbard Undersea Cable System,2004.0,In service,"2,714 km",telco_consortium,,Space Norway,False,False,False,False
+sweden-estonia-ee-s-1,Sweden-Estonia (EE-S 1),1995.0,In service,240 km,telco_consortium,,"Arelion, GN Great Nordic, Telia Eesti (formerly Eesti Telekom, EMT, Elion)",False,False,False,False
+sweden-latvia,Sweden-Latvia,2005.0,In service,391 km,telco_consortium,,Latvia State Radio and Television Centre,False,False,False,False
+sydney-melbourne-adelaide-perth-smap,Sydney-Melbourne-Adelaide-Perth (SMAP),2026.0,In service,"5,000 km",telco_consortium,,SUBCO,False,False,False,False
+t3,T3,2023.0,In service,"3,200 km",telco_consortium,,"Liquid Intelligent Technologies, Mauritius Telecom",False,False,False,False
+tam-1,TAM-1,2026.0,Planned,"7,200 km",telco_consortium,,Trans Americas Fiber,False,False,False,False
+te-northtgn-eurasiaseacomalexandrosmedex,TE North/TGN-Eurasia/SEACOM/Alexandros/Medex,2011.0,In service,"3,634 km",telco_consortium,,"Algerie Telecom, Cyta, PCCW, SEACOM, Tata Communications, Telecom Egypt",False,False,False,False
+tegopa,TEGOPA,1994.0,In service,222 km,telco_consortium,,Telefonica,False,False,False,False
+terra-sw,TERRA SW,2012.0,In service,,telco_consortium,,GCI Communication Corp,False,False,False,False
+tikal-amx3,TIKAL-AMX3,2026.0,Planned,"1,935 km",telco_consortium,,"América Móvil (Claro), Telxius",False,False,False,False
+tko-connect,TKO Connect,2023.0,In service,6 km,telco_consortium,,"HKBN, iAdvantage",False,False,False,False
+tmx5,TMX5,2025.0,In service,383 km,telco_consortium,,Telmex,False,False,False,False
+transcan-2,TRANSCAN-2,1990.0,In service,238 km,telco_consortium,,Telefonica,False,False,False,False
+transcan-3,TRANSCAN-3,2000.0,In service,210 km,telco_consortium,,Telefonica,False,False,False,False
+tt1,TT1,2015.0,In service,44 km,telco_consortium,,"Alliance Telecommunications, Liberty Networks, TSTT",False,False,False,False
+taba-aqaba,Taba-Aqaba,1998.0,In service,13 km,telco_consortium,,National Electric Power Company of Jordan,False,False,False,False
+taino-carib,Taino-Carib,1992.0,In service,187 km,telco_consortium,,"AT&T, Altice USA, CANTV, Cogent, Embratel, Liberty Networks, Orange, SETAR",False,False,False,False
+taiwan-penghu-kinmen-matsu-no-2-tpkm2,Taiwan Penghu Kinmen Matsu No.2 (TPKM2),2000.0,In service,467 km,telco_consortium,,Chunghwa Telecom,False,False,False,False
+taiwan-penghu-kinmen-matsu-no-3-tpkm3,Taiwan Penghu Kinmen Matsu No.3 (TPKM3),2013.0,In service,510 km,telco_consortium,,Chunghwa Telecom,False,False,False,False
+taiwan-strait-express-1-tse-1,Taiwan Strait Express-1 (TSE-1),2013.0,In service,260 km,telco_consortium,,"China Mobile, China Unicom, Chunghwa Telecom, Far EasTone (FET), Taiwan International Gateway Corporation, Taiwan Mobile",False,False,False,False
+taiwan-matsu-no-4,Taiwan-Matsu No.4,2026.0,Planned,300 km,telco_consortium,,Chunghwa Telecom,False,False,False,False
+tampnet-north,Tampnet North,1999.0,In service,"1,751 km",telco_consortium,,Tampnet,False,False,False,False
+tampnet-south,Tampnet South,1999.0,In service,"1,751 km",telco_consortium,,Tampnet,False,False,False,False
+tamtam,Tamtam,2027.0,Planned,"1,000 km",telco_consortium,,Prima,False,False,False,False
+tangerine,Tangerine,2000.0,In service,112 km,telco_consortium,,Colt,False,False,False,False
+tanjung-pandan-sungai-kakap,Tanjung Pandan-Sungai Kakap,2019.0,In service,348 km,telco_consortium,,Moratelindo,False,False,False,False
+tarakan-selor-cable-system-tscs,Tarakan Selor Cable System (TSCS),2014.0,In service,83 km,telco_consortium,,Telkom Indonesia,False,False,False,False
+tasman-global-access-tga-cable,Tasman Global Access (TGA) Cable,2017.0,In service,"2,288 km",telco_consortium,,"One NZ, Spark New Zealand, Telstra",False,False,False,False
+tasman-ring-network,Tasman Ring Network,2029.0,Planned,"6,000 km",telco_consortium,,Datagrid New Zealand,False,False,False,False
+tata-tgn-atlantic-south,Tata TGN-Atlantic South,2001.0,In service,,telco_consortium,,Tata Communications,False,False,False,False
+tata-tgn-gulf,Tata TGN-Gulf,2012.0,In service,"4,031 km",telco_consortium,,Tata Communications,False,False,False,False
+tata-tgn-intra-asia-tgn-ia,Tata TGN-Intra Asia (TGN-IA),2009.0,In service,"6,700 km",telco_consortium,,Tata Communications,False,False,False,False
+tata-tgn-pacific,Tata TGN-Pacific,2002.0,In service,"22,300 km",telco_consortium,,Tata Communications,False,False,False,False
+tata-tgn-tata-indicom,Tata TGN-Tata Indicom,2004.0,In service,"3,175 km",telco_consortium,,Tata Communications,False,False,False,False
+tata-tgn-western-europe,Tata TGN-Western Europe,2002.0,In service,"3,578 km",telco_consortium,,Tata Communications,False,False,False,False
+tautira-teahupoo,Tautira-Teahupo'o,2023.0,In service,38 km,telco_consortium,,OPT French Polynesia,False,False,False,False
+telstra-endeavour,Telstra Endeavour,2008.0,In service,"9,125 km",telco_consortium,,Telstra,False,False,False,False
+tenerife-gran-canaria,Tenerife-Gran Canaria,1999.0,In service,110 km,telco_consortium,,Telefonica,False,False,False,False
+tenerife-la-palma,Tenerife-La Palma,,In service,,telco_consortium,,Telefonica,False,False,False,False
+thailand-domestic-submarine-cable-network-tdscn,Thailand Domestic Submarine Cable Network (TDSCN),2001.0,In service,884 km,telco_consortium,,National Telecom,False,False,False,False
+thailand-indonesia-singapore-tis,Thailand-Indonesia-Singapore (TIS),2003.0,In service,968 km,telco_consortium,,"National Telecom, Singtel, Telkom Indonesia",False,False,False,False
+the-east-african-marine-system-teams,The East African Marine System (TEAMS),2009.0,In service,"5,054 km",telco_consortium,,"TEAMS Ltd., e&",False,False,False,False
+thetis,Thetis,2022.0,In service,660 km,telco_consortium,,Vodafone,False,False,False,False
+thetis-express,Thetis Express,2027.0,Planned,340 km,telco_consortium,,Vodafone,False,False,False,False
+timor-leste-south-submarine-cable-tlssc,Timor-Leste South Submarine Cable (TLSSC),2025.0,In service,607 km,telco_consortium,,Government of Timor-Leste,False,False,False,False
+tobrok-emasaed-cable-system,Tobrok-Emasaed Cable System,2010.0,In service,178 km,telco_consortium,,Libya International Telecommunications Company,False,False,False,False
+tokelau-submarine-cable,Tokelau Submarine Cable,2023.0,In service,250 km,telco_consortium,,Teletok,False,False,False,False
+tonga-cable,Tonga Cable,2013.0,In service,827 km,telco_consortium,,"Digicel Tonga, Government of Tonga, Tonga Communications Corporation",False,False,False,False
+tonga-domestic-cable-extension-tdce,Tonga Domestic Cable Extension (TDCE),2018.0,In service,410 km,telco_consortium,,Tonga Cable Limited,False,False,False,False
+trans-adriatic-express-tae,Trans Adriatic Express (TAE),2023.0,In service,106 km,telco_consortium,,"EXA Infrastructure, TAP AG",False,False,False,False
+trans-global-cable-system-tgcs,Trans Global Cable System (TGCS),2026.0,Planned,"1,200 km",telco_consortium,,Trans Indonesia Supercorridor,False,False,False,False
+trans-caspian-fiber-optic-cable-project,Trans-Caspian Fiber Optic Cable Project,2026.0,Planned,380 km,telco_consortium,,"Azertelecom, Kazakhtelecom",False,False,False,False
+trans-pacific-express-tpe-cable-system,Trans-Pacific Express (TPE) Cable System,2008.0,In service,"17,968 km",telco_consortium,,"AT&T, China Telecom, China Unicom, Chunghwa Telecom, KT, NTT, Verizon",False,False,False,False
+transworld-tw1,Transworld (TW1),2006.0,In service,"1,300 km",telco_consortium,,Transworld,False,False,False,False
+tui-samoa,Tui-Samoa,2018.0,In service,"1,693 km",telco_consortium,,Samoa Submarine Cable Company,False,False,False,False
+turcyos-1,Turcyos-1,1993.0,In service,110 km,telco_consortium,,Turk Telekom,False,False,False,False
+turcyos-2,Turcyos-2,2011.0,In service,213 km,telco_consortium,,Turk Telekom,False,False,False,False
+tverrlinken,Tverrlinken,2010.0,In service,,telco_consortium,,KystTele,False,False,False,False
+uae-iran,UAE-Iran,1992.0,In service,170 km,telco_consortium,,"Telecommunication Infrastructure Company of Iran, e&",False,False,False,False
+ugarit,UGARIT,1995.0,In service,239 km,telco_consortium,,"A1 Telekom Austria, AT&T, BT, Cyta, Deutsche Telekom, Lebanese Ministry of Telecommunications, Orange, Singtel, Sparkle, Syrian Telecommunications Establishment, Tata Communications, Telefonica, Vivacom",False,False,False,False
+uk-channel-islands-7,UK-Channel Islands-7,1994.0,In service,124 km,telco_consortium,,"BT, Sure",False,False,False,False
+uk-channel-islands-8,UK-Channel Islands-8,1994.0,In service,237 km,telco_consortium,,BT,False,False,False,False
+umo,UMO,2023.0,In service,"2,227 km",telco_consortium,,Campana Group,False,False,False,False
+ulleung-mainland-2,Ulleung-Mainland 2,2016.0,In service,164 km,telco_consortium,,KT,False,False,False,False
+ultramar-ge,Ultramar GE,2023.0,In service,263 km,telco_consortium,,GITGE (Gestor de Infraestructuras de Telecomunicaciones de Guinea Ecuatorial),False,False,False,False
+ulysses-2,Ulysses 2,1997.0,In service,199 km,telco_consortium,,Verizon,False,False,False,False
+unisur,Unisur,1995.0,In service,265 km,telco_consortium,,"Antel Uruguay, Telxius",False,False,False,False
+unitel-north-submarine-cable-unsc,Unitel North Submarine Cable (UNSC),2023.0,In service,"1,145 km",telco_consortium,,Unitel (Angola),False,False,False,False
+unitirreno,Unitirreno,2025.0,In service,"1,156 km",telco_consortium,,"Azimut, Unidata",False,False,False,False
+vaka,VAKA,2026.0,Planned,668 km,telco_consortium,,Tuvalu Telecommunications Corporation (TTC),False,False,False,False
+vancouver-bowen-island-vancouver-island,Vancouver-Bowen Island-Vancouver Island,2019.0,In service,75 km,telco_consortium,,Rogers Communications,False,False,False,False
+venezuelan-festoon,Venezuelan Festoon,1998.0,In service,"1,200 km",telco_consortium,,CANTV,False,False,False,False
+verena,Verena,2028.0,Planned,630 km,telco_consortium,,Midgard Infra,False,False,False,False
+vietnam-singapore-cable-system-vts,Vietnam-Singapore Cable System (VTS),2027.0,Planned,,telco_consortium,,"Singtel, Viettel Corporation",False,False,False,False
+vodafone-greece-domestic,Vodafone Greece Domestic,2008.0,In service,92 km,telco_consortium,,Vodafone,False,False,False,False
+vstervik-visby,Västervik-Visby,2008.0,In service,,telco_consortium,,GlobalConnect,False,False,False,False
+west-africa-cable-system-wacs,West Africa Cable System (WACS),2012.0,In service,"14,530 km",telco_consortium,,"Altice Portugal, Angola Cables, Bayobab, Broadband Infraco, Camtel, Cape Verde Telecom, Congo Telecom, Liquid Intelligent Technologies, Office Congolais de Poste et Télécommunication, PCCW, Tata Communications, Telecom Namibia, Telkom South Africa, Togo Telecom, Vodacom DRC, Vodafone, Vodafone Espana, Vodafone Ghana",False,False,False,False
+whidbey-island-camano-island,Whidbey Island-Camano Island,1999.0,In service,4 km,telco_consortium,,Whidbey Telecom,False,False,False,False
+whidbey-island-everett,Whidbey Island-Everett,1999.0,In service,9 km,telco_consortium,,Whidbey Telecom,False,False,False,False
+whidbey-island-hat-island,Whidbey Island-Hat Island,1999.0,In service,4 km,telco_consortium,,Whidbey Telecom,False,False,False,False
+whidbey-island-seattle,Whidbey Island-Seattle,1999.0,In service,44 km,telco_consortium,,Whidbey Telecom,False,False,False,False
+x-link-submarine-cable,X-Link Submarine Cable,2019.0,In service,775 km,telco_consortium,,E-Networks Inc.,False,False,False,False
+yui,YUI,2023.0,In service,720 km,telco_consortium,,Okinawa Cellular Telephone Company,False,False,False,False
+yellow,Yellow,2000.0,In service,"7,001 km",telco_consortium,,Colt,False,False,False,False
+yuza-tobishima,Yuza-Tobishima,2022.0,In service,31 km,telco_consortium,,NTT,False,False,False,False
+zayo-festoon,Zayo Festoon,2015.0,In service,,telco_consortium,,Zayo,False,False,False,False
+zeus,Zeus,2022.0,In service,,telco_consortium,,Zayo,False,False,False,False
+i2i-cable-network-i2icn,i2i Cable Network (i2icn),2002.0,In service,"3,200 km",telco_consortium,,Bharti Airtel,False,False,False,False
+sea2shore,sea2shore,2016.0,In service,32 km,telco_consortium,,National Grid,False,False,False,False
+les-dhyres-cable,Îles d'Hyères Cable,1996.0,In service,45 km,telco_consortium,,Orange,False,False,False,False
+colombian-festoon,Colombian Festoon,1997.0,In service,400 km,unknown,,,False,False,False,False
