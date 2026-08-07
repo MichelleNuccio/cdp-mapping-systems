@@ -1,0 +1,71 @@
+model{
+  
+Omega[1,1] <- 1
+Omega[1,2] <- 0
+Omega[2,1] <- 0
+Omega[2,2] <- 1
+
+pi <- 3.141592653589
+
+# priors on process uncertainty
+iSigma[1:2,1:2] ~ dwish(Omega[,], 2)  
+Sigma[1:2,1:2] <- inverse(iSigma[,])
+
+## mean turn angle: theta[1] (transient), theta[2] (ARS)
+tmp[1] ~ dbeta(10, 10)
+tmp[2] ~ dbeta(10, 10)
+theta[1] <- (2 * tmp[1] - 1) * pi
+theta[2] <- tmp[2] * pi * 2
+## move persistence: gamma[1] (transient), gamma[2] (ARS)
+## dev multiplier ensures gamma[1] > gamma[2], prevents state label switching
+gamma[1] ~ dbeta(5, 1)
+dev ~ dbeta(1, 1)
+gamma[2] <- gamma[1] * dev
+## behavioural state switching probabilities: alpha ``matrix''
+alpha[1] ~ dbeta(1, 1)
+alpha[2] ~ dbeta(1, 1)
+## probabilities of initial behavioural state (transient or ARS)
+lambda[1] ~ dbeta(1, 1)
+lambda[2] <- 1 - lambda[1]
+
+for(k in 1:N){
+logpsi[k] ~ dunif(-10, 10)  #prior on scaling parameter for t-dist. error variances
+psi[k] <- exp(logpsi[k])
+
+b[Xidx[k]] ~ dcat(lambda[])  # assign behav. mode for first obs
+
+for(i in 1:2){
+x[Xidx[k],i] ~ dnorm(0, 0.0001)	
+}
+
+# assume simple random walk to estimate 2nd regular position
+x[(Xidx[k]+1),1:2] ~ dmnorm(x[Xidx[k],], iSigma[,])
+
+# transition equation
+for(t in (Xidx[k]+1):(Xidx[k+1]-2)){
+phi[t,1] <- alpha[b[t-1]]
+phi[t,2] <- 1 - alpha[b[t-1]]
+b[t] ~ dcat(phi[t,])
+
+x.mn[t,1] <- x[t,1] + (cos(theta[b[t]]) * (x[t,1] - x[t-1,1]) - sin(theta[b[t]]) * (x[t,2] - x[t-1,2])) * gamma[b[t]]
+x.mn[t,2] <- x[t,2] + (sin(theta[b[t]]) * (x[t,1] - x[t-1,1]) + cos(theta[b[t]]) * (x[t,2] - x[t-1,2])) * gamma[b[t]]
+
+# predict next location (with error)		
+x[t+1,1:2] ~ dmnorm(x.mn[t,], iSigma[,])	
+}
+
+zeta[k,1] <- alpha[b[Xidx[k+1]-2]]
+zeta[k,2] <- 1 - zeta[k,1]
+b[Xidx[k+1]-1] ~ dcat(zeta[k,])
+
+# robust measurement equation
+for(t in (Xidx[k]+1):(Xidx[k+1]-1)){  # loops over regular time intervals (t)
+for(i in idx[t]:(idx[t+1]-1)){  # loops over observed locations within interval t
+for(q in 1:2){
+itau2.psi[i,q] <- psi[k] * itau2[i,q]
+y[i,q] ~ dt(x[t,q], itau2.psi[i,q], nu[i,q])
+} #q
+} #i
+}	#t
+} #k
+}

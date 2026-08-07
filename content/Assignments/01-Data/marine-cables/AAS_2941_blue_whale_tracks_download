@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="/favicon.ico">
+    <title>Australian Antarctic Data Centre</title>
+    <script type="module" crossorigin src="/assets/index-CeHDOc4c.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DhEZbzJ3.css">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+  </head>
+  <body>
+    <noscript>
+      <strong>
+        We're sorry but this app doesn't work properly without JavaScript enabled. Please enable it to continue.
+      </strong>
+    </noscript>
+    <div id="app"></div>
+    <div name="IE_warning" id="IE_warning" style="text-align: center"></div>
+    <script type="text/javascript">
+      if (navigator.userAgent.indexOf("MSIE ") > -1 || navigator.userAgent.indexOf("Trident/") > -1) {
+        document.getElementById("IE_warning").innerHTML =
+          "<h3>Internet explorer is unsupported</h3><p>Please use a more up to date browser.</p>"
+      }
+    </script>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
