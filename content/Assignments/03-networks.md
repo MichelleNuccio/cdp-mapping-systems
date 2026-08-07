@@ -1,4 +1,4 @@
-# 04. Networks
+# 03. Networks
 
 Define a network, and calculate the distance between different elements of it. Discuss the experiential differences between Euclidean and network distance for the objects in question.
 
