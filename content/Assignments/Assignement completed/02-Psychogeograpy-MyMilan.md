@@ -1,6 +1,6 @@
-# Assignment 02 — Geoprocessing
+## Assignment 02 — Geoprocessing
 
-## My Affective Milan: Everyday Places by Bicycle
+## PSYCHOGEOGRAPHY - MY MILAN
 
 ### Project objective
 
