@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c24221ca5a228e3d87306703796182e8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c24221ca5a228e3d87306703796182e8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c24221ca5a228e3d87306703796182e8 = L.map(
+                "map_c24221ca5a228e3d87306703796182e8",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5ca4c20e092dfefdb3ad8ba6e89b04d3 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_5ca4c20e092dfefdb3ad8ba6e89b04d3.addTo(map_c24221ca5a228e3d87306703796182e8);
+        
+    
+            var marker_cluster_08071007b4ccc0c3c878de4fefe6fa01 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_2579778d6faf0850ed7f5ee50e30cb91 = L.marker(
+                [37.7621, -122.3971],
+                {
+}
+            ).addTo(marker_cluster_08071007b4ccc0c3c878de4fefe6fa01);
+        
+    
+            var icon_9e50ec3e819b9a3b59d98cfb3ac94956 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5fb2717ef54fdd1a48e8fdacb760d317 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4195c4d999f318e07c0341c52d29b1b8 = $(`<div id="html_4195c4d999f318e07c0341c52d29b1b8" style="width: 100.0%; height: 100.0%;">IP: 172.64.152.114<br>URL: https://deliveroo.it/en/partner-ranking</div>`)[0];
+                popup_5fb2717ef54fdd1a48e8fdacb760d317.setContent(html_4195c4d999f318e07c0341c52d29b1b8);
+            
+        
+
+        marker_2579778d6faf0850ed7f5ee50e30cb91.bindPopup(popup_5fb2717ef54fdd1a48e8fdacb760d317)
+        ;
+
+        
+    
+    
+                marker_2579778d6faf0850ed7f5ee50e30cb91.setIcon(icon_9e50ec3e819b9a3b59d98cfb3ac94956);
+            
+    
+            var marker_04f461eb8d9b09493e41a93c9ce31df4 = L.marker(
+                [47.6062, -122.3321],
+                {
+}
+            ).addTo(marker_cluster_08071007b4ccc0c3c878de4fefe6fa01);
+        
+    
+            var icon_daa6e9605fb2e4e6b7300728dc43e365 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e9a46fc0dfdd3822874b72bf345d461b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33623c05108f26cb625294551dec0ff5 = $(`<div id="html_33623c05108f26cb625294551dec0ff5" style="width: 100.0%; height: 100.0%;">IP: 146.75.42.49<br>URL: https://cwa.roocdn.com/_next/static/chunks/77825b6d-8d7420036502272a.js</div>`)[0];
+                popup_e9a46fc0dfdd3822874b72bf345d461b.setContent(html_33623c05108f26cb625294551dec0ff5);
+            
+        
+
+        marker_04f461eb8d9b09493e41a93c9ce31df4.bindPopup(popup_e9a46fc0dfdd3822874b72bf345d461b)
+        ;
+
+        
+    
+    
+                marker_04f461eb8d9b09493e41a93c9ce31df4.setIcon(icon_daa6e9605fb2e4e6b7300728dc43e365);
+            
+    
+            var marker_f01d7b3ae11c97e2ef14166e216403f2 = L.marker(
+                [45.5946, -121.1787],
+                {
+}
+            ).addTo(marker_cluster_08071007b4ccc0c3c878de4fefe6fa01);
+        
+    
+            var icon_031dba50c7793c781f6d0f1e09592795 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c5a9d9da5fa7c627eeddb5d7b689a063 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84ab4bca6fabe32ec52270f45e37217f = $(`<div id="html_84ab4bca6fabe32ec52270f45e37217f" style="width: 100.0%; height: 100.0%;">IP: 104.198.14.52<br>URL: https://deliveroo.design</div>`)[0];
+                popup_c5a9d9da5fa7c627eeddb5d7b689a063.setContent(html_84ab4bca6fabe32ec52270f45e37217f);
+            
+        
+
+        marker_f01d7b3ae11c97e2ef14166e216403f2.bindPopup(popup_c5a9d9da5fa7c627eeddb5d7b689a063)
+        ;
+
+        
+    
+    
+                marker_f01d7b3ae11c97e2ef14166e216403f2.setIcon(icon_031dba50c7793c781f6d0f1e09592795);
+            
+    
+            var marker_ca1fcb0b1fdf059adde39c071969925b = L.marker(
+                [42.3584, -71.0598],
+                {
+}
+            ).addTo(marker_cluster_08071007b4ccc0c3c878de4fefe6fa01);
+        
+    
+            var icon_767ec5891fd0b310b648685beb440a8a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1f7f4dc5d8c21d673bde7ec759e723ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9b39bc059d43f51ed64351f3d9425fa = $(`<div id="html_a9b39bc059d43f51ed64351f3d9425fa" style="width: 100.0%; height: 100.0%;">IP: 199.232.133.40<br>URL: https://client.px-cloud.net</div>`)[0];
+                popup_1f7f4dc5d8c21d673bde7ec759e723ba.setContent(html_a9b39bc059d43f51ed64351f3d9425fa);
+            
+        
+
+        marker_ca1fcb0b1fdf059adde39c071969925b.bindPopup(popup_1f7f4dc5d8c21d673bde7ec759e723ba)
+        ;
+
+        
+    
+    
+                marker_ca1fcb0b1fdf059adde39c071969925b.setIcon(icon_767ec5891fd0b310b648685beb440a8a);
+            
+    
+            var marker_4fe57bab9faf6fb19da4379afc19ee5b = L.marker(
+                [37.7621, -122.3971],
+                {
+}
+            ).addTo(marker_cluster_08071007b4ccc0c3c878de4fefe6fa01);
+        
+    
+            var icon_92f39b4b777ac4619776ecb9351ad712 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5c217437726951ca55ee5dfab9647d13 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4105982a38395f9d42a383c0c3cd465 = $(`<div id="html_d4105982a38395f9d42a383c0c3cd465" style="width: 100.0%; height: 100.0%;">IP: 104.21.78.225<br>URL: https://deliveroo.engineering</div>`)[0];
+                popup_5c217437726951ca55ee5dfab9647d13.setContent(html_d4105982a38395f9d42a383c0c3cd465);
+            
+        
+
+        marker_4fe57bab9faf6fb19da4379afc19ee5b.bindPopup(popup_5c217437726951ca55ee5dfab9647d13)
+        ;
+
+        
+    
+    
+                marker_4fe57bab9faf6fb19da4379afc19ee5b.setIcon(icon_92f39b4b777ac4619776ecb9351ad712);
+            
+    
+            var marker_ba89ebfe5e67ffc59a16b0a17984237d = L.marker(
+                [37.7621, -122.3971],
+                {
+}
+            ).addTo(marker_cluster_08071007b4ccc0c3c878de4fefe6fa01);
+        
+    
+            var icon_6ae83ecee570e84f6c9cf1e93945380e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_06df283643b881128ac5074f99713843 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8a3e65896c5527cb91f39b2def866f30 = $(`<div id="html_8a3e65896c5527cb91f39b2def866f30" style="width: 100.0%; height: 100.0%;">IP: 104.18.86.42<br>URL: https://cdn.cookielaw.org</div>`)[0];
+                popup_06df283643b881128ac5074f99713843.setContent(html_8a3e65896c5527cb91f39b2def866f30);
+            
+        
+
+        marker_ba89ebfe5e67ffc59a16b0a17984237d.bindPopup(popup_06df283643b881128ac5074f99713843)
+        ;
+
+        
+    
+    
+                marker_ba89ebfe5e67ffc59a16b0a17984237d.setIcon(icon_6ae83ecee570e84f6c9cf1e93945380e);
+            
+    
+            var marker_d45e0148aae251e5d96cc76bd1056e88 = L.marker(
+                [51.5085, -0.1257],
+                {
+}
+            ).addTo(marker_cluster_08071007b4ccc0c3c878de4fefe6fa01);
+        
+    
+            var icon_e0c6ba816c112b8ca18d2c939bbb85cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9318ffe15a52bd231a14cb92943f0fe4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac4cfb69e5491259fd36e0bf82c0b38f = $(`<div id="html_ac4cfb69e5491259fd36e0bf82c0b38f" style="width: 100.0%; height: 100.0%;">IP: 18.168.213.225<br>URL: https://corporate.deliveroo.co.uk</div>`)[0];
+                popup_9318ffe15a52bd231a14cb92943f0fe4.setContent(html_ac4cfb69e5491259fd36e0bf82c0b38f);
+            
+        
+
+        marker_d45e0148aae251e5d96cc76bd1056e88.bindPopup(popup_9318ffe15a52bd231a14cb92943f0fe4)
+        ;
+
+        
+    
+    
+                marker_d45e0148aae251e5d96cc76bd1056e88.setIcon(icon_e0c6ba816c112b8ca18d2c939bbb85cc);
+            
+    
+            marker_cluster_08071007b4ccc0c3c878de4fefe6fa01.addTo(map_c24221ca5a228e3d87306703796182e8);
+        
+</script>
+</html>

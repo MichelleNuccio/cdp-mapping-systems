@@ -1,0 +1,83 @@
+:root {
+  --bg: #1f0c49;
+  --blue: #675dff;
+  --fuchsia: #ff9fff;
+  --periwinkle: #b8b0ff;
+  --text: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Cascadia Code", "Segoe UI", monospace;
+  background: var(--bg);
+  color: var(--text);
+}
+
+#map {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.panel {
+  position: absolute;
+  z-index: 2;
+  top: 16px;
+  left: 16px;
+  max-width: min(360px, calc(100vw - 32px));
+  padding: 14px 16px;
+  background: rgba(31, 12, 73, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  color: var(--text);
+}
+
+.panel h1 {
+  margin: 0 0 8px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--periwinkle);
+}
+
+.panel p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.panel em {
+  color: var(--fuchsia);
+  font-style: normal;
+}
+
+.maplibregl-popup-content {
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 0;
+  font-family: "Cascadia Code", "Segoe UI", monospace;
+  font-size: 11px;
+  padding: 10px 12px;
+  max-width: 280px;
+}
+
+.maplibregl-popup-anchor-bottom .maplibregl-popup-tip {
+  border-top-color: var(--bg);
+}
+
+.maplibregl-ctrl-group {
+  background: var(--bg);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.maplibregl-ctrl-group button {
+  background-color: var(--bg);
+}
