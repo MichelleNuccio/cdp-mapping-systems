@@ -21,7 +21,3 @@ Local folder: [`04-WebMapping-Deliveroo/webmap/`](./04-WebMapping-Deliveroo/webm
 
 ## Full assignment folder
 https://github.com/MichelleNuccio/cdp-mapping-systems/tree/main/content/Assignments/Assignement%20completed/04-WebMapping-Deliveroo
-
-## How to run locally
-1. Open `04-WebMapping-Deliveroo/webmap/index.html`
-2. Right-click → **Open with Live Server**
