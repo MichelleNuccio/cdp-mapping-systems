@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import List, Tuple
 
 # === CONFIGURATION ===
-HAR_FILE = "inputs/amazon_bath_rugs.har"  # Amazon bath rugs search
+HAR_FILE = "inputs/corriere.har"  # Corriere della Sera homepage
 OUTPUT_MAP = "outputs/ip_map.html"
 MAX_IPS = 50  # Limit to avoid API rate limiting
 

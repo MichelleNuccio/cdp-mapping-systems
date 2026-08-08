@@ -1,10 +1,10 @@
-# Assignment 04 — Web Mapping (Amazon bath rugs)
+# Assignment 04 — Web Mapping (Corriere.it)
 
-HAR capture and MapLibre web map for an Amazon search page:
-`bath rugs for bathroom`.
+HAR capture and MapLibre web map for the Corriere della Sera homepage:
+https://www.corriere.it/
 
 ## Folder contents
-- `inputs/amazon_bath_rugs.har` — captured request log
+- `inputs/corriere.har` — captured request log
 - `outputs/ip_locations.geojson` — geolocated server IPs
 - `outputs/ip_map.html` — Folium preview from the course script
 - `webmap/` — MapLibre web map (open `index.html` with Live Server)
