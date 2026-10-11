@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Page metadata -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ATLAS + IPv4</title>
+
+  <!-- Load Roboto for text and Roboto Mono for map controls -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Roboto+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Load page styles and map interactions -->
+  <link rel="stylesheet" href="../asset/css/ip-map.css">
+  <script src="../asset/js/ip-map.js" defer></script>
+</head>
+
+<body>
+  <main class="atlas">
+    <!-- Arrange title, city details, and controls horizontally -->
+    <header class="page-header">
+
+      <!-- Title and map color toggle -->
+      <div class="page-intro">
+        <h1>ATLAS + IPv4</h1>
+
+        <p class="subtitle">
+          Cities connected by the same IPv4 address count.
+        </p>
+
+        <button
+          id="color-toggle"
+          type="button"
+          aria-pressed="false"
+        >
+          Color map
+        </button>
+      </div>
+
+      <!-- Compact city details between the title and slider -->
+      <aside class="city-panel" aria-label="City details">
+        <dl>
+          <div class="detail-row">
+            <dt>City</dt>
+            <dd id="city-name">—</dd>
+          </div>
+
+          <div class="detail-row">
+            <dt>Region</dt>
+            <dd id="city-region">—</dd>
+          </div>
+
+          <div class="detail-row">
+            <dt>Country</dt>
+            <dd id="city-country">—</dd>
+          </div>
+
+          <div class="detail-row">
+            <dt>IP count</dt>
+            <dd id="city-ip-count">—</dd>
+          </div>
+
+          <div class="detail-row">
+            <dt>Matching cities*</dt>
+            <dd id="city-match-count">—</dd>
+          </div>
+        </dl>
+
+        <p class="panel-note">*Including the hovered city.</p>
+      </aside>
+
+      <!-- Color legend and logarithmic IP-count filter -->
+      <section class="map-controls" aria-label="Legend and filter">
+        <div class="color-legend">
+          <span>IP count per city · log scale</span>
+
+          <div id="legend-gradient" class="legend-gradient"></div>
+
+          <div class="legend-labels">
+            <span id="legend-min">—</span>
+            <span id="legend-max">—</span>
+          </div>
+        </div>
+
+        <label class="filter-label" for="ip-filter">
+          <span>Minimum IP count</span>
+          <output id="filter-value" for="ip-filter">—</output>
+        </label>
+
+        <input
+          id="ip-filter"
+          type="range"
+          min="0"
+          max="1000"
+          value="0"
+          step="1"
+          disabled
+        >
+      </section>
+    </header>
+
+    <!-- The map fills the remaining viewport space -->
+    <section class="map-section" aria-label="Global IPv4 map">
+      <canvas
+        id="ip-map"
+        aria-label="Cities grouped by their IPv4 address count"
+      >
+        This map requires JavaScript and canvas support.
+      </canvas>
+    </section>
+
+    <!-- Compact status and source notes -->
+    <footer class="page-footer">
+      <p id="map-status" role="status">Loading city data…</p>
+
+      <p class="source-note">
+        IP2Location LITE · Approximate locations.
+        IP counts do not represent users, devices, or traffic.
+      </p>
+    </footer>
+  </main>
+</body>
+</html>

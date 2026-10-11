@@ -1,0 +1,411 @@
+/* Apply consistent sizing to all elements */
+* {
+  box-sizing: border-box;
+}
+
+/* Keep the page fixed within the browser viewport */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* Preserve the black background and white text */
+body {
+  background: #000;
+  color: #fff;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+/* Divide the viewport into header, map, and footer */
+.atlas {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  gap: 16px;
+  width: 100%;
+  max-width: 1600px;
+  height: 100vh;
+  height: 100dvh;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+/* Align title, compact city details, and slider */
+.page-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) 250px;
+  align-items: start;
+  gap: 32px;
+}
+
+.page-intro,
+.city-panel,
+.map-controls {
+  min-width: 0;
+}
+
+/* Preserve the large, regular-weight title */
+h1 {
+  margin: 0 0 12px;
+  font-size: clamp(28px, 4vw, 48px);
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+/* Style supporting text */
+p {
+  margin: 0;
+  color: #aaa;
+  line-height: 1.6;
+}
+
+.subtitle {
+  max-width: 390px;
+  font-size: 14px;
+}
+
+/* Preserve the color toggle appearance */
+#color-toggle {
+  margin-top: 16px;
+  padding: 7px 12px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background: #000;
+  color: #fff;
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* Indicate active color mode */
+#color-toggle[aria-pressed="true"] {
+  border-color: #fff;
+}
+
+/* Show keyboard focus on interactive controls */
+#color-toggle:focus-visible,
+#ip-filter:focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: 3px;
+}
+
+/* Display city details as compact horizontal rows */
+.city-panel dl {
+  margin: 0;
+}
+
+.detail-row {
+  display: grid;
+  grid-template-columns: 105px minmax(0, 1fr);
+  align-items: baseline;
+  gap: 12px;
+  padding: 5px 0;
+  border-bottom: 1px solid #333;
+  font-size: 12px;
+}
+
+/* Keep detail labels muted */
+.detail-row dt {
+  color: #aaa;
+}
+
+/* Allow long city names to fit without widening the layout */
+.detail-row dd {
+  min-width: 0;
+  margin: 0;
+  color: #fff;
+  overflow-wrap: anywhere;
+}
+
+.panel-note {
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+/* Use Roboto Mono for the legend and slider */
+.map-controls {
+  width: 100%;
+  font-family: "Roboto Mono", monospace;
+  font-size: 12px;
+}
+
+/* Preserve the color legend */
+.legend-gradient {
+  height: 8px;
+  margin-top: 10px;
+  border-radius: 2px;
+}
+
+/* Align the minimum and maximum legend values */
+.legend-labels {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 6px;
+  color: #aaa;
+}
+
+/* Display the filter label and current value */
+.filter-label {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 20px;
+  color: #aaa;
+}
+
+#filter-value {
+  color: #fff;
+}
+
+/* Give the slider a visible track and comfortable hit area */
+#ip-filter {
+  appearance: none;
+  -webkit-appearance: none;
+  display: block;
+  width: 100%;
+  height: 24px;
+  margin: 12px 0 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* Style the track in Chrome and Safari */
+#ip-filter::-webkit-slider-runnable-track {
+  height: 6px;
+  border-radius: 3px;
+  background: #888;
+}
+
+/* Style the white handle in Chrome and Safari */
+#ip-filter::-webkit-slider-thumb {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  margin-top: -6px;
+  border: 0;
+  border-radius: 50%;
+  background: #fff;
+}
+
+/* Style the track in Firefox */
+#ip-filter::-moz-range-track {
+  height: 6px;
+  border-radius: 3px;
+  background: #888;
+}
+
+/* Style the white handle in Firefox */
+#ip-filter::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border: 0;
+  border-radius: 50%;
+  background: #fff;
+}
+
+/* Let the map shrink to the available space */
+.map-section {
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* Fill the map container; JavaScript preserves map proportions */
+#ip-map {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
+/* Keep status and source notes compact */
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 24px;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+}
+
+.page-footer p {
+  font-size: 11px;
+}
+
+.source-note {
+  max-width: 520px;
+  text-align: right;
+}
+
+/* Reduce spacing on medium screens */
+@media (max-width: 1100px) {
+  .atlas {
+    padding: 20px;
+    gap: 12px;
+  }
+
+  .page-header {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 220px;
+    gap: 20px;
+  }
+
+  .detail-row {
+    grid-template-columns: 90px minmax(0, 1fr);
+    gap: 8px;
+    font-size: 11px;
+  }
+}
+
+/* Reorganize compact screens while keeping a fixed viewport */
+@media (max-width: 760px) {
+  .atlas {
+    padding: 12px;
+    gap: 8px;
+  }
+
+  .page-header {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 12px;
+  }
+
+  .page-intro {
+    grid-column: 1;
+  }
+
+  .map-controls {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 10px;
+  }
+
+  .city-panel {
+    grid-column: 1 / -1;
+  }
+
+  /* Compress city details into a single row of fields */
+  .city-panel dl {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .detail-row {
+    display: block;
+    padding: 3px 0;
+    font-size: 10px;
+  }
+
+  .detail-row dd {
+    margin-top: 4px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .subtitle,
+  .panel-note,
+  .source-note {
+    display: none;
+  }
+
+  #color-toggle {
+    margin-top: 10px;
+  }
+
+  .filter-label {
+    margin-top: 12px;
+  }
+
+  .page-footer {
+    padding-top: 6px;
+  }
+
+  .page-footer p {
+    font-size: 10px;
+  }
+}
+/* Reduce the header spacing */
+.page-header {
+  gap: 24px;
+}
+
+/* Reduce the title size */
+h1 {
+  margin-bottom: 6px;
+  font-size: clamp(24px, 2.5vw, 34px);
+}
+
+/* Compact the subtitle */
+.subtitle {
+  font-size: 11px;
+  line-height: 1.3;
+}
+
+/* Reduce the color toggle size */
+#color-toggle {
+  margin-top: 8px;
+  padding: 4px 8px;
+  font-size: 10px;
+}
+
+/* Compact the city detail rows */
+.detail-row {
+  padding: 2px 0;
+  gap: 8px;
+  font-size: 10px;
+  line-height: 1.2;
+}
+
+.panel-note {
+  margin-top: 3px;
+  font-size: 9px;
+  line-height: 1.2;
+}
+
+/* Reduce legend and filter text */
+.map-controls {
+  font-size: 10px;
+}
+
+.legend-gradient {
+  height: 6px;
+  margin-top: 6px;
+}
+
+.legend-labels {
+  margin-top: 4px;
+}
+
+/* Bring the slider closer to the legend */
+.filter-label {
+  margin-top: 10px;
+}
+
+#ip-filter {
+  height: 20px;
+  margin-top: 5px;
+}
+
+/* Preserve the compact layout on smaller screens */
+@media (max-width: 760px) {
+  .page-header {
+    gap: 8px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .map-controls,
+  .detail-row {
+    font-size: 9px;
+  }
+}
