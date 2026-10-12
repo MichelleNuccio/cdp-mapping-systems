@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Marine Cables Page -->
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ATLAS + Marine Cables</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../asset/css/ip-map.css"><link rel="stylesheet" href="../asset/css/marine-cables.css">
+<script src="../asset/js/marine-cables-data.js" defer></script><script src="../asset/js/marine-cables.js" defer></script>
+</head>
+
+<body><main class="atlas">
+<header class="page-header">
+<div class="page-intro"><h1>ATLAS + Marine Cables</h1><p class="subtitle">Submarine cable routes, operational status, and ownership.</p>
+<div class="timeline"><label for="year-filter">Recorded service year <output id="year-value" for="year-filter">All years</output></label><input id="year-filter" type="range" min="1989" max="2030" value="2030" step="1" disabled aria-describedby="timeline-note"><p id="timeline-note">Cumulative · final stop includes undated cables</p></div></div>
+<aside class="city-panel" aria-label="Cable details"><dl>
+<div class="detail-row"><dt>Cable</dt><dd id="cable-name">—</dd></div>
+<div class="detail-row"><dt>Status</dt><dd id="cable-status">—</dd></div>
+<div class="detail-row"><dt>Owners</dt><dd id="cable-owners">—</dd></div>
+<div class="detail-row"><dt>Ownership</dt><dd id="cable-ownership">—</dd></div>
+<div class="detail-row"><dt>Length</dt><dd id="cable-length">—</dd></div>
+</dl><p class="panel-note" id="cable-year">Hover or tap a route to inspect its recorded details.</p></aside>
+<section class="map-controls" aria-label="Map filters">
+<label class="filter-label" for="status-filter">Cable status</label><select id="status-filter"><option value="all">All statuses</option><option>In service</option><option>Planned</option><option>Unknown</option></select>
+<fieldset class="big-tech-filter"><legend>Big tech · select to filter</legend>
+<label style="--company-color:#ff00ff"><input type="checkbox" name="big-tech" value="Google">Google</label>
+<label style="--company-color:#0000ff"><input type="checkbox" name="big-tech" value="Meta">Meta</label>
+<label style="--company-color:#00ffff"><input type="checkbox" name="big-tech" value="Microsoft">Microsoft</label>
+<label style="--company-color:#ffff00"><input type="checkbox" name="big-tech" value="Amazon">Amazon</label>
+</fieldset>
+</section></header>
+<section class="map-section" aria-label="Global submarine cable map"><canvas id="marine-map" aria-label="Submarine cable routes by status and ownership">This map requires JavaScript and canvas support.</canvas><aside class="map-legend" aria-label="Cable legend"><div class="status-legend"><span><i class="solid"></i>Single owner</span><span><i class="dashed"></i>Multiple owners</span><span><i class="unknown"></i>Ownership unavailable</span></div>
+</aside>
+<details class="coverage-panel"><summary id="coverage-summary">Cables without routes</summary><p>These cables match the filters but have no geographic route in the supplied dataset. They cannot be drawn on the map.</p><ul id="unmapped-cables"></ul></details></section>
+<footer class="page-footer"><p id="map-status" role="status">Loading cable data…</p><p class="source-note">Dataset: ownership CSV + route GeoJSON · Cumulative recorded service years, not historical ownership. Future years may be scheduled; undated cables appear at “All years”.</p></footer>
+</main></body></html>

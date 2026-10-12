@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--page metadata-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>+ Submarine Cables</title>
+
+    <!--Load Roboto for text and Roboto Mono for map controls -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Roboto+Mono:wght@400;500&display=swap"
+        rel="stylesheet"
+    >
+
+    <!--Load page styles and map interactions -->
+    <link rel="stylesheet" href="../asset/css/submarine-cables.css">
+    <script src="../asset/js/submarine-cables.js" defer></script>
+</head>
+
+<body>
+    <main class="atlas">
+        <!-- Arrange title, landing points details, and controls horizontally -->
+        <header class="page-header">
+
+            <!-- Title and map color toggle -->
+            <div class="page-intro">
+                <h1>+ Submarine Cables</h1>
+
+                <p class="subtitle">
+                    Which submarine cables connect far lands?
+                </p>
+
+                <!-- DA MODIFICARE IL BOTTONE, NON SO SE VOGLIO FARE CAMBIARE COLORE-->
+                <button
+                    id="color-toggle"
+                    type="button"
+                    aria-pressed="false"
+                >
+                    Color map
+                </button>
+            </div>
+
+            <!-- Compact landing points details between the title and slider -->
+            <aside class="landing-point-panel" aria-label="Cable and landing point details">
+                
+                <!-- Information about the selected cable -->
+                <dl>
+                    <div class="detail-row">
+                        <dt>Cable</dt>
+                        <dd id="cable-name">—</dd>
+                    </div>
+
+                    <div class="detail-row">
+                        <dt>Length</dt>
+                        <dd id="cable-length">—</dd>
+                    </div>
+
+                    <div class="detail-row">
+                        <dt>Owner(s)</dt>
+                        <dd id="cable-owners">—</dd>
+                    </div>
+                </dl>
+
+                <!-- List of other landing points connected to the selected cable -->
+                <div class="connected-landings">
+                    <h2>Landing points</h2>
+
+                    <ul id="connected-landing-points">
+                        <li>Select a cable to see its landing points.</li>
+                    </ul>
+                </div>
+        
+            </aside>
+
+            <!-- Color legend and lenght filter-->
+             <section class="map-controls" aria-label="Cable length legend and filter">
+                <div class="color-legend">
+                    <span>DA DEFINIRE NEL HTML Length?</span>
+
+                    <div id="length-legend" class="slider-container"></div>
+
+                    <div class="legend-labels">
+                        <span id="legend-min">-</span>
+                        <span id="legend-max">-</span>
+                    </div>
+
+                    <label class="filter-label" for="length-filter">
+                        <span>Minimum Length</span>
+                        <output id="filter-value" for="length-filter"></output>
+                    </label>
+
+                    <input
+                        id="length-filter"
+                        type="range"
+                        min="0"
+                        max="100"
+                        value="0"
+                    >
+                </div>
+            </section>
+        </header>
+
+            <!-- The map fills the remaining viewport space -->
+            <section 
+                id="map" 
+                class="map-container" 
+                aria-label="Submarine cables map"
+            >
+            
+                <canvas
+                    id="map-canvas"
+                    class="map-canvas"
+                    aria-label="Submarine cables map canvas"
+                >
+                This map requires Javascript and canvas support
+                </canvas>
+            </section>
+
+        <!-- Compact status and source notes -->
+        <footer class="page-footer">
+            <p id="map-status" role="status">da aggiungere </p>
+            
+            <p class="source-note">
+                DA AGGIUNGERE
+            </p>
+        </footer>
+    </main>
+</body>
+</html>

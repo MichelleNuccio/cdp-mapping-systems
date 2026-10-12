@@ -1,0 +1,4673 @@
+{
+  "summary": {
+    "ownership_records": 697,
+    "source_route_features": 527,
+    "mapped_cables": 521,
+    "mapped_with_ownership": 456,
+    "routes_without_ownership": 65,
+    "ownership_without_routes": 241,
+    "recovered_matches": 3,
+    "source_line_components": 1443,
+    "validated_coordinates": 11488,
+    "mapped_undated": 67,
+    "csv_undated": 5
+  },
+  "company_summary": {
+    "Google": {
+      "csv_cables": 34,
+      "mapped_cables": 20,
+      "without_route": 14,
+      "sole_owner_csv": [
+        "Bosun",
+        "Bulikula",
+        "Curie",
+        "Dhivaru",
+        "Dunant",
+        "Equiano",
+        "Firmina",
+        "Grace Hopper",
+        "Halaihai",
+        "Honomoana",
+        "Junior",
+        "Nuvem",
+        "Proa",
+        "Sol",
+        "TPU",
+        "Tabua",
+        "Taihei",
+        "TalayLink",
+        "Topaz",
+        "Umoja"
+      ],
+      "sole_owner_mapped": [
+        "Curie",
+        "Dunant",
+        "Equiano",
+        "Firmina",
+        "Grace Hopper",
+        "Junior",
+        "Topaz"
+      ]
+    },
+    "Meta": {
+      "csv_cables": 19,
+      "mapped_cables": 14,
+      "without_route": 5,
+      "sole_owner_csv": [
+        "Anjana",
+        "ORCA",
+        "Project Waterworth"
+      ],
+      "sole_owner_mapped": []
+    },
+    "Microsoft": {
+      "csv_cables": 8,
+      "mapped_cables": 4,
+      "without_route": 4,
+      "sole_owner_csv": [],
+      "sole_owner_mapped": []
+    },
+    "Amazon": {
+      "csv_cables": 5,
+      "mapped_cables": 1,
+      "without_route": 4,
+      "sole_owner_csv": [
+        "Fastnet"
+      ],
+      "sole_owner_mapped": []
+    }
+  },
+  "recovered_matches": [
+    {
+      "route_id": "djibouti-africa-regional-express-1-dare1",
+      "ownership_id": "djibouti-africa-regional-express-1-dare-1",
+      "route_name": "Djibouti Africa Regional Express 1 (DARE1)",
+      "ownership_name": "Djibouti Africa Regional Express 1 (DARE 1)"
+    },
+    {
+      "route_id": "eclink",
+      "ownership_id": "ec-link",
+      "route_name": "ECLink",
+      "ownership_name": "EC Link"
+    },
+    {
+      "route_id": "tt-1",
+      "ownership_id": "tt1",
+      "route_name": "TT-1",
+      "ownership_name": "TT1"
+    }
+  ],
+  "routes_without_ownership": [
+    {
+      "id": "n0r5ke-viking-2",
+      "name": "N0r5ke Viking 2"
+    },
+    {
+      "id": "bridge-one",
+      "name": "Bridge One"
+    },
+    {
+      "id": "hdr1",
+      "name": "HDR1"
+    },
+    {
+      "id": "hdr2",
+      "name": "HDR2"
+    },
+    {
+      "id": "kattittuq-nunavut-fibre-link",
+      "name": "Kattittuq Nunavut Fibre Link"
+    },
+    {
+      "id": "boriken-submarine-cable-system-bscs",
+      "name": "Boriken Submarine Cable System (BSCS)"
+    },
+    {
+      "id": "east-coast-cable-system",
+      "name": "East Coast Cable System"
+    },
+    {
+      "id": "trans-adriatic-express",
+      "name": "Trans Adriatic Express"
+    },
+    {
+      "id": "sines-to-lisbon",
+      "name": "Sines to Lisbon"
+    },
+    {
+      "id": "hawaiki-nui",
+      "name": "Hawaiki Nui"
+    },
+    {
+      "id": "kaliningrad-cable",
+      "name": "Kaliningrad Cable"
+    },
+    {
+      "id": "leif-erikson",
+      "name": "Leif Erikson"
+    },
+    {
+      "id": "sape-labuanbajo-ende-kupang-cable-systems",
+      "name": "Sape-LabuanBajo-Ende-Kupang Cable Systems"
+    },
+    {
+      "id": "gignet-1",
+      "name": "GigNet-1"
+    },
+    {
+      "id": "jscfs",
+      "name": "JSCFS"
+    },
+    {
+      "id": "confluence-1",
+      "name": "Confluence-1"
+    },
+    {
+      "id": "caribbean-express-cx",
+      "name": "Caribbean Express (CX)"
+    },
+    {
+      "id": "b2js-jakarta-bangka-batam-singapore-cable-system",
+      "name": "B2JS (Jakarta-Bangka-Batam-Singapore) Cable System"
+    },
+    {
+      "id": "galapagos-cable-system",
+      "name": "Galapagos Cable System"
+    },
+    {
+      "id": "sednalink-fibre",
+      "name": "SednaLink Fibre"
+    },
+    {
+      "id": "bt-north-sea",
+      "name": "BT North Sea"
+    },
+    {
+      "id": "nzadi-cable-system",
+      "name": "Nzadi Cable System"
+    },
+    {
+      "id": "cap-1",
+      "name": "CAP-1"
+    },
+    {
+      "id": "eastern-arctic-undersea-fibre-optic-network-eaufon",
+      "name": "Eastern Arctic Undersea Fibre Optic Network (EAUFON)"
+    },
+    {
+      "id": "tanjun-pandan-sungai-kakap-cable-system",
+      "name": "Tanjun Pandan-Sungai Kakap Cable System"
+    },
+    {
+      "id": "south-pacific-cable-system-spscmistral",
+      "name": "South Pacific Cable System (SPSC)/Mistral"
+    },
+    {
+      "id": "celtic-norse",
+      "name": "Celtic Norse"
+    },
+    {
+      "id": "mandji-fiber-optic-cable",
+      "name": "Mandji Fiber Optic Cable"
+    },
+    {
+      "id": "eastern-light",
+      "name": "Eastern Light"
+    },
+    {
+      "id": "singapore-myanmar-sigmar",
+      "name": "Singapore-Myanmar (SIGMAR)"
+    },
+    {
+      "id": "chennai-andaman-nicobar-islands-cable",
+      "name": "Chennai-Andaman & Nicobar Islands Cable"
+    },
+    {
+      "id": "wall-li",
+      "name": "WALL-LI"
+    },
+    {
+      "id": "hifn-hawaii-island-fibre-network",
+      "name": "HIFN (Hawaii Island Fibre Network)"
+    },
+    {
+      "id": "hics-hawaii-inter-island-cable-system",
+      "name": "HICS (Hawaii Inter-Island Cable System)"
+    },
+    {
+      "id": "alpal-2",
+      "name": "ALPAL-2"
+    },
+    {
+      "id": "challenger-bermuda-1-cb-1",
+      "name": "Challenger Bermuda-1 (CB-1)"
+    },
+    {
+      "id": "denmark-poland-2",
+      "name": "Denmark-Poland 2"
+    },
+    {
+      "id": "denmark-sweden-15",
+      "name": "Denmark-Sweden 15"
+    },
+    {
+      "id": "denmark-sweden-16",
+      "name": "Denmark-Sweden 16"
+    },
+    {
+      "id": "east-west",
+      "name": "East-West"
+    },
+    {
+      "id": "estepona-tetouan",
+      "name": "Estepona-Tetouan"
+    },
+    {
+      "id": "gulf-bridge-international-cable-system-gbicsmiddle-east-north-africa-mena-cable-system",
+      "name": "Gulf Bridge International Cable System (GBICS)/Middle East North Africa (MENA) Cable System"
+    },
+    {
+      "id": "ip-only-denmark-sweden",
+      "name": "IP-Only Denmark-Sweden"
+    },
+    {
+      "id": "italy-greece-1",
+      "name": "Italy-Greece 1"
+    },
+    {
+      "id": "japan-u-s-cable-network-jus",
+      "name": "Japan-U.S. Cable Network (JUS)"
+    },
+    {
+      "id": "maya-1",
+      "name": "Maya-1"
+    },
+    {
+      "id": "tampnet-offshore-foc-network",
+      "name": "Tampnet Offshore FOC Network"
+    },
+    {
+      "id": "scotland-northern-ireland-1",
+      "name": "Scotland-Northern Ireland 1"
+    },
+    {
+      "id": "sweden-finland-4-sfs-4",
+      "name": "Sweden-Finland 4 (SFS-4)"
+    },
+    {
+      "id": "sweden-finland-link-sfl",
+      "name": "Sweden-Finland Link (SFL)"
+    },
+    {
+      "id": "tamares-north",
+      "name": "Tamares North"
+    },
+    {
+      "id": "tata-tgn-atlantic",
+      "name": "Tata TGN-Atlantic"
+    },
+    {
+      "id": "trapani-kelibia",
+      "name": "Trapani-Kelibia"
+    },
+    {
+      "id": "unityeac-pacific",
+      "name": "Unity/EAC-Pacific"
+    },
+    {
+      "id": "cross-straits-cable-network",
+      "name": "Cross Straits Cable Network"
+    },
+    {
+      "id": "dumai-melaka-cable-system",
+      "name": "Dumai-Melaka Cable System"
+    },
+    {
+      "id": "colombia-florida-subsea-fiber-cfx-1",
+      "name": "Colombia-Florida Subsea Fiber (CFX-1)"
+    },
+    {
+      "id": "flag-europe-asia-fea",
+      "name": "FLAG Europe-Asia (FEA)"
+    },
+    {
+      "id": "omranepeg-cable-system",
+      "name": "OMRAN/EPEG Cable System"
+    },
+    {
+      "id": "americas-ii",
+      "name": "Americas-II"
+    },
+    {
+      "id": "esat-1",
+      "name": "ESAT-1"
+    },
+    {
+      "id": "scotland-northern-ireland-2",
+      "name": "Scotland-Northern Ireland 2"
+    },
+    {
+      "id": "finland-estonia-connection-fec",
+      "name": "Finland Estonia Connection (FEC)"
+    },
+    {
+      "id": "batam-dumai-melaka-bdm-cable-system",
+      "name": "Batam Dumai Melaka (BDM) Cable System"
+    },
+    {
+      "id": "seamewe-3",
+      "name": "SeaMeWe-3"
+    }
+  ],
+  "ownership_without_routes": [
+    {
+      "id": "anjana",
+      "name": "Anjana",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Meta"
+      ],
+      "companies": [
+        "Meta"
+      ],
+      "hybrid": false,
+      "ownership": "Big tech only",
+      "length": "7,121 km",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "bosun",
+      "name": "Bosun",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Google"
+      ],
+      "companies": [
+        "Google"
+      ],
+      "hybrid": false,
+      "ownership": "Big tech only",
+      "length": "",
+      "year": "2029",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "bulikula",
+      "name": "Bulikula",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Google"
+      ],
+      "companies": [
+        "Google"
+      ],
+      "hybrid": false,
+      "ownership": "Big tech only",
+      "length": "21,600 km",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "dhivaru",
+      "name": "Dhivaru",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Google"
+      ],
+      "companies": [
+        "Google"
+      ],
+      "hybrid": false,
+      "ownership": "Big tech only",
+      "length": "",
+      "year": "2028",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "fastnet",
+      "name": "Fastnet",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Amazon"
+      ],
+      "companies": [
+        "Amazon"
+      ],
+      "hybrid": false,
+      "ownership": "Big tech only",
+      "length": "",
+      "year": "2028",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "halaihai",
+      "name": "Halaihai",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Google"
+      ],
+      "companies": [
+        "Google"
+      ],
+      "hybrid": false,
+      "ownership": "Big tech only",
+      "length": "17,483 km",
+      "year": "2029",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "honomoana",
+      "name": "Honomoana",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Google"
+      ],
+      "companies": [
+        "Google"
+      ],
+      "hybrid": false,
+      "ownership": "Big tech only",
+      "length": "15,215 km",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "nuvem",
+      "name": "Nuvem",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Google"
+      ],
+      "companies": [
+        "Google"
+      ],
+      "hybrid": false,
+      "ownership": "Big tech only",
+      "length": "7,194 km",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "orca",
+      "name": "ORCA",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Meta"
+      ],
+      "companies": [
+        "Meta"
+      ],
+      "hybrid": false,
+      "ownership": "Big tech only",
+      "length": "12,482 km",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "proa",
+      "name": "Proa",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Google"
+      ],
+      "companies": [
+        "Google"
+      ],
+      "hybrid": false,
+      "ownership": "Big tech only",
+      "length": "2,891 km",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "project-waterworth",
+      "name": "Project Waterworth",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Meta"
+      ],
+      "companies": [
+        "Meta"
+      ],
+      "hybrid": false,
+      "ownership": "Big tech only",
+      "length": "50,000 km",
+      "year": "",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "sol",
+      "name": "Sol",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Google"
+      ],
+      "companies": [
+        "Google"
+      ],
+      "hybrid": false,
+      "ownership": "Big tech only",
+      "length": "8,153 km",
+      "year": "2028",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "tpu",
+      "name": "TPU",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Google"
+      ],
+      "companies": [
+        "Google"
+      ],
+      "hybrid": false,
+      "ownership": "Big tech only",
+      "length": "13,470 km",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "tabua",
+      "name": "Tabua",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Google"
+      ],
+      "companies": [
+        "Google"
+      ],
+      "hybrid": false,
+      "ownership": "Big tech only",
+      "length": "",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "taihei",
+      "name": "Taihei",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Google"
+      ],
+      "companies": [
+        "Google"
+      ],
+      "hybrid": false,
+      "ownership": "Big tech only",
+      "length": "7,000 km",
+      "year": "2029",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "talaylink",
+      "name": "TalayLink",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Google"
+      ],
+      "companies": [
+        "Google"
+      ],
+      "hybrid": false,
+      "ownership": "Big tech only",
+      "length": "",
+      "year": "2028",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "umoja",
+      "name": "Umoja",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Google"
+      ],
+      "companies": [
+        "Google"
+      ],
+      "hybrid": false,
+      "ownership": "Big tech only",
+      "length": "",
+      "year": "2028",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "asia-united-gateway-east-aug-east",
+      "name": "Asia United Gateway East (AUG East)",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Amazon",
+        "Arteria",
+        "Chunghwa Telecom",
+        "Dreamline",
+        "Globe Telecom",
+        "Microsoft",
+        "Singtel",
+        "Telekom Malaysia",
+        "Unified National Networks (UNN)"
+      ],
+      "companies": [
+        "Amazon",
+        "Microsoft"
+      ],
+      "hybrid": true,
+      "ownership": "Hybrid",
+      "length": "8,900 km",
+      "year": "2029",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "beaufort",
+      "name": "Beaufort",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Amazon",
+        "Microsoft",
+        "Vodafone"
+      ],
+      "companies": [
+        "Amazon",
+        "Microsoft"
+      ],
+      "hybrid": true,
+      "ownership": "Hybrid",
+      "length": "158 km",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "candle",
+      "name": "Candle",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Globe Telecom",
+        "IPS",
+        "Inc.",
+        "Meta",
+        "Softbank",
+        "Telekom Malaysia",
+        "XLSmart"
+      ],
+      "companies": [
+        "Meta"
+      ],
+      "hybrid": true,
+      "ownership": "Hybrid",
+      "length": "8,000 km",
+      "year": "2028",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "daraja",
+      "name": "Daraja",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Meta",
+        "Safaricom"
+      ],
+      "companies": [
+        "Meta"
+      ],
+      "hybrid": true,
+      "ownership": "Hybrid",
+      "length": "4,108 km",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "i-2sea",
+      "name": "I-2SEA",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Lightstorm",
+        "Microsoft",
+        "Singtel",
+        "Tata Communications"
+      ],
+      "companies": [
+        "Microsoft"
+      ],
+      "hybrid": true,
+      "ownership": "Hybrid",
+      "length": "3,600 km",
+      "year": "2029",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "jako",
+      "name": "JAKO",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Amazon",
+        "Arteria",
+        "Dreamline",
+        "Microsoft"
+      ],
+      "companies": [
+        "Amazon",
+        "Microsoft"
+      ],
+      "hybrid": true,
+      "ownership": "Hybrid",
+      "length": "260 km",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "unity",
+      "name": "Unity",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Bharti Airtel",
+        "Google",
+        "KDDI",
+        "Singtel",
+        "TIME dotCom",
+        "Telstra"
+      ],
+      "companies": [
+        "Google"
+      ],
+      "hybrid": true,
+      "ownership": "Hybrid",
+      "length": "9,620 km",
+      "year": "2010",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "5-villages-6-islands",
+      "name": "5 Villages 6 Islands",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Tokyo Metropolitan Government"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "355 km",
+      "year": "2019",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "andromeda",
+      "name": "ANDROMEDA",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Etisalat Group",
+        "Exelera",
+        "Grid Telecom"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "apocs-1",
+      "name": "APOCS 1",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Bell Canada"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "1991",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "apocs-2",
+      "name": "APOCS 2",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Bell Canada"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "1995",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "apx-east",
+      "name": "APX East",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "SUBCO"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "13,000 km",
+      "year": "2028",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "arimao",
+      "name": "ARIMAO",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Empresa de Telecomunicaciones de Cuba",
+        "Orange"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "2,470 km",
+      "year": "2023",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "adamasia-cable-system-1",
+      "name": "Adamasia Cable System 1",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Solomon Island Submarine Cable Company"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,015 km",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "airraq",
+      "name": "Airraq",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Unicom",
+        "Inc."
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "840 km",
+      "year": "2025",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "american-1",
+      "name": "AmeriCan-1",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Bell Canada",
+        "Ledcor Industries Inc.",
+        "Rogers Communications",
+        "Zayo"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "140 km",
+      "year": "1999",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "americas-ii-west",
+      "name": "Americas-II West",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "AT&T",
+        "Liberty Networks",
+        "Sparkle"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "217 km",
+      "year": "2000",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "antigua-st-kitts",
+      "name": "Antigua-St.Kitts",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Liberty Networks"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "141 km",
+      "year": "1995",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "arctic-way",
+      "name": "Arctic Way",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Space Norway"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "2,568 km",
+      "year": "2028",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "asia-link-cable-alc",
+      "name": "Asia Link Cable (ALC)",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "China Telecom",
+        "China Unicom",
+        "DITO Telecommunity",
+        "FPT Telecom",
+        "Globe Telecom",
+        "Matrix NAP Info",
+        "Singtel",
+        "TIME dotCom",
+        "Telekom Malaysia",
+        "Unified National Networks (UNN)",
+        "VNPT",
+        "Viettel Corporation"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "7,200 km",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "GlobalConnect"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "500 km",
+      "year": "2024",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "awashima-murakami",
+      "name": "Awashima-Murakami",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Awashimaura Village"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "66 km",
+      "year": "2022",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "bangladesh-private-cable-system-bpcs",
+      "name": "Bangladesh Private Cable System (BPCS)",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "CdNet Communications",
+        "Metacore Subcom",
+        "Summit Communications"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,300 km",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "barat-timur-indonesia-1-bti-1",
+      "name": "Barat Timur Indonesia-1 (BTI-1)",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Super Sistem (PT Super Sistem Data)"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "4,500 km",
+      "year": "2028",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "barat-timur-indonesia-2-bti-2",
+      "name": "Barat Timur Indonesia-2 (BTI-2)",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Super Sistem (PT Super Sistem Data)"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "11,600 km",
+      "year": "",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "barracuda",
+      "name": "Barracuda",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Valencia Digital Port Connect"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,050 km",
+      "year": "2028",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "batam-dumai-melaka-bdm",
+      "name": "Batam Dumai Melaka (BDM)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Moratelindo",
+        "Telekom Malaysia"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "353 km",
+      "year": "2009",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "bernacchi-1",
+      "name": "Bernacchi-1",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Firmus",
+        "SUBCO"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "besut-perhentian-islands",
+      "name": "Besut-Perhentian Islands",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Telekom Malaysia"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "21 km",
+      "year": "2019",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "cadmos-2",
+      "name": "CADMOS-2",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Cyta",
+        "Lebanese Ministry of Telecommunications"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "250 km",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "cat-submarine-network-csn",
+      "name": "CAT Submarine Network (CSN)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "National Telecom"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,240 km",
+      "year": "2013",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "celia",
+      "name": "CELIA",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "APUA",
+        "Orange",
+        "SETAR",
+        "Telxius"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "3,700 km",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "chi",
+      "name": "CHI",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Hawaiian Telcom",
+        "Verizon"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "3,932 km",
+      "year": "2001",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "calvi-st-florent",
+      "name": "Calvi-St. Florent",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Orange"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "64 km",
+      "year": "1997",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "challenger-one-bermuda",
+      "name": "Challenger One Bermuda",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "ATN International"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2024",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "chennai-andaman-nicobar-islands-cable-cani",
+      "name": "Chennai-Andaman & Nicobar Islands Cable (CANI)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Bharat Sanchar Nigam Ltd. (BSNL)"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "2,300 km",
+      "year": "2020",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "colombia-florida-express-cfx-1",
+      "name": "Colombia-Florida Express (CFX-1)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Liberty Networks"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "2,438 km",
+      "year": "2008",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "connected-coast",
+      "name": "Connected Coast",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Connected Coast Network Partnership"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2024",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "coral-bridge",
+      "name": "Coral Bridge",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "NaiTel",
+        "Telecom Egypt"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2025",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "cowes-fawley-2",
+      "name": "Cowes-Fawley 2",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "BT"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2018",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "cross-sound-cable",
+      "name": "Cross Sound Cable",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Cross Sound Cable Company"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "40 km",
+      "year": "2003",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "cross-straits-cable-network-cscn",
+      "name": "Cross-Straits Cable Network (CSCN)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "China Mobile",
+        "China Telecom",
+        "China Unicom",
+        "Chunghwa Telecom"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "21 km",
+      "year": "2012",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "cyclades-a",
+      "name": "Cyclades A",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Grid Telecom"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "222 km",
+      "year": "2018",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "cyclades-b",
+      "name": "Cyclades B",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Grid Telecom"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "52 km",
+      "year": "2020",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "daito-loop",
+      "name": "Daito Loop",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Okinawa Prefecture"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "18 km",
+      "year": "2025",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "dalian-yantai-cable",
+      "name": "Dalian-Yantai Cable",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "China Telecom"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "146 km",
+      "year": "1998",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "domestic-submarine-cable-of-maldives-dscom",
+      "name": "Domestic Submarine Cable of Maldives (DSCoM)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Dhiraagu",
+        "Ooredoo Maldives"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "286 km",
+      "year": "2024",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "dumai-melaka-cable-system-dmcs",
+      "name": "Dumai-Melaka Cable System (DMCS)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Telekom Malaysia",
+        "Telkom Indonesia"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "159 km",
+      "year": "2005",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "e-finest",
+      "name": "E-FINEST",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Elisa Corporation"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2019",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "e2a",
+      "name": "E2A",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Chunghwa Telecom",
+        "SK Broadband",
+        "Softbank",
+        "Verizon"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "12,500 km",
+      "year": "2029",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "eagle",
+      "name": "EAGLE",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "4iG Group",
+        "Telecom Egypt"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,900 km",
+      "year": "2028",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "eaufon-1",
+      "name": "EAUFON 1",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Tamaani Internet"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,175 km",
+      "year": "2022",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "eaufon-2",
+      "name": "EAUFON 2",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Tamaani Internet"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "675 km",
+      "year": "2024",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "eaufon-3",
+      "name": "EAUFON 3",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Tamaani Internet"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "900 km",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "emc-west-1",
+      "name": "EMC West-1",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "EMC Subsea Cable Company Limited"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "3,639 km",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "emc-west-2",
+      "name": "EMC West-2",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "EMC Subsea Cable Company Limited"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "3,978 km",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "east-micronesia-cable-system-emcs",
+      "name": "East Micronesia Cable System (EMCS)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "BwebwerikiNET Limited (BNL)",
+        "Federated States of Micronesia Telecommunications Cable Corporation (FSMTCC)",
+        "Nauru Fibre Cable Corporation"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "2,250 km",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "east-west-cable-ewc",
+      "name": "East-West Cable (EWC)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Liberty Networks"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,705 km",
+      "year": "2011",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "eastern-light-sweden-finland-i",
+      "name": "Eastern Light Sweden-Finland I",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Eastern Light"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2019",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "eastern-light-sweden-finland-ii",
+      "name": "Eastern Light Sweden-Finland II",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Eastern Light"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "energy-bridge-cable",
+      "name": "Energy Bridge Cable",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Miranda Media"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "13 km",
+      "year": "2017",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "est-tet",
+      "name": "Est-Tet",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Maroc Telecom",
+        "Telxius"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "113 km",
+      "year": "1994",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "exelera-north",
+      "name": "Exelera North",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Exelera"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "345 km",
+      "year": "2012",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "fea",
+      "name": "FEA",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "FLAG"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "1997",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "fish-north",
+      "name": "FISH North",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Cordova Telecom Cooperative"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "90 km",
+      "year": "2011",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "fish-south",
+      "name": "FISH South",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Cordova Telecom Cooperative"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "900 km",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "fish-west",
+      "name": "FISH West",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Cordova Telecom Cooperative"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "276 km",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "farewell-change-fogo",
+      "name": "Farewell-Change-Fogo",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Bell Canada"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "16 km",
+      "year": "2025",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "fibre-in-gulf-fig",
+      "name": "Fibre in Gulf (FIG)",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Ooredoo"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,931 km",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "finland-estonia-connection-1-fec-1",
+      "name": "Finland Estonia Connection 1 (FEC-1)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Elisa Corporation"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2000",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "finland-estonia-connection-2-fec-2",
+      "name": "Finland Estonia Connection 2 (FEC-2)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Elisa Corporation"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2000",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "gc-lnz-fu-ring",
+      "name": "GC-LNZ-FU Ring",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Canalink"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "553 km",
+      "year": "2028",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "globalconnect-6-gc6",
+      "name": "GlobalConnect 6 (GC6)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "GlobalConnect"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2019",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "globalconnect-denmark-sweden",
+      "name": "GlobalConnect Denmark-Sweden",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "GlobalConnect"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "1994",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "grand-bahama-bimini-submarine-cable",
+      "name": "Grand Bahama Bimini Submarine Cable",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Bahamas Telecommunications Company"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "117 km",
+      "year": "2005",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "groote-eylandt",
+      "name": "Groote Eylandt",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Telstra"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "95 km",
+      "year": "2011",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "gulf-bridge-international-cable-systemmiddle-east-north-africa-cable-system-gbicsmena",
+      "name": "Gulf Bridge International Cable System/Middle East North Africa Cable System (GBICS/MENA)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Gulf Bridge International"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "5,270 km",
+      "year": "2012",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "hachijojima-mainland",
+      "name": "Hachijojima-Mainland",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "NTT"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2008",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "haikou-beihai-cable",
+      "name": "Haikou-Beihai Cable",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "China Telecom"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "198 km",
+      "year": "1999",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "hawaii-inter-island-cable-system-hics",
+      "name": "Hawaii Inter-Island Cable System (HICS)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Hawaiian Telcom"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "479 km",
+      "year": "1994",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "hawaii-island-fibre-network-hifn",
+      "name": "Hawaii Island Fibre Network (HIFN)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Hawaiian Telcom",
+        "Lumen"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "529 km",
+      "year": "1997",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "hawaiian-islands-fiber-link-hifl",
+      "name": "Hawaiian Islands Fiber Link (HIFL)",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Ocean Networks",
+        "University of Hawai’i"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "740 km",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "hawaiki-nui-1",
+      "name": "Hawaiki Nui 1",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "BW Digital"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "10,000 km",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "hokkaido-rebun-rishiri",
+      "name": "Hokkaido-Rebun-Rishiri",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "NTT"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "64 km",
+      "year": "2011",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "i-am-cable",
+      "name": "I-AM Cable",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Intra‑Asia Marine Networks Co.",
+        "Ltd."
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "8,100 km",
+      "year": "2029",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "insica",
+      "name": "INSICA",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Singtel",
+        "Telin"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "100 km",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "ioema-1",
+      "name": "IOEMA-1",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "IOEMA Fibre"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,667 km",
+      "year": "2029",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "iokwe",
+      "name": "IOKWE",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Marshall Islands Telecommunications Authority"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2029",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "ion-cable-system-1-ics1",
+      "name": "ION Cable System-1 (ICS1)",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "ION Network"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,041 km",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "iceni",
+      "name": "Iceni",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "BT"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2024",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "indonesia-tengah-cable-systems",
+      "name": "Indonesia Tengah Cable Systems",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "PT Jejaring Mitra Persada",
+        "Triasmitra"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "2,641 km",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "isle-au-haut-cable",
+      "name": "Isle Au Haut Cable",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Axiom Technologies"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "10 km",
+      "year": "2024",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "israel-coasting-1-ic-1",
+      "name": "Israel Coasting 1 (IC-1)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Partner Communications Company"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "340 km",
+      "year": "2000",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "italy-greece-1-ig-1",
+      "name": "Italy-Greece 1 (IG-1)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "WIS Telecom"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "169 km",
+      "year": "1995",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "ithaafushi-maafushi-hulhumale",
+      "name": "Ithaafushi-Maafushi-Hulhumale",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Ooredoo Maldives"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2025",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "izu-islands-cable-system",
+      "name": "Izu Islands Cable System",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "NTT"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "1996",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "javali",
+      "name": "JAVALI",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Indosat Ooredoo"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2011",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "jakarta-bangka-batam-singapore-b2js",
+      "name": "Jakarta-Bangka-Batam-Singapore (B2JS)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Triasmitra"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "759 km",
+      "year": "2013",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "jalapati",
+      "name": "Jalapati",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "CCSI"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "45 km",
+      "year": "2023",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "jamaica-submarine-cable-festoon-system-jscfs",
+      "name": "Jamaica Submarine Cable Festoon System (JSCFS)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "CW Jamaica"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "342 km",
+      "year": "1997",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "jeju-mainland-2",
+      "name": "Jeju-Mainland 2",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "KT"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "191 km",
+      "year": "1996",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "jeju-mainland-3",
+      "name": "Jeju-Mainland 3",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "KT"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "236 km",
+      "year": "2000",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "jeju-udo",
+      "name": "Jeju-Udo",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "KCTV Jeju Broadcasting",
+        "KT",
+        "LG Uplus",
+        "SK Telecom (SKT)"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "3 km",
+      "year": "2023",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "kangaroo-island-2",
+      "name": "Kangaroo Island 2",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "SA Power Networks"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2024",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "kardesa",
+      "name": "Kardesa",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Neqsol Holding",
+        "Vodafone"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,385 km",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "kattegat-cable",
+      "name": "Kattegat Cable",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "GlobalConnect"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "92 km",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "kingisepp-kaliningrad-system-baltika",
+      "name": "Kingisepp-Kaliningrad System (Baltika)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Rostelecom"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,115 km",
+      "year": "2021",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "kitadaito-island",
+      "name": "Kitadaito Island",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Okinawa Prefecture"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "410 km",
+      "year": "2022",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "kochi-lakshadweep-islands-kli-sofc",
+      "name": "Kochi-Lakshadweep Islands (KLI-SOFC)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Bharat Sanchar Nigam Ltd. (BSNL)"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,989 km",
+      "year": "2024",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "konstanz-friedrichshafen",
+      "name": "Konstanz-Friedrichshafen",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Stadtwerke Konstanz"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "26 km",
+      "year": "2007",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "konstanz-meersburg",
+      "name": "Konstanz-Meersburg",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Stadtwerke Konstanz"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "5 km",
+      "year": "2010",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "kunoa-north",
+      "name": "Kunoa North",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Hawaiian Telcom"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2028",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "lake-albert-1",
+      "name": "Lake Albert 1",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Bandwidth and Cloud Services (BCS)"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "51 km",
+      "year": "2019",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "lake-albert-2",
+      "name": "Lake Albert 2",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Bandwidth and Cloud Services (BCS)"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "44 km",
+      "year": "2020",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "lake-michigan-chicago-crossing",
+      "name": "Lake Michigan Chicago Crossing",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "123NET",
+        "Peninsula Fiber Network (PFN)"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2028",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "lake-michigan-crossing-peninsula-and-island-connection",
+      "name": "Lake Michigan Crossing Peninsula and Island Connection",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "123NET",
+        "Peninsula Fiber Network (PFN)"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2028",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "lake-tanganyika",
+      "name": "Lake Tanganyika",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Bandwidth and Cloud Services (BCS)"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "370 km",
+      "year": "2025",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "le-vasa",
+      "name": "Le Vasa",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "ASTCA"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "lic-lin-lamp",
+      "name": "Lic-Lin-Lamp",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Sparkle"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "240 km",
+      "year": "2000",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "longyearbyen-ny-lesund",
+      "name": "Longyearbyen-Ny-Ålesund",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Sikt"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "540 km",
+      "year": "2015",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "lumut-pangkor-island",
+      "name": "Lumut-Pangkor Island",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Telekom Malaysia"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "4 km",
+      "year": "2018",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "manta",
+      "name": "MANTA",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Gold Data",
+        "Liberty Networks",
+        "Sparkle"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "5,600 km",
+      "year": "2028",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "mvista",
+      "name": "MViSTA",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "AsiaHub1"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "2,400 km",
+      "year": "2028",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "manx-northern-ireland",
+      "name": "Manx-Northern Ireland",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "BT"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "59 km",
+      "year": "2000",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "maya-1-2",
+      "name": "Maya-1.2",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Hondutel",
+        "Liberty Networks",
+        "Ufinet"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "2,386 km",
+      "year": "2000",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "medloop",
+      "name": "Medloop",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "SIPARTECH Sarl"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,360 km",
+      "year": "2023",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "mercator",
+      "name": "Mercator",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "BT"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2023",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "minamidaito-island",
+      "name": "Minamidaito Island",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Okinawa Prefecture"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "410 km",
+      "year": "2011",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "mishima-village",
+      "name": "Mishima Village",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Mishima Village"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "192 km",
+      "year": "2010",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "mjolner-east",
+      "name": "Mjolner East",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "GlobalConnect"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "450 km",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "mjolner-west",
+      "name": "Mjolner West",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "GlobalConnect"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "250 km",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "mobily-red-sea-cable-mrsc",
+      "name": "Mobily Red Sea Cable (MRSC)",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Mobily"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "muroran-hachinohe",
+      "name": "Muroran-Hachinohe",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Softbank"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "280 km",
+      "year": "2002",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "new-cam-ring",
+      "name": "New CAM Ring",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "IP Telecom"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "3,812 km",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "ningbo-zhoushan-cable",
+      "name": "Ningbo-Zhoushan Cable",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "China Telecom"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "35 km",
+      "year": "1999",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "nome-to-homer-express-nthe",
+      "name": "Nome to Homer Express (NTHE)",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Quintillion"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,545 km",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "nongsa-changi",
+      "name": "Nongsa-Changi",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "BW Digital",
+        "Hawaiki Submarine Cable LP",
+        "Telin"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "50 km",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "norfest",
+      "name": "Norfest",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Tampnet"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "749 km",
+      "year": "2023",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "norte-conectado-infovia-00",
+      "name": "Norte Conectado (Infovia 00)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Aquamar Group",
+        "BR.Digital Telecom",
+        "ICOM Telecom",
+        "SEA Telecom",
+        "Telefonica",
+        "Wirelink"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "770 km",
+      "year": "2022",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "norte-conectado-infovia-01",
+      "name": "Norte Conectado (Infovia 01)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Alloha Fibra",
+        "América Móvil (Claro)",
+        "Aquamar Group",
+        "BR Fibra",
+        "ICOM Telecom",
+        "Ozônio Telecom",
+        "PPLink",
+        "SEA Telecom",
+        "TIM Brasil",
+        "Telefonica",
+        "V.tal",
+        "Você Telecom"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,100 km",
+      "year": "2023",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "norte-conectado-infovia-02",
+      "name": "Norte Conectado (Infovia 02)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Entidade Administradora da Faixa (EAF)"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,796 km",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "norte-conectado-infovia-03",
+      "name": "Norte Conectado (Infovia 03)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Entidade Administradora da Faixa (EAF)"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "600 km",
+      "year": "2025",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "norte-conectado-infovia-04",
+      "name": "Norte Conectado (Infovia 04)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Entidade Administradora da Faixa (EAF)"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "515 km",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "norte-conectado-infovia-05",
+      "name": "Norte Conectado (Infovia 05)",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Entidade Administradora da Faixa (EAF)"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,116 km",
+      "year": "2028",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "norte-conectado-infovia-06",
+      "name": "Norte Conectado (Infovia 06)",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Entidade Administradora da Faixa (EAF)"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "2,847 km",
+      "year": "2028",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "norte-conectado-infovia-08",
+      "name": "Norte Conectado (Infovia 08)",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Entidade Administradora da Faixa (EAF)"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "2,766 km",
+      "year": "2028",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "omranepeg",
+      "name": "OMRAN/EPEG",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Vodafone",
+        "Zain Omantel International"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "600 km",
+      "year": "2013",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "oceanic-tatitlek-telecommunications-enhancement-route-otter",
+      "name": "Oceanic Tatitlek Telecommunications Enhancement Route (OTTER)",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Copper Valley Telecom"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "50 km",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "ogasawara-cable-network",
+      "name": "Ogasawara Cable Network",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Tokyo Metropolitan Government"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,038 km",
+      "year": "2011",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "okinawa-remote-islands",
+      "name": "Okinawa Remote Islands",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Okinawa Prefecture"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "915 km",
+      "year": "2017",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "okinawa-miyakojima-ishigaki",
+      "name": "Okinawa-Miyakojima-Ishigaki",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "NTT"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "467 km",
+      "year": "2004",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "olisipo",
+      "name": "Olisipo",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "EllaLink"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "110 km",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "oskarshamn-visby",
+      "name": "Oskarshamn-Visby",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "GlobalConnect"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2008",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "pasela",
+      "name": "PASELA",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Telkom Indonesia"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,100 km",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "padang-tua-pejat",
+      "name": "Padang-Tua Pejat",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Telkom Indonesia"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "160 km",
+      "year": "2019",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "panam-south",
+      "name": "PanAm South",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Corporacion Nacional de Telecomunicaciones (CNT)",
+        "Liberty Networks"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,340 km",
+      "year": "1999",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "patara-2",
+      "name": "Patara-2",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Telin"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,200 km",
+      "year": "2023",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "petropavlovsk-kamchatsky---anadyr",
+      "name": "Petropavlovsk-Kamchatsky - Anadyr",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Rostelecom"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "2,173 km",
+      "year": "2022",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "piano-isole-minori",
+      "name": "Piano Isole Minori",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Infratel Italia"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "830 km",
+      "year": "2024",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "portsmouth-ryde-10",
+      "name": "Portsmouth-Ryde 10",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "BT"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2015",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "portsmouth-ryde-11",
+      "name": "Portsmouth-Ryde 11",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "BT"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2015",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "projeto-amaznia-conectada-pac-01",
+      "name": "Projeto Amazônia Conectada (PAC 01)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Government of Brazil"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "800 km",
+      "year": "2017",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "projeto-amaznia-conectada-pac-02",
+      "name": "Projeto Amazônia Conectada (PAC 02)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Government of Brazil"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,001 km",
+      "year": "2021",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "pukpuk-1-cable-system",
+      "name": "Pukpuk-1 Cable System",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "PNG DataCo Limited"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "134 km",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "qe-north",
+      "name": "Q&E North",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "EXA Infrastructure"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "112 km",
+      "year": "2025",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "qe-south",
+      "name": "Q&E South",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "euNetworks"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "141 km",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "r100-north",
+      "name": "R100 North",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "BT"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "224 km",
+      "year": "2023",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "rising-8",
+      "name": "RISING 8",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Moratelindo",
+        "Triasmitra"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,104 km",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "romsar-2",
+      "name": "ROMSAR 2",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Sparkle"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "1996",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "red-hook-little-saint-james",
+      "name": "Red Hook-Little Saint James",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Virgin Islands Water and Power Authority"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "5 km",
+      "year": "2005",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "red2med",
+      "name": "Red2Med",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Telecom Egypt"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "420 km",
+      "year": "2023",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "rompin-tioman-island",
+      "name": "Rompin-Tioman Island",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Telekom Malaysia"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "75 km",
+      "year": "2018",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "ruppione-isolella",
+      "name": "Ruppione-Isolella",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Corsica Haut Débit"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "62 km",
+      "year": "2007",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "sarco",
+      "name": "SARCO",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Free"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2006",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "sealink-south",
+      "name": "SEALink South",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Alaska Power & Telephone Company Wireless (APTW)"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "159 km",
+      "year": "2024",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "sto-hel-one",
+      "name": "STO-HEL-One",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "GlobalConnect"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "560 km",
+      "year": "2008",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "sx-tasman-express-sx-tx",
+      "name": "SX Tasman Express (SX-TX)",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Southern Cross Cable Network"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "2,276 km",
+      "year": "2028",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "sape-labuan-bajo-ende-kupang",
+      "name": "Sape-Labuan Bajo-Ende-Kupang",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Moratelindo"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "474 km",
+      "year": "2021",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "sihanoukville-hong-kong-shv-hk",
+      "name": "Sihanoukville-Hong Kong (SHV-HK)",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Government of Cambodia"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "2,938 km",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "south-pacific-cable-system-spcsmistral",
+      "name": "South Pacific Cable System (SPCS)/Mistral",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "América Móvil (Claro)",
+        "Telxius"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "7,300 km",
+      "year": "2021",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "sovetskaya-gavan-ilyinskoye",
+      "name": "Sovetskaya Gavan-Ilyinskoye",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "TTK"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "214 km",
+      "year": "2007",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "sovetskaya-gavan-uglegorsk",
+      "name": "Sovetskaya Gavan-Uglegorsk",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Rostelecom"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "127 km",
+      "year": "2019",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "submarine-cable-in-the-philippines-scip",
+      "name": "Submarine Cable in the Philippines (SCiP)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "DITO Telecommunity"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,638 km",
+      "year": "2022",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "sunoque-i",
+      "name": "Sunoque I",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Hydro-Québec",
+        "Telus"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "1999",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "sunoque-ii",
+      "name": "Sunoque II",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Hydro-Québec",
+        "Telus"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "1999",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "sunoque-iii",
+      "name": "Sunoque III",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Hydro-Québec",
+        "Telus"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "125 km",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "sydney-melbourne-adelaide-perth-smap",
+      "name": "Sydney-Melbourne-Adelaide-Perth (SMAP)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "SUBCO"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "5,000 km",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "t3",
+      "name": "T3",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Liquid Intelligent Technologies",
+        "Mauritius Telecom"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "3,200 km",
+      "year": "2023",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "tam-1",
+      "name": "TAM-1",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Trans Americas Fiber"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "7,200 km",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "tikal-amx3",
+      "name": "TIKAL-AMX3",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "América Móvil (Claro)",
+        "Telxius"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,935 km",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "tko-connect",
+      "name": "TKO Connect",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "HKBN",
+        "iAdvantage"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "6 km",
+      "year": "2023",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "tmx5",
+      "name": "TMX5",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Telmex"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "383 km",
+      "year": "2025",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "taiwan-penghu-kinmen-matsu-no-2-tpkm2",
+      "name": "Taiwan Penghu Kinmen Matsu No.2 (TPKM2)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Chunghwa Telecom"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "467 km",
+      "year": "2000",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "taiwan-penghu-kinmen-matsu-no-3-tpkm3",
+      "name": "Taiwan Penghu Kinmen Matsu No.3 (TPKM3)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Chunghwa Telecom"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "510 km",
+      "year": "2013",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "taiwan-matsu-no-4",
+      "name": "Taiwan-Matsu No.4",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Chunghwa Telecom"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "300 km",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "tampnet-north",
+      "name": "Tampnet North",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Tampnet"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,751 km",
+      "year": "1999",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "tampnet-south",
+      "name": "Tampnet South",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Tampnet"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,751 km",
+      "year": "1999",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "tamtam",
+      "name": "Tamtam",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Prima"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,000 km",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "tanjung-pandan-sungai-kakap",
+      "name": "Tanjung Pandan-Sungai Kakap",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Moratelindo"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "348 km",
+      "year": "2019",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "tasman-ring-network",
+      "name": "Tasman Ring Network",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Datagrid New Zealand"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "6,000 km",
+      "year": "2029",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "tata-tgn-atlantic-south",
+      "name": "Tata TGN-Atlantic South",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Tata Communications"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2001",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "tautira-teahupoo",
+      "name": "Tautira-Teahupo'o",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "OPT French Polynesia"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "38 km",
+      "year": "2023",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "thailand-domestic-submarine-cable-network-tdscn",
+      "name": "Thailand Domestic Submarine Cable Network (TDSCN)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "National Telecom"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "884 km",
+      "year": "2001",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "thetis-express",
+      "name": "Thetis Express",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Vodafone"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "340 km",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "timor-leste-south-submarine-cable-tlssc",
+      "name": "Timor-Leste South Submarine Cable (TLSSC)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Government of Timor-Leste"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "607 km",
+      "year": "2025",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "trans-adriatic-express-tae",
+      "name": "Trans Adriatic Express (TAE)",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "EXA Infrastructure",
+        "TAP AG"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "106 km",
+      "year": "2023",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "trans-global-cable-system-tgcs",
+      "name": "Trans Global Cable System (TGCS)",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Trans Indonesia Supercorridor"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,200 km",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "trans-caspian-fiber-optic-cable-project",
+      "name": "Trans-Caspian Fiber Optic Cable Project",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Azertelecom",
+        "Kazakhtelecom"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "380 km",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "umo",
+      "name": "UMO",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Campana Group"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "2,227 km",
+      "year": "2023",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "ulleung-mainland-2",
+      "name": "Ulleung-Mainland 2",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "KT"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "164 km",
+      "year": "2016",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "unitirreno",
+      "name": "Unitirreno",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Azimut",
+        "Unidata"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "1,156 km",
+      "year": "2025",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "vaka",
+      "name": "VAKA",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Tuvalu Telecommunications Corporation (TTC)"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "668 km",
+      "year": "2026",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "vancouver-bowen-island-vancouver-island",
+      "name": "Vancouver-Bowen Island-Vancouver Island",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Rogers Communications"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "75 km",
+      "year": "2019",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "verena",
+      "name": "Verena",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Midgard Infra"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "630 km",
+      "year": "2028",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "vietnam-singapore-cable-system-vts",
+      "name": "Vietnam-Singapore Cable System (VTS)",
+      "status": "Planned",
+      "source_status": "Planned",
+      "owners": [
+        "Singtel",
+        "Viettel Corporation"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2027",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "vstervik-visby",
+      "name": "Västervik-Visby",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "GlobalConnect"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2008",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "whidbey-island-camano-island",
+      "name": "Whidbey Island-Camano Island",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Whidbey Telecom"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "4 km",
+      "year": "1999",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "whidbey-island-everett",
+      "name": "Whidbey Island-Everett",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Whidbey Telecom"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "9 km",
+      "year": "1999",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "whidbey-island-hat-island",
+      "name": "Whidbey Island-Hat Island",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Whidbey Telecom"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "4 km",
+      "year": "1999",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "whidbey-island-seattle",
+      "name": "Whidbey Island-Seattle",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Whidbey Telecom"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "44 km",
+      "year": "1999",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "yui",
+      "name": "YUI",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Okinawa Cellular Telephone Company"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "720 km",
+      "year": "2023",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "yuza-tobishima",
+      "name": "Yuza-Tobishima",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "NTT"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "31 km",
+      "year": "2022",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "zayo-festoon",
+      "name": "Zayo Festoon",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Zayo"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "",
+      "year": "2015",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    },
+    {
+      "id": "les-dhyres-cable",
+      "name": "Îles d'Hyères Cable",
+      "status": "In service",
+      "source_status": "In service",
+      "owners": [
+        "Orange"
+      ],
+      "companies": [],
+      "hybrid": false,
+      "ownership": "Telco / consortium",
+      "length": "45 km",
+      "year": "1996",
+      "ownership_known": true,
+      "matched": true,
+      "has_route": false
+    }
+  ],
+  "multi_feature_cables": [
+    {
+      "id": "havfrueaec-2",
+      "features": [
+        "havfrueaec-2-0",
+        "havfrueaec-2-1"
+      ]
+    },
+    {
+      "id": "peace-cable",
+      "features": [
+        "peace-cable-0",
+        "peace-cable-1"
+      ]
+    },
+    {
+      "id": "tannat",
+      "features": [
+        "tannat-0",
+        "tannat-1"
+      ]
+    },
+    {
+      "id": "globenet",
+      "features": [
+        "globenet-0",
+        "globenet-1"
+      ]
+    },
+    {
+      "id": "pacific-light-cable-network-plcn",
+      "features": [
+        "pacific-light-cable-network-plcn-0",
+        "pacific-light-cable-network-plcn-1"
+      ]
+    },
+    {
+      "id": "pishgaman-oman-iran-poi-network",
+      "features": [
+        "pishgaman-oman-iran-poi-network-0",
+        "pishgaman-oman-iran-poi-network-1"
+      ]
+    }
+  ]
+}

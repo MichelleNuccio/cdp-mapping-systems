@@ -1,0 +1,46 @@
+#marine-map {position:absolute;inset:0;width:100%;height:100%;display:block;background:#000;touch-action:manipulation}
+.status-legend {display:flex;flex-wrap:wrap;gap:8px 12px;color:#aaa}
+.status-legend span {display:flex;align-items:center;gap:5px}
+.status-legend i {display:inline-block;width:20px;border-top:1px solid white}
+.status-legend .dashed {border-top-style:dashed}
+select {width:100%;margin-top:5px;background:#000;color:#fff;border:1px solid #555;border-radius:3px;padding:5px;font:inherit}
+select:focus-visible {outline:1px solid white;outline-offset:3px}
+/* Reserve the same compact header space as the IPv4 page. */
+.page-header {height:99px;min-height:99px;overflow:visible}
+.city-panel {min-width:0;overflow:hidden}
+.detail-row dd {white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.map-controls .filter-label:first-child {margin-top:0}
+.map-controls select {height:23px;padding:3px 5px}
+/* Legends float over the empty southern margin, without resizing the canvas. */
+.map-legend {position:absolute;left:8px;bottom:8px;max-width:calc(100% - 16px);padding:8px 10px;background:rgba(0,0,0,.85);font:10px "Roboto Mono",monospace;pointer-events:none}
+@media(max-width:760px) {
+ .page-header {height:124px;min-height:124px;grid-template-rows:83px 33px}
+ .city-panel dl {grid-template-columns:repeat(5,minmax(0,1fr))}
+ .map-legend {font-size:9px;padding:5px}
+}
+.big-tech-filter {display:grid;grid-template-columns:1fr 1fr;gap:4px 12px;border:0;padding:0;margin:8px 0 0;min-width:0}
+.big-tech-filter legend {padding:0;margin-bottom:4px;color:#aaa}
+.big-tech-filter label {display:flex;align-items:center;gap:5px;cursor:pointer;min-width:0}
+.big-tech-filter input {margin:0;width:12px;height:12px;accent-color:var(--company-color);cursor:pointer}
+.big-tech-filter label:has(input:checked) {color:var(--company-color)}
+.big-tech-filter input:focus-visible {outline:1px solid #fff;outline-offset:3px}
+@media(max-width:760px) {.big-tech-filter {margin-top:5px;gap:2px 8px}.big-tech-filter legend {margin-bottom:2px}.big-tech-filter input {width:10px;height:10px}}
+
+.timeline {max-width:350px;margin-top:2px;font:10px "Roboto Mono",monospace;color:#aaa}
+.timeline label {line-height:12px;display:flex;justify-content:space-between;gap:8px}
+.timeline output {color:#fff}
+#year-filter {display:block;width:100%;height:14px;margin:0;accent-color:#fff;cursor:pointer}
+#year-filter:focus-visible {outline:1px solid #fff;outline-offset:2px}
+#timeline-note {font-size:8px;line-height:1.2;margin-top:1px}
+@media(max-width:760px) {.timeline {margin-top:4px;font-size:8px}#year-filter {height:14px}#timeline-note {font-size:7px}}
+
+.status-legend .unknown {border-top-style:dotted;opacity:.4}
+.coverage-panel {position:absolute;right:8px;bottom:8px;width:min(360px,calc(100% - 16px));padding:8px 10px;border:1px solid #333;background:rgba(0,0,0,.94);font:10px "Roboto Mono",monospace;color:#aaa;z-index:1}
+.coverage-panel summary {cursor:pointer;color:#fff;line-height:1.4}
+.coverage-panel summary:focus-visible {outline:1px solid white;outline-offset:3px}
+.coverage-panel p {margin-top:8px;font-size:10px;line-height:1.4}
+#unmapped-cables {max-height:min(200px,25vh);overflow:auto;list-style:none;padding:0;margin:8px 0 0}
+#unmapped-cables li {padding:6px 0;border-top:1px solid #333;line-height:1.5}
+#unmapped-cables strong {display:block;color:#fff;font-weight:400}
+#unmapped-cables span {display:block;overflow-wrap:anywhere}
+@media(max-width:760px) {.coverage-panel {bottom:38px;width:min(300px,calc(100% - 16px));font-size:9px}.coverage-panel p {font-size:9px}}
