@@ -1,0 +1,75 @@
+country_code,country_name,ipv4_count
+TW,Taiwan (Province of China),37741056
+HK,Hong Kong,24473088
+SG,Singapore,21988608
+MU,Mauritius,2048256
+BH,Bahrain,1348352
+MT,Malta,680192
+SC,Seychelles,574720
+RE,Reunion,571648
+VG,Virgin Islands (British),414720
+MO,Macao,364032
+MQ,Martinique,279040
+GU,Guam,258048
+GP,Guadeloupe,256512
+CW,Curacao,178688
+JE,Jersey,165120
+VI,Virgin Islands (U.S.),140288
+BB,Barbados,130816
+BM,Bermuda,128256
+LI,Liechtenstein,120832
+KY,Cayman Islands,116480
+AW,Aruba,114688
+IM,Isle of Man,111872
+GF,French Guiana,102400
+MV,Maldives,101376
+GI,Gibraltar,82176
+PF,French Polynesia,79616
+AD,Andorra,77824
+MC,Monaco,65536
+GG,Guernsey,63744
+CV,Cabo Verde,59392
+FO,Faroe Islands,46336
+SM,San Marino,43264
+AG,Antigua and Barbuda,41216
+KN,Saint Kitts and Nevis,40192
+MF,Saint Martin (French part),38656
+LC,Saint Lucia,38144
+SX,Sint Maarten (Dutch part),36096
+GD,Grenada,31232
+YT,Mayotte,30976
+AX,Aland Islands,27648
+BQ,"Bonaire, Sint Eustatius and Saba",26624
+VC,Saint Vincent and The Grenadines,24320
+MH,Marshall Islands,23296
+WS,Samoa,22528
+DM,Dominica,20480
+VA,Holy See,14080
+TC,Turks and Caicos Islands,14080
+ST,Sao Tome and Principe,13312
+TO,Tonga,12544
+AI,Anguilla,12032
+KM,Comoros,11264
+NR,Naoero,11264
+TV,Tuvalu,10496
+FM,Micronesia (Federated States of),10240
+CK,Cook Islands,9728
+PW,Palau,7936
+AS,American Samoa,7424
+KI,Kiribati,6912
+PM,Saint Pierre and Miquelon,6656
+WF,Wallis and Futuna,4096
+IO,British Indian Ocean Territory,4096
+MS,Montserrat,3584
+TK,Tokelau,3584
+NU,Niue,2816
+BL,Saint Barthelemy,2560
+BV,Bouvet Island,1792
+MP,Northern Mariana Islands,1536
+NF,Norfolk Island,768
+UM,United States Minor Outlying Islands,768
+HM,Heard Island and Mcdonald Islands,512
+GS,South Georgia and The South Sandwich Islands,512
+SJ,Svalbard and Jan Mayen,512
+PN,Pitcairn,512
+SH,"Saint Helena, Ascension and Tristan Da Cunha",512

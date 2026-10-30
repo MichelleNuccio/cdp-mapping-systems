@@ -1,0 +1,153 @@
+company,asn,asn_name,organization,organization_country
+Amazon,274698,,AMAZON TELECOM LTDA,BR
+Amazon,264167,,AMAZON+ SERVICOS DE INTERNET LTDA,BR
+Amazon,17493,AMAZON-AP-RESOURCES-AS-AP-SIN,Amazon Asia-Pacific Resources Private Limited,SG
+Amazon,135630,AMAZON-CN,"Amazon Connection Technology Services (Beijing) Co., LTD",CN
+Amazon,58588,AMAZON-AU,Amazon Corporate Services Pty Ltd,AU
+Amazon,154263,AMAZON-AS-SFX,Amazon Corporate Services Pty Ltd,AU
+Amazon,214101,EU-SOVEREIGN-CLOUD,Amazon Data Services European Sovereign Cloud GmbH,DE
+Amazon,9059,AWS-EU-AS,Amazon Data Services Ireland Ltd,IE
+Amazon,39111,ADSI-AS,Amazon Data Services Ireland Ltd,IE
+Amazon,10124,AMAZON-AP-RESOURCES-AS-AP-NRT,Amazon Data Services Japan KK,JP
+Amazon,395343,AR-CORP01,Amazon Robotics LLC,US
+Amazon,699,AMAZON-LEO-TERRESTRIAL,Amazon Technologies Inc.,US
+Amazon,801,AMAZON-LEO,Amazon Technologies Inc.,US
+Amazon,8987,GOVCLOUD,Amazon Technologies Inc.,US
+Amazon,400098,DELEGATED-RPKI-TESTING,Amazon Technologies Inc.,US
+Amazon,401395,ASN-BYO-DEMO,"Amazon Technologies, Inc.",US
+Amazon,399991,AWS,"Amazon Web Services, Inc.",US
+Amazon,62785,AMAZON-FC,"Amazon.com Services, LLC",US
+Amazon,7224,AMAZON-AS,"Amazon.com, Inc.",US
+Amazon,10291,LABSHUB-NETWORKING,"Amazon.com, Inc.",US
+Amazon,14618,AMAZON-AES,"Amazon.com, Inc.",US
+Amazon,16509,AMAZON-02,"Amazon.com, Inc.",US
+Amazon,19047,AWS-01,"Amazon.com, Inc.",US
+Amazon,21664,AMZN-BYOASN,"Amazon.com, Inc.",US
+Amazon,36263,AWS-EVENTS,"Amazon.com, Inc.",US
+Amazon,38895,AMAZON-AS-AP,"Amazon.com, Inc.",US
+Amazon,40045,AWS,"Amazon.com, Inc.",US
+Amazon,63088,PRIME-TESTING,"Amazon.com, Inc.",US
+Amazon,399834,AWS,"Amazon.com, Inc.",US
+Google,151231,GC-INFOTECH,GOOGLE CHINA INFOTECH OU,CN
+Google,32381,GOOGLE CLOUD NETWORKING,Google Access LLC,US
+Google,139070,GOOGLE-AS-AP,Google Asia Pacific Pte. Ltd.,SG
+Google,139190,GOOGLE-AS-AP,Google Asia Pacific Pte. Ltd.,SG
+Google,209504,redtec-tc-3,Google Cloud EMEA Ltd,IE
+Google,209519,redtec-tc-2,Google Cloud EMEA Ltd,IE
+Google,209539,redtec-tc-1,Google Cloud EMEA Ltd,IE
+Google,214609,redtec-2,Google Cloud EMEA Ltd,IE
+Google,214611,Gcloud,Google Cloud EMEA Ltd,IE
+Google,33410,MANDIANT-US2,Google Cloud Mandiant,US
+Google,54125,MANDIANT,Google Cloud Mandiant,US
+Google,6432,GOOGLE-FIBER,Google Fiber Inc.,US
+Google,16591,GOOGLE-FIBER,Google Fiber Inc.,US
+Google,19448,GOOGLE-FIBER,Google Fiber Inc.,US
+Google,43515,YOUTUBE,Google Ireland Limited,IE
+Google,36987,google-as,Google Kenya Limited,KE
+Google,13949,SLIDE-INC,Google LLC,US
+Google,15169,GOOGLE,Google LLC,US
+Google,16550,GOOGLE-PRIVATE-CLOUD,Google LLC,US
+Google,19425,WAYMO,Google LLC,US
+Google,19527,GOOGLE-2,Google LLC,US
+Google,22577,GOOGLE-DC,Google LLC,US
+Google,22859,GOOGLE,Google LLC,US
+Google,26684,AS-GOOGLE-EDGE-INFRA,Google LLC,US
+Google,26910,GOOGLE-CLOUD-2,Google LLC,US
+Google,33715,GOOGLE-THREAT-INTELLIGENCE,Google LLC,US
+Google,36039,GOOGLE,Google LLC,US
+Google,36040,YOUTUBE,Google LLC,US
+Google,36383,GEN-AS1,Google LLC,US
+Google,36384,GOOGLE-IT,Google LLC,US
+Google,36385,GOOGLE-IT,Google LLC,US
+Google,36411,GEN-AS2,Google LLC,US
+Google,36520,GEN-AS3,Google LLC,US
+Google,36561,YOUTUBE,Google LLC,US
+Google,40873,AS-METAWEB-2,Google LLC,US
+Google,55023,GOOGLE-CLOUD,Google LLC,US
+Google,394089,GCP-ENTERPRISE-USER-TRAFFIC,Google LLC,US
+Google,394507,GOOGLE,Google LLC,US
+Google,394639,GOOGLE,Google LLC,US
+Google,395973,GOOGLE-2,Google LLC,US
+Google,396178,G-CLOUD-AGENT-TRAFFIC,Google LLC,US
+Google,396982,GOOGLE-CLOUD-PLATFORM,Google LLC,US
+Google,402726,G-CLOUD-SITEA,Google LLC,US
+Google,402727,G-CLOUD-SITEB,Google LLC,US
+Google,45566,GSPL-AS-AP,Google Singapore Pte. Ltd.,SG
+Google,41264,GOOGLE-IT-RO-ISP,Google Switzerland GmbH,CH
+Google,36492,GOOGLEWIFI,"Google, LLC",US
+Meta,34825,META-AS34825,FACEBOOK ISRAEL LTD,IL
+Meta,54115,FACEBOOK-CORP,Facebook Inc,US
+Meta,149642,FACEBOOK-AS,Facebook Singapore Pte Ltd.,SG
+Meta,32934,FACEBOOK,"Facebook, Inc.",US
+Meta,63293,FACEBOOK-OFFNET,"Facebook, Inc.",US
+Microsoft,58862,MCCL-CHN,"Microsoft (China) Co., Ltd.",CN
+Microsoft,52985,,Microsoft 272945 Brasil LTDA,BR
+Microsoft,3598,MICROSOFT-CORP-AS,Microsoft Corporation,US
+Microsoft,5761,MICROSOFT-CORP-MSN-AS-SATURN,Microsoft Corporation,US
+Microsoft,6182,MICROSOFT-CORP-MSN-AS-4,Microsoft Corporation,US
+Microsoft,6194,MSFT,Microsoft Corporation,US
+Microsoft,6291,MICROSOFT-CORP-MSN-AS,Microsoft Corporation,US
+Microsoft,6584,MICROSOFT-GP-AS,Microsoft Corporation,US
+Microsoft,8068,MICROSOFT-CORP-MSN-AS-BLOCK,Microsoft Corporation,US
+Microsoft,8069,MICROSOFT-CORP-MSN-AS-BLOCK,Microsoft Corporation,US
+Microsoft,8070,MICROSOFT-CORP-MSN-AS-BLOCK,Microsoft Corporation,US
+Microsoft,8071,MICROSOFT-CORP-MSN-AS-BLOCK,Microsoft Corporation,US
+Microsoft,8072,MICROSOFT-CORP-MSN-AS-BLOCK,Microsoft Corporation,US
+Microsoft,8073,MICROSOFT-CORP-MSN-AS-BLOCK,Microsoft Corporation,US
+Microsoft,8074,MICROSOFT-CORP-MSN-AS-BLOCK,Microsoft Corporation,US
+Microsoft,8075,MICROSOFT-CORP-MSN-AS-BLOCK,Microsoft Corporation,US
+Microsoft,12076,MICROSOFT,Microsoft Corporation,US
+Microsoft,13399,MICROSOFT-CORP-MSN-AS-2,Microsoft Corporation,US
+Microsoft,13811,MSLI,Microsoft Corporation,US
+Microsoft,14719,MICROSOFT-CORP-BCENTRAL,Microsoft Corporation,US
+Microsoft,14783,NUANCE-BURLINGTON,Microsoft Corporation,US
+Microsoft,17144,NUANCE-NOD,Microsoft Corporation,US
+Microsoft,17345,PHONEFACTOR-02,Microsoft Corporation,US
+Microsoft,20046,MICROSOFT-BOS,Microsoft Corporation,US
+Microsoft,22692,ASN-YAMMER,Microsoft Corporation,US
+Microsoft,23468,MICROSOFT-CORP-XBOX-ONLINE,Microsoft Corporation,US
+Microsoft,25796,MSFT,Microsoft Corporation,US
+Microsoft,26222,MS-DANGER,Microsoft Corporation,US
+Microsoft,30135,MSFT-30135,Microsoft Corporation,US
+Microsoft,30520,NUANCE-SOMERVILLE,Microsoft Corporation,US
+Microsoft,30575,MSFT-30575,Microsoft Corporation,US
+Microsoft,31792,PHONEFACTOR-01,Microsoft Corporation,US
+Microsoft,32476,MSFT-32476,Microsoft Corporation,US
+Microsoft,36006,MSFT-36006,Microsoft Corporation,US
+Microsoft,40066,FAST-SEARCH-AND-TRANSFER-INC,Microsoft Corporation,US
+Microsoft,46182,VAROLII,Microsoft Corporation,US
+Microsoft,54396,NUANCE-MOBILITY,Microsoft Corporation,US
+Microsoft,63245,TRAFBIZ-01,Microsoft Corporation,US
+Microsoft,63314,MSFT,Microsoft Corporation,US
+Microsoft,395496,MICROSOFT-CORP-AS-BLOCK-MSIT3,Microsoft Corporation,US
+Microsoft,395524,MICROSOFT-CORP-AS-BLOCK-MSIT4,Microsoft Corporation,US
+Microsoft,395851,MICROSOFT-CORP-AS-BLOCK-MSIT2,Microsoft Corporation,US
+Microsoft,396463,MICROSOFT-CORP-AS-BLOCK-MSIT,Microsoft Corporation,US
+Microsoft,397096,MICROSOFT-AZURE-DEDICATED,Microsoft Corporation,US
+Microsoft,397466,MSFT-CCND,Microsoft Corporation,US
+Microsoft,397996,NEC-PUBLIC,Microsoft Corporation,US
+Microsoft,398575,MICROSOFT-AZURE-ORBITAL,Microsoft Corporation,US
+Microsoft,398656,MICROSOFT-AZURE-DEDICATED,Microsoft Corporation,US
+Microsoft,398657,MICROSOFT-AZURE-DEDICATED,Microsoft Corporation,US
+Microsoft,398658,MICROSOFT-AZURE-DEDICATED,Microsoft Corporation,US
+Microsoft,398659,MICROSOFT-AZURE-DEDICATED,Microsoft Corporation,US
+Microsoft,398660,MICROSOFT-AZURE-DEDICATED,Microsoft Corporation,US
+Microsoft,398661,MICROSOFT-AZURE-DEDICATED,Microsoft Corporation,US
+Microsoft,398961,MS-ASL,Microsoft Corporation,US
+Microsoft,400572,MICROSOFT-AZURE-DEDICATED,Microsoft Corporation,US
+Microsoft,400573,MICROSOFT-AZURE-DEDICATED,Microsoft Corporation,US
+Microsoft,400574,MICROSOFT-AZURE-DEDICATED,Microsoft Corporation,US
+Microsoft,400575,MICROSOFT-AZURE-DEDICATED,Microsoft Corporation,US
+Microsoft,400576,MICROSOFT-AZURE-DEDICATED,Microsoft Corporation,US
+Microsoft,400577,MICROSOFT-AZURE-DEDICATED,Microsoft Corporation,US
+Microsoft,400578,MICROSOFT-AZURE-DEDICATED,Microsoft Corporation,US
+Microsoft,400579,MICROSOFT-AZURE-DEDICATED,Microsoft Corporation,US
+Microsoft,400580,MICROSOFT-AZURE-DEDICATED,Microsoft Corporation,US
+Microsoft,400581,MICROSOFT-AZURE-DEDICATED,Microsoft Corporation,US
+Microsoft,400582,MICROSOFT-AZURE-DEDICATED,Microsoft Corporation,US
+Microsoft,400884,AONSERVICE,Microsoft Corporation,US
+Microsoft,200517,MS-DEUTSCHLAND,Microsoft Deutschland MCIO GmbH,DE
+Microsoft,35106,MICROSOFT-LIVE-MEETING,Microsoft Limited,GB
+Microsoft,59067,MMAISNET,"Microsoft Mobile Alliance Internet Services Co., Ltd",CN
+Microsoft,132348,MOPL-AS-AP,Microsoft Operations PTE Ltd,SG
+Microsoft,45139,MICROSOFT-AS-AP,Microsoft Singapore Pte. Ltd.,US

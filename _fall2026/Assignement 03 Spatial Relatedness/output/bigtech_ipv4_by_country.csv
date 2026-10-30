@@ -1,0 +1,203 @@
+dataset,country_code,ipv4_count
+AWS,AE,900608
+AWS,AR,46848
+AWS,AT,16896
+AWS,AU,3461888
+AWS,BE,11520
+AWS,BG,12032
+AWS,BH,903042
+AWS,BR,1744640
+AWS,CA,2390720
+AWS,CH,887296
+AWS,CL,286456
+AWS,CN,956624
+AWS,CO,26880
+AWS,CZ,8448
+AWS,DE,6303476
+AWS,DK,20992
+AWS,EG,12288
+AWS,ES,1139712
+AWS,FI,40960
+AWS,FR,1331712
+AWS,GB,2632620
+AWS,GR,24064
+AWS,HK,1152512
+AWS,HR,11008
+AWS,HU,12032
+AWS,ID,920832
+AWS,IE,6523652
+AWS,IL,1623296
+AWS,IN,3736196
+AWS,IT,948480
+AWS,JP,5521088
+AWS,KE,19456
+AWS,KR,2013952
+AWS,MX,887808
+AWS,MY,1052928
+AWS,NG,9472
+AWS,NL,62720
+AWS,NO,18944
+AWS,NZ,434176
+AWS,OM,8704
+AWS,PE,28672
+AWS,PH,36096
+AWS,PL,35840
+AWS,PT,7936
+AWS,QA,8192
+AWS,RU,512
+AWS,SE,2097408
+AWS,SG,3139072
+AWS,TH,972288
+AWS,TR,43776
+AWS,TW,777984
+AWS,US,45600135
+AWS,UY,65536
+AWS,VN,16640
+AWS,ZA,1040128
+Azure Public,AE,807616
+Azure Public,AR,256
+Azure Public,AT,119720
+Azure Public,AU,2254560
+Azure Public,BE,97536
+Azure Public,BG,256
+Azure Public,BR,1088256
+Azure Public,CA,1480360
+Azure Public,CH,794112
+Azure Public,CL,136448
+Azure Public,CN,1712
+Azure Public,CZ,256
+Azure Public,DE,1117824
+Azure Public,DK,76800
+Azure Public,ES,218624
+Azure Public,FI,5888
+Azure Public,FR,1056512
+Azure Public,GB,4795891
+Azure Public,HK,1013248
+Azure Public,ID,136448
+Azure Public,IE,2406828
+Azure Public,IL,243200
+Azure Public,IN,1848128
+Azure Public,IT,306944
+Azure Public,JP,1998056
+Azure Public,KR,905728
+Azure Public,LU,256
+Azure Public,MX,216960
+Azure Public,MY,346880
+Azure Public,NL,4725502
+Azure Public,NO,690176
+Azure Public,NZ,146944
+Azure Public,PL,250368
+Azure Public,PT,256
+Azure Public,QA,343488
+Azure Public,SA,73216
+Azure Public,SE,1045500
+Azure Public,SG,1397837
+Azure Public,TH,256
+Azure Public,TW,239616
+Azure Public,US,21789938
+Azure Public,ZA,753152
+Google,AD,2048
+Google,AE,3328
+Google,AR,3072
+Google,AT,2560
+Google,AU,260864
+Google,BD,1536
+Google,BE,1498624
+Google,BG,3328
+Google,BO,1536
+Google,BR,202752
+Google,BY,1536
+Google,CA,286464
+Google,CH,108800
+Google,CL,75008
+Google,CO,2048
+Google,CR,1792
+Google,CZ,2048
+Google,DE,633600
+Google,DK,1536
+Google,EC,1536
+Google,EG,2048
+Google,ES,147456
+Google,FI,194048
+Google,FR,144384
+Google,GB,389888
+Google,GR,1792
+Google,HK,208384
+Google,HR,1792
+Google,HU,2304
+Google,ID,130816
+Google,IE,1536
+Google,IL,94464
+Google,IN,476672
+Google,IT,162560
+Google,JO,2048
+Google,JP,520960
+Google,KE,2560
+Google,KH,1536
+Google,KR,196096
+Google,KW,2048
+Google,LI,1792
+Google,LT,1536
+Google,LU,1792
+Google,MC,1792
+Google,MD,1792
+Google,MM,1536
+Google,MX,45312
+Google,MY,2816
+Google,NG,1792
+Google,NL,759808
+Google,NO,2048
+Google,NZ,1536
+Google,PA,2048
+Google,PE,1536
+Google,PG,1536
+Google,PH,1792
+Google,PK,3584
+Google,PL,86272
+Google,PT,1792
+Google,PY,1536
+Google,QA,71424
+Google,RO,1792
+Google,RU,3072
+Google,SA,99072
+Google,SE,4096
+Google,SG,496896
+Google,SI,1792
+Google,SK,2048
+Google,TH,40960
+Google,TR,1792
+Google,TW,467456
+Google,UA,2816
+Google,US,16234752
+Google,UZ,1792
+Google,VE,1536
+Google,VN,1536
+Google,ZA,77568
+Google Cloud,AU,251392
+Google Cloud,BE,1495296
+Google Cloud,BR,188928
+Google Cloud,CA,273920
+Google Cloud,CH,106240
+Google Cloud,CL,73216
+Google Cloud,DE,616704
+Google Cloud,ES,141568
+Google Cloud,FI,192000
+Google Cloud,FR,137984
+Google Cloud,GB,377600
+Google Cloud,HK,203264
+Google Cloud,ID,128768
+Google Cloud,IL,91904
+Google Cloud,IN,457728
+Google Cloud,IT,157952
+Google Cloud,JP,507904
+Google Cloud,KR,193536
+Google Cloud,MX,37888
+Google Cloud,NL,753664
+Google Cloud,PL,83968
+Google Cloud,QA,71168
+Google Cloud,SA,96768
+Google Cloud,SG,474624
+Google Cloud,TH,37888
+Google Cloud,TW,463360
+Google Cloud,US,11682944
+Google Cloud,ZA,71168
