@@ -1,0 +1,34 @@
+{
+  "page_size_inches": [
+    17,
+    11
+  ],
+  "background": "#000000",
+  "basemap": "Natural Earth polygons used only to clip country dot patterns",
+  "pattern": "constant-spacing staggered circular-dot lattice",
+  "pdf_files": [
+    "maps/Map01_internet_locations.pdf",
+    "maps/Map02_ipv4_locations_color.pdf",
+    "maps/Map03_ipv4_locations_monochrome.pdf",
+    "maps/Map04_ipv4_totals_by_country.pdf",
+    "maps/Map05_foreign_registered_organizations.pdf",
+    "maps/Map06_google_published_ipv4.pdf",
+    "maps/Map07_google_cloud_published_ipv4.pdf",
+    "maps/Map08_aws_published_ipv4.pdf",
+    "maps/Map09_azure_public_published_ipv4.pdf",
+    "maps/Map10_published_provider_comparison.pdf",
+    "maps/Map11_amazon_bgp_ipv4.pdf",
+    "maps/Map12_meta_bgp_ipv4.pdf",
+    "maps/Map13_google_bgp_ipv4.pdf",
+    "maps/Map14_microsoft_bgp_ipv4.pdf",
+    "maps/Map15_bgp_company_comparison.pdf",
+    "maps/Map16_amazon_national_share.pdf",
+    "maps/Map17_meta_national_share.pdf",
+    "maps/Map18_google_national_share.pdf",
+    "maps/Map19_microsoft_national_share.pdf",
+    "maps/Map20_national_share_comparison.pdf"
+  ],
+  "path_base": "output directory (parent of metadata)",
+  "caida_snapshot": "2026-10-01",
+  "geolocation_snapshot": "unverified"
+}
